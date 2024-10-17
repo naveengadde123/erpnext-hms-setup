@@ -1,0 +1,225 @@
+2024-07-30 23:05:06,801 ERROR frappe New Exception collected in error log
+Site: hrmsdemo.com
+Form Dict: {'recipients': 'naveenchowdary27714@gmail.com, ', 'subject': 'Accountant (#HR-OPN-2024-0003)', 'content': '<div class="ql-editor read-mode"><p><br></p></div>', 'doctype': 'Job Opening', 'name': 'HR-OPN-2024-0003', 'send_email': '1', 'print_html': '', 'send_me_a_copy': '0', 'print_format': '', 'attachments': '[]', 'read_receipt': '0', 'print_letterhead': '1', 'send_after': '', 'print_language': 'en', 'cmd': 'frappe.core.doctype.communication.email.make'}
+2024-07-31 22:45:55,439 ERROR frappe New Exception collected in error log
+Site: hrmsdemo.com
+Form Dict: {'recipients': 'naveenchowdary27714@gmail.com', 'subject': 'Harry Potter (#HR-EMP-ONB-2024-00002)', 'content': '<div class="ql-editor read-mode"><p><br></p></div>', 'doctype': 'Employee Onboarding', 'name': 'HR-EMP-ONB-2024-00002', 'send_email': '1', 'print_html': '', 'send_me_a_copy': '0', 'print_format': '', 'attachments': '[]', 'read_receipt': '0', 'print_letterhead': '1', 'send_after': '', 'print_language': 'en', 'cmd': 'frappe.core.doctype.communication.email.make'}
+2024-08-01 14:46:00,066 ERROR frappe New Exception collected in error log
+Site: hrmsdemo.com
+Form Dict: {'recipients': 'naveenchowdary27714@gmail.com', 'subject': 'Anushka Shetty (#HR-EMP-00002)', 'content': '<div class="ql-editor read-mode"><p><br></p></div>', 'doctype': 'Employee', 'name': 'HR-EMP-00002', 'send_email': '1', 'print_html': '', 'send_me_a_copy': '0', 'print_format': '', 'attachments': '[]', 'read_receipt': '0', 'print_letterhead': '1', 'send_after': '', 'print_language': 'en', 'cmd': 'frappe.core.doctype.communication.email.make'}
+2024-08-01 14:47:48,283 ERROR frappe New Exception collected in error log
+Site: hrmsdemo.com
+Form Dict: {'recipients': 'naveenchowdary27714@gmail.com', 'subject': 'Anushka Shetty (#HR-EMP-00002)', 'content': '<div class="ql-editor read-mode"><p><br></p></div>', 'doctype': 'Employee', 'name': 'HR-EMP-00002', 'send_email': '1', 'print_html': '', 'send_me_a_copy': '0', 'print_format': '', 'attachments': '[]', 'read_receipt': '0', 'print_letterhead': '1', 'send_after': '', 'print_language': 'en', 'cmd': 'frappe.core.doctype.communication.email.make'}
+2024-08-07 09:13:26,938 ERROR frappe New Exception collected in error log
+Site: hrmsdemo.com
+Form Dict: {'recipients': 'ramnagineni551@gmail.com', 'subject': 'Dhirajkumar Saindane (#HR-EMP-00003)', 'content': '<div class="ql-editor read-mode"><p>something important</p></div>', 'doctype': 'Employee', 'name': 'HR-EMP-00003', 'send_email': '1', 'print_html': '', 'send_me_a_copy': '0', 'print_format': '', 'attachments': '[]', 'read_receipt': '0', 'print_letterhead': '1', 'send_after': '', 'print_language': 'en', 'cmd': 'frappe.core.doctype.communication.email.make'}
+2024-08-07 12:01:41,550 ERROR frappe New Exception collected in error log
+Site: hrmsdemo.com
+Form Dict: {'doc': '{"name":"Replies","owner":"Administrator","creation":"2024-07-30 17:25:36.278261","modified":"2024-07-30 17:25:36.278261","modified_by":"Administrator","docstatus":0,"idx":0,"email_id":"naveenchowdary27714@gmail.com","email_account_name":"Replies","domain":"example.com","service":"","auth_method":"Basic","awaiting_password":0,"ascii_encode_password":0,"login_id_is_different":0,"enable_incoming":1,"default_incoming":1,"use_imap":1,"use_ssl":0,"use_starttls":0,"email_server":"imap.example.com","attachment_limit":0,"email_sync_option":"ALL","initial_sync_count":"250","append_emails_to_sent_folder":0,"create_contact":1,"enable_automatic_linking":0,"notify_if_unreplied":0,"unreplied_for_mins":30,"enable_outgoing":1,"use_tls":0,"use_ssl_for_outgoing":0,"smtp_server":"smtp.example.com","default_outgoing":1,"always_use_account_email_id_as_sender":1,"always_use_account_name_as_sender_name":1,"send_unsubscribe_message":1,"track_email_status":1,"no_smtp_authentication":0,"add_signature":0,"enable_auto_reply":0,"uidnext":0,"no_failed":0,"doctype":"Email Account","imap_folder":[{"docstatus":0,"doctype":"IMAP Folder","name":"new-imap-folder-xumehxmdrh","__islocal":1,"__unsaved":1,"owner":"naveenchowdary27714@gmail.com","parent":"Replies","parentfield":"imap_folder","parenttype":"Email Account","idx":1,"__unedited":false,"folder_name":"inbox","append_to":"Job Applicant"}],"__unsaved":1,"smtp_port":null,"incoming_port":null,"password":"syua miex lveb gmfa"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2024-08-08 12:01:44,340 ERROR frappe New Exception collected in error log
+Site: hrmsdemo.com
+Form Dict: {'doctype': 'DocType', 'old': 'Technology Details', 'new': 'Project Details', 'merge': '0', 'cmd': 'frappe.rename_doc'}
+2024-08-08 15:14:26,578 ERROR frappe New Exception collected in error log
+Site: hrmsdemo.com
+Form Dict: {'doctype': 'Colour Status', 'fields': '["`tabColour Status`.`name`","`tabColour Status`.`owner`","`tabColour Status`.`creation`","`tabColour Status`.`modified`","`tabColour Status`.`modified_by`","`tabColour Status`.`_user_tags`","`tabColour Status`.`_comments`","`tabColour Status`.`_assign`","`tabColour Status`.`_liked_by`","`tabColour Status`.`docstatus`","`tabColour Status`.`idx`"]', 'filters': '[]', 'order_by': '`tabColour Status`.`modified` desc', 'start': '0', 'page_length': '20', 'view': 'List', 'group_by': '', 'with_comment_count': '1', 'cmd': 'frappe.desk.reportview.get'}
+2024-08-08 15:14:34,807 ERROR frappe New Exception collected in error log
+Site: hrmsdemo.com
+Form Dict: {'doctype': 'Colour Status', 'fields': '["`tabColour Status`.`name`","`tabColour Status`.`owner`","`tabColour Status`.`creation`","`tabColour Status`.`modified`","`tabColour Status`.`modified_by`","`tabColour Status`.`_user_tags`","`tabColour Status`.`_comments`","`tabColour Status`.`_assign`","`tabColour Status`.`_liked_by`","`tabColour Status`.`docstatus`","`tabColour Status`.`idx`"]', 'filters': '[]', 'order_by': '`tabColour Status`.`modified` desc', 'start': '0', 'page_length': '20', 'view': 'List', 'group_by': '', 'with_comment_count': '1', 'cmd': 'frappe.desk.reportview.get'}
+2024-08-08 15:15:11,021 ERROR frappe New Exception collected in error log
+Site: hrmsdemo.com
+Form Dict: {'with_parent': '1', 'cached_timestamp': '', 'cmd': 'frappe.desk.form.load.getdoctype'}
+2024-08-13 16:54:47,691 ERROR frappe New Exception collected in error log
+Site: hrmsdemo.com
+Form Dict: {'report_name': 'Overall Review', 'filters': '{}', 'ignore_prepared_report': 'false', 'are_default_filters': 'true', 'cmd': 'frappe.desk.query_report.run'}
+2024-08-13 16:54:48,302 ERROR frappe New Exception collected in error log
+Site: hrmsdemo.com
+Form Dict: {'report_name': 'Overall Review', 'filters': '{}', 'ignore_prepared_report': 'false', 'are_default_filters': 'true', 'cmd': 'frappe.desk.query_report.run'}
+2024-08-13 16:54:48,440 ERROR frappe New Exception collected in error log
+Site: hrmsdemo.com
+Form Dict: {'report_name': 'Overall Review', 'filters': '{}', 'ignore_prepared_report': 'false', 'are_default_filters': 'true', 'cmd': 'frappe.desk.query_report.run'}
+2024-08-13 16:54:48,899 ERROR frappe New Exception collected in error log
+Site: hrmsdemo.com
+Form Dict: {'report_name': 'Overall Review', 'filters': '{}', 'ignore_prepared_report': 'false', 'are_default_filters': 'true', 'cmd': 'frappe.desk.query_report.run'}
+2024-08-13 16:54:58,041 ERROR frappe New Exception collected in error log
+Site: hrmsdemo.com
+Form Dict: {'report_name': 'Overall Review', 'filters': '{}', 'ignore_prepared_report': 'false', 'are_default_filters': 'true', 'cmd': 'frappe.desk.query_report.run'}
+2024-08-13 17:00:42,047 ERROR frappe New Exception collected in error log
+Site: hrmsdemo.com
+Form Dict: {'report_name': 'Overall Review', 'filters': '{}', 'ignore_prepared_report': 'false', 'are_default_filters': 'true', 'cmd': 'frappe.desk.query_report.run'}
+2024-08-13 17:09:36,937 ERROR frappe New Exception collected in error log
+Site: hrmsdemo.com
+Form Dict: {'report_name': 'Overall Review', 'filters': '{}', 'ignore_prepared_report': 'false', 'are_default_filters': 'true', 'cmd': 'frappe.desk.query_report.run'}
+2024-08-13 17:10:33,996 ERROR frappe New Exception collected in error log
+Site: hrmsdemo.com
+Form Dict: {'report_name': 'Overall Review', 'filters': '{}', 'ignore_prepared_report': 'false', 'are_default_filters': 'true', 'cmd': 'frappe.desk.query_report.run'}
+2024-08-13 17:10:40,990 ERROR frappe New Exception collected in error log
+Site: hrmsdemo.com
+Form Dict: {'report_name': 'Overall Review', 'filters': '{}', 'ignore_prepared_report': 'false', 'are_default_filters': 'true', 'cmd': 'frappe.desk.query_report.run'}
+2024-08-13 17:11:03,168 ERROR frappe New Exception collected in error log
+Site: hrmsdemo.com
+Form Dict: {'report_name': 'Overall Review', 'filters': '{}', 'ignore_prepared_report': 'false', 'are_default_filters': 'true', 'cmd': 'frappe.desk.query_report.run'}
+2024-08-13 17:11:07,961 ERROR frappe New Exception collected in error log
+Site: hrmsdemo.com
+Form Dict: {'report_name': 'Overall Review', 'filters': '{}', 'ignore_prepared_report': 'false', 'are_default_filters': 'true', 'cmd': 'frappe.desk.query_report.run'}
+2024-08-13 17:12:54,547 ERROR frappe New Exception collected in error log
+Site: hrmsdemo.com
+Form Dict: {'report_name': 'Overall Review', 'filters': '{}', 'ignore_prepared_report': 'false', 'are_default_filters': 'true', 'cmd': 'frappe.desk.query_report.run'}
+2024-08-13 17:13:02,974 ERROR frappe New Exception collected in error log
+Site: hrmsdemo.com
+Form Dict: {'report_name': 'Overall Review', 'filters': '{}', 'ignore_prepared_report': 'false', 'are_default_filters': 'true', 'cmd': 'frappe.desk.query_report.run'}
+2024-08-13 17:15:19,566 ERROR frappe Error while inserting deferred Error Log record: Error Log 1i8rqjih7h: '<strong>Title</strong>' ((1064, 'You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near \'"tabEmployee"\' at line 4')) will get truncated, as max characters allowed is 140
+Site: hrmsdemo.com
+Form Dict: {}
+2024-08-13 17:30:13,705 ERROR frappe New Exception collected in error log
+Site: hrmsdemo.com
+Form Dict: {'report_name': 'Overall Review', 'filters': '{}', 'ignore_prepared_report': 'false', 'are_default_filters': 'true', 'cmd': 'frappe.desk.query_report.run'}
+2024-08-20 09:55:10,630 ERROR frappe New Exception collected in error log
+Site: hrmsdemo.com
+Form Dict: {'report_name': 'Overall Review', 'filters': '{}', 'ignore_prepared_report': 'false', 'are_default_filters': 'true', 'cmd': 'frappe.desk.query_report.run'}
+2024-08-26 14:37:18,865 ERROR frappe New Exception collected in error log
+Site: hrmsdemo.com
+Form Dict: {'report_name': 'Overall Review', 'filters': '{}', 'ignore_prepared_report': 'false', 'are_default_filters': 'true', 'cmd': 'frappe.desk.query_report.run'}
+2024-08-28 10:17:54,416 ERROR frappe New Exception collected in error log
+Site: hrmsdemo.com
+Form Dict: {'notification': 'SampleRemainder', 'cmd': 'frappe.email.doctype.notification.notification.get_documents_for_today'}
+2024-08-28 12:05:39,333 ERROR frappe New Exception collected in error log
+Site: hrmsdemo.com
+Form Dict: {'cmd': 'frappe.desk.form.save.savedocs'}
+2024-08-29 08:50:30,244 ERROR frappe New Exception collected in error log
+Site: hrmsdemo.com
+Form Dict: {'cmd': 'frappe.desk.form.save.savedocs'}
+2024-08-29 10:11:09,253 ERROR frappe New Exception collected in error log
+Site: hrmsdemo.com
+Form Dict: {'notification': 'Project Remainder', 'cmd': 'frappe.email.doctype.notification.notification.get_documents_for_today'}
+2024-08-29 10:11:12,003 ERROR frappe New Exception collected in error log
+Site: hrmsdemo.com
+Form Dict: {'notification': 'Project Remainder', 'cmd': 'frappe.email.doctype.notification.notification.get_documents_for_today'}
+2024-09-05 16:19:02,874 ERROR frappe New Exception collected in error log
+Site: hrmsdemo.com
+Form Dict: {'cmd': 'run_doc_method'}
+2024-09-07 18:11:50,741 ERROR frappe New Exception collected in error log
+Site: hrmsdemo.com
+Form Dict: {'doc': '{"name":"HR-EMP-00001","owner":"naveenchowdary27714@gmail.com","creation":"2024-07-31 14:19:43.109585","modified":"2024-09-07 18:10:04.207926","modified_by":"naveenchowdary27714@gmail.com","docstatus":0,"idx":22,"employee":"HR-EMP-00001","naming_series":"HR-EMP-","first_name":"Venky","last_name":"Peta","employee_name":"Venky Peta","gender":"Male","date_of_birth":"1995-01-02","date_of_joining":"2024-01-01","status":"Active","user_id":"naveenchowdary27714@gmail.com","create_user_permission":1,"company":"vkraft software pvt ltd (Demo)","department":"Marketing - VKSSD","employment_type":"Full-Time-Employee","designation":"Senior business development manager","branch":"Nashik,Maharashtra","job_applicant":"mahesh@gmail.com","scheduled_confirmation_date":"2025-01-01","final_confirmation_date":"2025-01-01","contract_end_date":"2025-12-31","notice_number_of_days":15,"date_of_retirement":"2055-01-02","cell_number":"99494460718","personal_email":"naveenchowdary27714@gmail.com","company_email":"venky@vkraft.com","prefered_contact_email":"Personal Email","prefered_email":"naveenchowdary27714@gmail.com","unsubscribed":0,"current_accommodation_type":"","permanent_accommodation_type":"","holiday_list":"Yearly Holiday List","default_shift":"Night Shift","expense_approver":"hr@gmail.com","leave_approver":"hr@gmail.com","shift_request_approver":"hr@gmail.com","ctc":0,"salary_currency":"INR","salary_mode":"","marital_status":"Single","blood_group":"O+","custom_project_status":"Active","custom_billable_status":"Active","custom_bench_period":"2 months","custom_start_time":"2024-07-31","custom_end_time":"2024-08-01","custom_primary_skills":"Python,Java, Webmehtods","custom_secondary_skills":"React JS,camel-k","leave_encashed":"","lft":1,"rgt":2,"old_parent":"","custom_po_time_period":"2 months","custom_bench_time_period":"3 months","custom_project_manager_review":78,"custom_management_review":65,"custom_team_lead_review":56,"custom_overall_review":66.33,"doctype":"Employee","custom_technology_details":[{"name":"hpcd0ed21v","owner":"Administrator","creation":"2024-07-31 14:19:43.109585","modified":"2024-09-07 18:10:04.207926","modified_by":"naveenchowdary27714@gmail.com","docstatus":0,"idx":1,"po_number":"Internal","client_name":"AIA","project_name":"AI Claims","technology":"webmethods","po_start_date":"2024-01-01","po_end_date":"2024-09-23","parent":"HR-EMP-00001","parentfield":"custom_technology_details","parenttype":"Employee","doctype":"Project Details"},{"name":"ip0eo1tuo4","owner":"naveenchowdary27714@gmail.com","creation":"2024-07-31 14:19:43.109585","modified":"2024-09-07 18:10:04.207926","modified_by":"naveenchowdary27714@gmail.com","docstatus":0,"idx":2,"po_number":"AMWAY234","client_name":"AMWAY","project_name":"webmehods integrtion","technology":"camel -K","po_start_date":"2024-08-22","po_end_date":"2024-09-22","parent":"HR-EMP-00001","parentfield":"custom_technology_details","parenttype":"Employee","doctype":"Project Details"}],"education":[],"internal_work_history":[{"name":"av8f7im08l","owner":"naveenchowdary27714@gmail.com","creation":"2024-07-31 14:19:43.109585","modified":"2024-09-07 18:10:04.207926","modified_by":"naveenchowdary27714@gmail.com","docstatus":0,"idx":1,"branch":"Nashik,Maharashtra","department":"Marketing - VKSSD","designation":"Business Development Manager","from_date":"2024-01-01","to_date":"2024-03-31","parent":"HR-EMP-00001","parentfield":"internal_work_history","parenttype":"Employee","doctype":"Employee Internal Work History"},{"name":"av8fd7egmf","owner":"naveenchowdary27714@gmail.com","creation":"2024-07-31 14:19:43.109585","modified":"2024-09-07 18:10:04.207926","modified_by":"naveenchowdary27714@gmail.com","docstatus":0,"idx":2,"branch":"Hyderabad","department":"Accounts - VKSSD","designation":"Senior business development manager","from_date":"2024-04-01","to_date":"2025-01-01","parent":"HR-EMP-00001","parentfield":"internal_work_history","parenttype":"Employee","doctype":"Employee Internal Work History"}],"external_work_history":[{"name":"cdjmetqpdj","owner":"Administrator","creation":"2024-07-31 14:19:43.109585","modified":"2024-09-07 18:10:04.207926","modified_by":"naveenchowdary27714@gmail.com","docstatus":0,"idx":1,"company_name":"Accenture","designation":"jr.sofware engineer","salary":25000,"total_experience":"2 yrs","parent":"HR-EMP-00001","parentfield":"external_work_history","parenttype":"Employee","doctype":"Employee External Work History"}],"custom_cerifications":[{"name":"geoee0fufr","owner":"naveenchowdary27714@gmail.com","creation":"2024-07-31 14:19:43.109585","modified":"2024-09-07 18:10:04.207926","modified_by":"naveenchowdary27714@gmail.com","docstatus":0,"idx":1,"certification_name":"java","issue_date":"2024-09-01","expiry_date":"2025-02-28","parent":"HR-EMP-00001","parentfield":"custom_cerifications","parenttype":"Employee","doctype":"Certifications"}],"_liked_by":"[]","__last_sync_on":"2024-09-07T12:40:17.202Z","__unsaved":1}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2024-09-09 10:22:11,180 ERROR frappe New Exception collected in error log
+Site: hrmsdemo.com
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Email Account","name":"new-email-account-aoinwnzfcv","__islocal":1,"__unsaved":1,"owner":"naveenchowdary27714@gmail.com","service":"Outlook.com","auth_method":"Basic","awaiting_password":0,"ascii_encode_password":0,"login_id_is_different":0,"enable_incoming":1,"default_incoming":1,"use_imap":1,"use_ssl":1,"use_starttls":0,"email_sync_option":"ALL","initial_sync_count":"250","imap_folder":[{"docstatus":0,"doctype":"IMAP Folder","name":"new-imap-folder-gneuvqcsct","__islocal":1,"__unsaved":1,"owner":"naveenchowdary27714@gmail.com","parent":"new-email-account-aoinwnzfcv","parentfield":"imap_folder","parenttype":"Email Account","idx":1,"folder_name":"INBOX"}],"append_emails_to_sent_folder":1,"create_contact":1,"enable_automatic_linking":1,"notify_if_unreplied":0,"unreplied_for_mins":30,"enable_outgoing":1,"use_tls":1,"use_ssl_for_outgoing":0,"default_outgoing":1,"always_use_account_email_id_as_sender":1,"always_use_account_name_as_sender_name":1,"send_unsubscribe_message":1,"track_email_status":1,"no_smtp_authentication":0,"add_signature":0,"enable_auto_reply":0,"attachment_limit":25,"email_id":"naveen.gadde@vkraftsoftware.com","email_server":"imap-mail.outlook.com","smtp_server":"smtp-mail.outlook.com","smtp_port":587,"email_account_name":"Admin","password":"ldqlmsmslfymxkgb","incoming_port":"143"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2024-09-09 15:29:30,806 ERROR frappe New Exception collected in error log
+Site: hrmsdemo.com
+Form Dict: {'cmd': 'frappe.desk.form.save.savedocs'}
+2024-09-10 15:56:06,292 ERROR frappe New Exception collected in error log
+Site: hrmsdemo.com
+Form Dict: {'cmd': 'frappe.desk.form.save.savedocs'}
+2024-09-11 23:22:19,898 ERROR frappe New Exception collected in error log
+Site: hrmsdemo.com
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Email Account","name":"new-email-account-mpyqimmewg","__islocal":1,"__unsaved":1,"owner":"naveenchowdary27714@gmail.com","service":"","auth_method":"Basic","awaiting_password":0,"ascii_encode_password":0,"login_id_is_different":0,"enable_incoming":1,"default_incoming":1,"use_imap":1,"use_ssl":0,"use_starttls":0,"email_sync_option":"ALL","initial_sync_count":"250","imap_folder":[{"docstatus":0,"doctype":"IMAP Folder","name":"new-imap-folder-sporinmmwo","__islocal":1,"__unsaved":1,"owner":"naveenchowdary27714@gmail.com","parent":"new-email-account-mpyqimmewg","parentfield":"imap_folder","parenttype":"Email Account","idx":1,"folder_name":"INBOX"}],"append_emails_to_sent_folder":0,"create_contact":1,"enable_automatic_linking":1,"notify_if_unreplied":0,"unreplied_for_mins":30,"enable_outgoing":1,"use_tls":0,"use_ssl_for_outgoing":0,"default_outgoing":1,"always_use_account_email_id_as_sender":1,"always_use_account_name_as_sender_name":1,"send_unsubscribe_message":1,"track_email_status":1,"no_smtp_authentication":0,"add_signature":0,"enable_auto_reply":0,"attachment_limit":0,"email_id":"naveen.gadde@vkraftsoftware.com","email_account_name":"Admin","email_server":"imap.example.com","smtp_server":"smtp.example.com","password":"Chowdary1443@","incoming_port":null,"connected_app":"","domain":"example.com","idx":0,"uidnext":0,"no_failed":0,"smtp_port":null}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2024-09-13 10:05:03,991 ERROR frappe New Exception collected in error log
+Site: hrmsdemo.com
+Form Dict: {'doc': '{"name":"HR-EMP-00003","owner":"naveenchowdary27714@gmail.com","creation":"2024-08-01 10:59:05.948270","modified":"2024-09-13 09:58:32.791354","modified_by":"naveenchowdary27714@gmail.com","docstatus":0,"idx":4,"employee":"HR-EMP-00003","naming_series":"HR-EMP-","first_name":"Dhirajkumar","last_name":"Saindane","employee_name":"Dhirajkumar Saindane","gender":"Male","date_of_birth":"2001-06-04","date_of_joining":"2024-08-01","image":"","status":"Active","user_id":"","create_user_permission":0,"company":"vkraft software pvt ltd (Demo)","department":"Accounts - VKSSD","employment_type":"Full-Time","employee_number":"VKSS001","designation":"Manager","branch":"Nashik,Maharashtra","grade":"L5","job_applicant":"danish@gmail.com","notice_number_of_days":0,"date_of_retirement":"2061-06-04","cell_number":"7093165818","personal_email":"dhirajsaindane123@gmail.com  ","company_email":"dhiraj@vkraft.com","prefered_contact_email":"Personal Email","prefered_email":"dhirajsaindane123@gmail.com  ","unsubscribed":0,"current_address":"H-no 5-42,Anandvalli road, Nashik, Maharashtra","current_accommodation_type":"Owned","permanent_address":"H-no 5-42,Anandvalli road, Nashik, Maharashtra","permanent_accommodation_type":"Owned","person_to_be_contacted":"Naveen Gadde","emergency_phone_number":"99494460718","relation":"brother","attendance_device_id":"VKSS 001","holiday_list":"Yearly Holiday List","default_shift":"Afternoon shift","expense_approver":"hr@gmail.com","leave_approver":"hr@gmail.com","shift_request_approver":"hr@gmail.com","ctc":200000,"salary_currency":"INR","salary_mode":"Cash","payroll_cost_center":"Main - VKSSD","pan_number":"BVRPG5490","provident_fund_account":"PF100023","marital_status":"Single","family_background":"Gulabrao Sanidine - Accountant","blood_group":"A+","health_details":"Height - 5.7 ft\\nWeight - 80 kg\\nNo medical concers","bio":"<div class=\\"ql-editor read-mode\\"><p><strong>Dhiraj Saindane - Accountant</strong></p><p><strong>Professional Background:</strong> Jane has over 7 years of experience in accounting and financial management. She has previously worked at ABC Finance, where she managed financial reporting and analysis, and played a key role in the implementation of a new accounting system that streamlined operations and reduced costs by 15%.</p><p><strong>Skills and Expertise:</strong></p><ol><li data-list=\\"bullet\\"><span class=\\"ql-ui\\" contenteditable=\\"false\\"></span>Proficient in financial analysis, budgeting, and forecasting</li><li data-list=\\"bullet\\"><span class=\\"ql-ui\\" contenteditable=\\"false\\"></span>Experienced with accounting software including QuickBooks, SAP, and Oracle</li><li data-list=\\"bullet\\"><span class=\\"ql-ui\\" contenteditable=\\"false\\"></span>Strong knowledge of GAAP and IFRS standards</li><li data-list=\\"bullet\\"><span class=\\"ql-ui\\" contenteditable=\\"false\\"></span>Certified Public Accountant (CPA)</li><li data-list=\\"bullet\\"><span class=\\"ql-ui\\" contenteditable=\\"false\\"></span>Advanced skills in Excel and data analysis tools</li></ol><p><strong>Educational Background:</strong> Jane holds a Bachelor’s degree in Accounting from XYZ University and a Master’s degree in Finance from DEF University.</p><p><strong>Personal Attributes:</strong> Jane is detail-oriented and has strong analytical skills. She is known for her ability to work efficiently under pressure and her excellent problem-solving abilities. Jane is also a team player with strong communication skills, which helps her collaborate effectively with colleagues and stakeholders.</p><p><strong>Goals and Aspirations:</strong> Jane aims to contribute to the financial stability and growth of the company. She is looking forward to leveraging her expertise to improve financial processes and support strategic decision-making. Jane also aspires to take on leadership roles in the future, where she can guide and mentor junior accountants.</p></div>","custom_project_status":"Active","custom_bench_period":"2 months","custom_start_time":"2024-02-01","custom_end_time":"2024-03-31","custom_primary_skills":"Python, Java, WebMethods","custom_secondary_skills":"React JS, MYSQL, MSSQL","resignation_letter_date":"2024-08-31","relieving_date":"2024-09-01","held_on":"2024-08-31","leave_encashed":"Yes","encashment_date":"2024-08-01","lft":5,"rgt":6,"old_parent":"","custom_project_manager_review":89,"custom_management_review":80,"custom_team_lead_review":78,"custom_overall_review":82.33,"custom_laptop_code":"LAP/VKSS/099","custom_id_card":"Yes","doctype":"Employee","education":[{"name":"u8qkcsn7ro","owner":"naveenchowdary27714@gmail.com","creation":"2024-08-01 10:59:05.948270","modified":"2024-09-13 09:58:32.791354","modified_by":"naveenchowdary27714@gmail.com","docstatus":0,"idx":1,"school_univ":"Savitribai Phule Pune university","qualification":"B.Tech","level":"Graduate","year_of_passing":2023,"parent":"HR-EMP-00003","parentfield":"education","parenttype":"Employee","doctype":"Employee Education"}],"external_work_history":[{"name":"cbu9g64j4p","owner":"Administrator","creation":"2024-08-01 10:59:05.948270","modified":"2024-09-13 09:58:32.791354","modified_by":"naveenchowdary27714@gmail.com","docstatus":0,"idx":1,"company_name":"TCS","designation":"jr.Software Engineer","salary":20000,"total_experience":"1.5 yrs","parent":"HR-EMP-00003","parentfield":"external_work_history","parenttype":"Employee","doctype":"Employee External Work History"}],"custom_technology_details":[{"name":"o4cuepp8u3","owner":"naveenchowdary27714@gmail.com","creation":"2024-08-01 10:59:05.948270","modified":"2024-09-13 09:58:32.791354","modified_by":"naveenchowdary27714@gmail.com","docstatus":0,"idx":1,"po_number":"AMWAY2345","client_name":"Amway","project_name":"Webmethods Integration","technology":"Camel-K","po_start_date":"2023-12-01","po_end_date":"2024-09-28","parent":"HR-EMP-00003","parentfield":"custom_technology_details","parenttype":"Employee","doctype":"Project Details"},{"name":"nm0tvptg9v","owner":"naveenchowdary27714@gmail.com","creation":"2024-08-01 10:59:05.948270","modified":"2024-09-13 09:58:32.791354","modified_by":"naveenchowdary27714@gmail.com","docstatus":0,"idx":2,"po_number":"AIA746","client_name":"AIA","project_name":"AI claims","technology":"gdwhk","po_start_date":"2024-08-01","po_end_date":"2024-09-27","parent":"HR-EMP-00003","parentfield":"custom_technology_details","parenttype":"Employee","doctype":"Project Details"}],"custom_cerifications":[{"name":"7j4mmsla29","owner":"Administrator","creation":"2024-08-01 10:59:05.948270","modified":"2024-09-13 09:58:32.791354","modified_by":"naveenchowdary27714@gmail.com","docstatus":0,"idx":1,"certification_name":"Webemthods","issue_date":"2023-10-23","expiry_date":"2024-08-23","parent":"HR-EMP-00003","parentfield":"custom_cerifications","parenttype":"Employee","doctype":"Certifications"},{"name":"56finnaj1u","owner":"naveenchowdary27714@gmail.com","creation":"2024-08-01 10:59:05.948270","modified":"2024-09-13 09:58:32.791354","modified_by":"naveenchowdary27714@gmail.com","docstatus":0,"idx":2,"certification_name":"MYSQL","issue_date":"2024-01-01","expiry_date":"2024-10-01","parent":"HR-EMP-00003","parentfield":"custom_cerifications","parenttype":"Employee","doctype":"Certifications"}],"internal_work_history":[],"custom_work_details":[{"name":"343s5922sc","owner":"naveenchowdary27714@gmail.com","creation":"2024-08-01 10:59:05.948270","modified":"2024-09-13 09:58:32.791354","modified_by":"naveenchowdary27714@gmail.com","docstatus":0,"idx":1,"start_date":"2024-05-01","end_date":"2024-09-09","pobench":"PO","months":"4 months","billable_status":"Active","parent":"HR-EMP-00003","parentfield":"custom_work_details","parenttype":"Employee","doctype":"PO and Bench Period Details"}],"__unsaved":1}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2024-09-13 10:07:30,122 ERROR frappe New Exception collected in error log
+Site: hrmsdemo.com
+Form Dict: {'doc': '{"name":"HR-EMP-00004","owner":"naveenchowdary27714@gmail.com","creation":"2024-08-13 15:21:18.459261","modified":"2024-09-12 15:12:24.539552","modified_by":"naveenchowdary27714@gmail.com","docstatus":0,"idx":1,"employee":"HR-EMP-00004","naming_series":"HR-EMP-","first_name":"Naveen","last_name":"Gadde","employee_name":"Naveen Gadde","gender":"Male","date_of_birth":"2000-01-04","date_of_joining":"2024-01-01","status":"Active","create_user_permission":1,"company":"vkraft software pvt ltd (Demo)","job_applicant":"naveen@gmail.com","notice_number_of_days":0,"date_of_retirement":"2060-01-04","personal_email":"naveenchowdary27714@gmail.com","company_email":"naveenchowdary27714@gmail.com","prefered_contact_email":"Personal Email","prefered_email":"naveenchowdary27714@gmail.com","unsubscribed":0,"current_accommodation_type":"","permanent_accommodation_type":"","holiday_list":"Yearly Holiday List","default_shift":"Morning Shift","ctc":0,"salary_currency":"INR","salary_mode":"","marital_status":"","blood_group":"","custom_project_status":"Active","custom_primary_skills":"Webmehtods,python","custom_secondary_skills":"camel-K,ERP next","leave_encashed":"","lft":7,"rgt":8,"old_parent":"","custom_project_manager_review":90,"custom_management_review":90,"custom_team_lead_review":90,"custom_overall_review":90,"doctype":"Employee","education":[],"external_work_history":[{"name":"ccq8595hvb","owner":"Administrator","creation":"2024-08-13 15:21:18.459261","modified":"2024-09-12 15:12:24.539552","modified_by":"naveenchowdary27714@gmail.com","docstatus":0,"idx":1,"company_name":"Infosys","designation":"Team Lead","salary":40000,"total_experience":"3 yrs","parent":"HR-EMP-00004","parentfield":"external_work_history","parenttype":"Employee","doctype":"Employee External Work History"}],"custom_technology_details":[{"name":"vff15gv9dc","owner":"naveenchowdary27714@gmail.com","creation":"2024-08-13 15:21:18.459261","modified":"2024-09-12 15:12:24.539552","modified_by":"naveenchowdary27714@gmail.com","docstatus":0,"idx":1,"po_number":"AIA783","client_name":"AIA","project_name":"AI Claims","technology":"Webmethods","po_start_date":"2024-06-01","po_end_date":"2024-09-28","parent":"HR-EMP-00004","parentfield":"custom_technology_details","parenttype":"Employee","doctype":"Project Details"},{"name":"7pu3b8kecc","owner":"naveenchowdary27714@gmail.com","creation":"2024-08-13 15:21:18.459261","modified":"2024-09-12 15:12:24.539552","modified_by":"naveenchowdary27714@gmail.com","docstatus":0,"idx":2,"po_number":"AMWAY653","client_name":"AMWAY","project_name":"MFT","technology":"pyhton,flask","po_start_date":"2024-08-01","po_end_date":"2024-09-29","parent":"HR-EMP-00004","parentfield":"custom_technology_details","parenttype":"Employee","doctype":"Project Details"}],"custom_cerifications":[{"name":"jc977of961","owner":"naveenchowdary27714@gmail.com","creation":"2024-08-13 15:21:18.459261","modified":"2024-09-12 15:12:24.539552","modified_by":"naveenchowdary27714@gmail.com","docstatus":0,"idx":1,"certification_name":"Python","issue_date":"2023-12-01","expiry_date":"2025-12-01","parent":"HR-EMP-00004","parentfield":"custom_cerifications","parenttype":"Employee","doctype":"Certifications"}],"internal_work_history":[],"custom_work_details":[{"name":"6tieqkk8hr","owner":"naveenchowdary27714@gmail.com","creation":"2024-08-13 15:21:18.459261","modified":"2024-09-12 15:12:24.539552","modified_by":"naveenchowdary27714@gmail.com","docstatus":0,"idx":1,"start_date":"2024-08-01","end_date":"2024-09-30","pobench":"bench","months":"1 month","billable_status":"Inactive","parent":"HR-EMP-00004","parentfield":"custom_work_details","parenttype":"Employee","doctype":"PO and Bench Period Details"}],"custom_laptop_code":"VKSS/LAP/007","custom_id_card":"Yes","__unsaved":1}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2024-10-11 09:06:56,624 ERROR frappe Error while inserting deferred Route History record: Could not find User: naveenchowdary27714@gmail.com
+Site: hrmsdemo.com
+Form Dict: {}
+2024-10-11 09:06:56,626 ERROR frappe Error while inserting deferred Route History record: Could not find User: naveenchowdary27714@gmail.com
+Site: hrmsdemo.com
+Form Dict: {}
+2024-10-11 09:06:56,626 ERROR frappe Error while inserting deferred Route History record: Could not find User: naveenchowdary27714@gmail.com
+Site: hrmsdemo.com
+Form Dict: {}
+2024-10-11 09:06:56,627 ERROR frappe Error while inserting deferred Route History record: Could not find User: naveenchowdary27714@gmail.com
+Site: hrmsdemo.com
+Form Dict: {}
+2024-10-11 09:06:56,627 ERROR frappe Error while inserting deferred Route History record: Could not find User: naveenchowdary27714@gmail.com
+Site: hrmsdemo.com
+Form Dict: {}
+2024-10-11 09:06:56,628 ERROR frappe Error while inserting deferred Route History record: Could not find User: naveenchowdary27714@gmail.com
+Site: hrmsdemo.com
+Form Dict: {}
+2024-10-11 09:06:56,628 ERROR frappe Error while inserting deferred Route History record: Could not find User: naveenchowdary27714@gmail.com
+Site: hrmsdemo.com
+Form Dict: {}
+2024-10-11 09:06:56,629 ERROR frappe Error while inserting deferred Route History record: Could not find User: naveenchowdary27714@gmail.com
+Site: hrmsdemo.com
+Form Dict: {}
+2024-10-11 09:06:56,629 ERROR frappe Error while inserting deferred Route History record: Could not find User: naveenchowdary27714@gmail.com
+Site: hrmsdemo.com
+Form Dict: {}
+2024-10-11 09:06:56,630 ERROR frappe Error while inserting deferred Route History record: Could not find User: naveenchowdary27714@gmail.com
+Site: hrmsdemo.com
+Form Dict: {}
+2024-10-11 09:06:56,630 ERROR frappe Error while inserting deferred Route History record: Could not find User: naveenchowdary27714@gmail.com
+Site: hrmsdemo.com
+Form Dict: {}
+2024-10-11 09:06:56,631 ERROR frappe Error while inserting deferred Route History record: Could not find User: naveenchowdary27714@gmail.com
+Site: hrmsdemo.com
+Form Dict: {}
+2024-10-11 09:06:56,632 ERROR frappe Error while inserting deferred Route History record: Could not find User: naveenchowdary27714@gmail.com
+Site: hrmsdemo.com
+Form Dict: {}
+2024-10-11 09:06:56,633 ERROR frappe Error while inserting deferred Route History record: Could not find User: naveenchowdary27714@gmail.com
+Site: hrmsdemo.com
+Form Dict: {}
+2024-10-11 09:06:56,635 ERROR frappe Error while inserting deferred Route History record: Could not find User: naveenchowdary27714@gmail.com
+Site: hrmsdemo.com
+Form Dict: {}
+2024-10-11 09:06:56,636 ERROR frappe Error while inserting deferred Route History record: Could not find User: naveenchowdary27714@gmail.com
+Site: hrmsdemo.com
+Form Dict: {}
+2024-10-11 09:06:56,637 ERROR frappe Error while inserting deferred Route History record: Could not find User: naveenchowdary27714@gmail.com
+Site: hrmsdemo.com
+Form Dict: {}
+2024-10-11 09:06:56,638 ERROR frappe Error while inserting deferred Route History record: Could not find User: naveenchowdary27714@gmail.com
+Site: hrmsdemo.com
+Form Dict: {}
+2024-10-11 09:06:56,639 ERROR frappe Error while inserting deferred Route History record: Could not find User: naveenchowdary27714@gmail.com
+Site: hrmsdemo.com
+Form Dict: {}
+2024-10-11 09:06:56,640 ERROR frappe Error while inserting deferred Route History record: Could not find User: naveenchowdary27714@gmail.com
+Site: hrmsdemo.com
+Form Dict: {}
+2024-10-11 09:06:56,641 ERROR frappe Error while inserting deferred Route History record: Could not find User: naveenchowdary27714@gmail.com
+Site: hrmsdemo.com
+Form Dict: {}
+2024-10-11 09:06:56,641 ERROR frappe Error while inserting deferred Route History record: Could not find User: naveenchowdary27714@gmail.com
+Site: hrmsdemo.com
+Form Dict: {}
+2024-10-11 09:06:56,641 ERROR frappe Error while inserting deferred Route History record: Could not find User: naveenchowdary27714@gmail.com
+Site: hrmsdemo.com
+Form Dict: {}
+2024-10-11 09:06:56,642 ERROR frappe Error while inserting deferred Route History record: Could not find User: naveenchowdary27714@gmail.com
+Site: hrmsdemo.com
+Form Dict: {}
+2024-10-11 09:06:56,643 ERROR frappe Error while inserting deferred Route History record: Could not find User: naveenchowdary27714@gmail.com
+Site: hrmsdemo.com
+Form Dict: {}
+2024-10-11 09:06:56,643 ERROR frappe Error while inserting deferred Route History record: Could not find User: naveenchowdary27714@gmail.com
+Site: hrmsdemo.com
+Form Dict: {}
+2024-10-11 09:06:56,643 ERROR frappe Error while inserting deferred Route History record: Could not find User: naveenchowdary27714@gmail.com
+Site: hrmsdemo.com
+Form Dict: {}
+2024-10-11 09:06:56,644 ERROR frappe Error while inserting deferred Route History record: Could not find User: naveenchowdary27714@gmail.com
+Site: hrmsdemo.com
+Form Dict: {}
+2024-10-11 09:06:56,645 ERROR frappe Error while inserting deferred Route History record: Could not find User: naveenchowdary27714@gmail.com
+Site: hrmsdemo.com
+Form Dict: {}
+2024-10-11 09:06:56,647 ERROR frappe Error while inserting deferred Route History record: Could not find User: naveenchowdary27714@gmail.com
+Site: hrmsdemo.com
+Form Dict: {}
+2024-10-11 09:06:56,648 ERROR frappe Error while inserting deferred Route History record: Could not find User: naveenchowdary27714@gmail.com
+Site: hrmsdemo.com
+Form Dict: {}
+2024-10-11 09:06:56,649 ERROR frappe Error while inserting deferred Route History record: Could not find User: naveenchowdary27714@gmail.com
+Site: hrmsdemo.com
+Form Dict: {}
+2024-10-11 09:06:56,651 ERROR frappe Error while inserting deferred Route History record: Could not find User: naveenchowdary27714@gmail.com
+Site: hrmsdemo.com
+Form Dict: {}
+2024-10-11 09:06:56,652 ERROR frappe Error while inserting deferred Route History record: Could not find User: naveenchowdary27714@gmail.com
+Site: hrmsdemo.com
+Form Dict: {}
+2024-10-11 09:06:56,653 ERROR frappe Error while inserting deferred Route History record: Could not find User: naveenchowdary27714@gmail.com
+Site: hrmsdemo.com
+Form Dict: {}

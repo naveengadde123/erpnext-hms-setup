@@ -1,0 +1,29 @@
+2024-10-07 15:27:39,788 ERROR scheduler Exception in Enqueue Events for Site hrmsdemo2.com
+Traceback (most recent call last):
+  File "/home/vkraft/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 75, in enqueue_events_for_site
+    if is_scheduler_inactive():
+  File "/home/vkraft/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 117, in is_scheduler_inactive
+    if is_scheduler_disabled(verbose=verbose):
+  File "/home/vkraft/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 130, in is_scheduler_disabled
+    frappe.db.get_single_value("System Settings", "enable_scheduler")
+  File "/home/vkraft/frappe-bench/apps/frappe/frappe/database/database.py", line 844, in get_single_value
+    df = frappe.get_meta(doctype).get_field(fieldname)
+  File "/home/vkraft/frappe-bench/apps/frappe/frappe/__init__.py", line 1360, in get_meta
+    return frappe.model.meta.get_meta(doctype, cached=cached)
+  File "/home/vkraft/frappe-bench/apps/frappe/frappe/model/meta.py", line 63, in get_meta
+    meta = Meta(doctype)
+  File "/home/vkraft/frappe-bench/apps/frappe/frappe/model/meta.py", line 117, in __init__
+    super().__init__("DocType", doctype)
+  File "/home/vkraft/frappe-bench/apps/frappe/frappe/model/document.py", line 126, in __init__
+    self.load_from_db()
+  File "/home/vkraft/frappe-bench/apps/frappe/frappe/model/meta.py", line 123, in load_from_db
+    super().load_from_db()
+  File "/home/vkraft/frappe-bench/apps/frappe/frappe/model/document.py", line 172, in load_from_db
+    frappe.throw(
+  File "/home/vkraft/frappe-bench/apps/frappe/frappe/__init__.py", line 645, in throw
+    msgprint(
+  File "/home/vkraft/frappe-bench/apps/frappe/frappe/__init__.py", line 610, in msgprint
+    _raise_exception()
+  File "/home/vkraft/frappe-bench/apps/frappe/frappe/__init__.py", line 561, in _raise_exception
+    raise exc
+frappe.exceptions.DoesNotExistError: DocType System Settings not found

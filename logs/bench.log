@@ -1,0 +1,356 @@
+2024-07-30 17:21:56,392 DEBUG cd frappe-bench && python3 -m venv env
+2024-07-30 17:21:58,363 DEBUG cd frappe-bench && /home/vkraft/frappe-bench/env/bin/python -m pip install --quiet --upgrade pip
+2024-07-30 17:21:59,833 DEBUG cd frappe-bench && /home/vkraft/frappe-bench/env/bin/python -m pip install --quiet wheel
+2024-07-30 17:22:01,235 LOG Getting frappe
+2024-07-30 17:22:01,236 DEBUG cd frappe-bench/apps && git clone https://github.com/frappe/frappe.git --branch version-15 --depth 1 --origin upstream
+2024-07-30 17:22:10,246 LOG Installing frappe
+2024-07-30 17:22:10,246 DEBUG cd /home/vkraft/frappe-bench && /home/vkraft/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/vkraft/frappe-bench/apps/frappe 
+2024-07-30 17:22:57,944 DEBUG cd /home/vkraft/frappe-bench/apps/frappe && yarn install --check-files
+2024-07-30 17:23:34,241 WARNING restart failed: Couldn't find supervisorctl in PATH
+2024-07-30 17:23:34,241 DEBUG cd frappe-bench && bench build
+2024-07-30 17:23:34,333 INFO /usr/local/bin/bench build
+2024-07-30 17:23:53,805 LOG setting up backups
+2024-07-30 17:23:53,823 LOG backups were set up
+2024-07-30 17:23:53,823 INFO Bench frappe-bench initialized
+2024-07-30 17:24:53,030 INFO /usr/local/bin/bench new-site hrmsdemo.com
+2024-07-30 17:26:23,475 INFO /usr/local/bin/bench get-app payments
+2024-07-30 17:26:23,895 LOG Getting payments
+2024-07-30 17:26:23,896 DEBUG cd ./apps && git clone https://github.com/frappe/payments.git  --depth 1 --origin upstream
+2024-07-30 17:26:24,865 LOG Installing payments
+2024-07-30 17:26:24,865 DEBUG cd /home/vkraft/frappe-bench && /home/vkraft/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/vkraft/frappe-bench/apps/payments 
+2024-07-30 17:26:28,252 DEBUG bench build --app payments
+2024-07-30 17:26:28,319 INFO /usr/local/bin/bench build --app payments
+2024-07-30 17:26:29,378 WARNING restart failed: Couldn't find supervisorctl in PATH
+2024-07-30 17:26:50,154 INFO /usr/local/bin/bench get-app --branch version-15 erpnext
+2024-07-30 17:26:50,623 LOG Getting erpnext
+2024-07-30 17:26:50,623 DEBUG cd ./apps && git clone https://github.com/frappe/erpnext.git --branch version-15 --depth 1 --origin upstream
+2024-07-30 17:26:59,422 LOG Installing erpnext
+2024-07-30 17:26:59,422 DEBUG cd /home/vkraft/frappe-bench && /home/vkraft/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/vkraft/frappe-bench/apps/erpnext 
+2024-07-30 17:27:11,501 DEBUG cd /home/vkraft/frappe-bench/apps/erpnext && yarn install --check-files
+2024-07-30 17:27:12,028 DEBUG bench build --app erpnext
+2024-07-30 17:27:12,127 INFO /usr/local/bin/bench build --app erpnext
+2024-07-30 17:27:14,409 WARNING restart failed: Couldn't find supervisorctl in PATH
+2024-07-30 17:27:24,200 INFO /usr/local/bin/bench get-app hrms
+2024-07-30 17:27:24,603 LOG Getting hrms
+2024-07-30 17:27:24,603 DEBUG cd ./apps && git clone https://github.com/frappe/hrms.git  --depth 1 --origin upstream
+2024-07-30 17:27:28,267 LOG Installing hrms
+2024-07-30 17:27:28,268 DEBUG cd /home/vkraft/frappe-bench && /home/vkraft/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/vkraft/frappe-bench/apps/hrms 
+2024-07-30 17:27:30,525 DEBUG cd /home/vkraft/frappe-bench/apps/hrms && yarn install --check-files
+2024-07-30 17:28:53,325 DEBUG bench build --app hrms
+2024-07-30 17:28:53,407 INFO /usr/local/bin/bench build --app hrms
+2024-07-30 17:29:09,677 WARNING restart failed: Couldn't find supervisorctl in PATH
+2024-07-30 17:29:47,474 INFO /usr/local/bin/bench --site hrmsdemo.local install-app erpnext
+2024-07-30 17:32:03,106 INFO /usr/local/bin/bench --site hrmsdemo.com install-app erpnext
+2024-07-30 17:34:21,283 INFO /usr/local/bin/bench --site hrmsdemo.com install-app hrms
+2024-07-30 17:45:23,322 INFO /usr/local/bin/bench --site hrmsdemo.com enable-scheduler
+2024-07-30 17:45:43,061 INFO /usr/local/bin/bench --site hrmsdemo.com set-maintenance-mode off
+2024-07-30 17:51:02,593 INFO /usr/local/bin/bench setup production vkraft
+2024-07-30 17:51:02,598 DEBUG sudo /usr/bin/python3 -m pip install ansible
+2024-07-30 17:51:25,606 DEBUG bench setup role fail2ban
+2024-07-30 17:51:25,703 INFO /usr/local/bin/bench setup role fail2ban
+2024-07-30 17:51:39,758 DEBUG bench setup role nginx
+2024-07-30 17:51:39,826 INFO /usr/local/bin/bench setup role nginx
+2024-07-30 17:51:54,043 DEBUG bench setup role supervisor
+2024-07-30 17:51:54,141 INFO /usr/local/bin/bench setup role supervisor
+2024-07-30 17:52:02,977 LOG Updated supervisord.conf: 'chmod' changed from '0700                       ; sockef file mode (default 0700)' to '0760'
+2024-07-30 17:52:02,977 LOG Updated supervisord.conf: 'chown' changed from '' to 'vkraft:vkraft'
+2024-07-30 17:52:03,027 DEBUG sudo /usr/sbin/nginx -t
+2024-07-30 17:52:03,039 DEBUG sudo systemctl reload nginx
+2024-07-30 17:52:16,198 INFO /usr/local/bin/bench setup nginx
+2024-07-30 17:53:47,623 INFO /usr/local/bin/bench setup production vkraft
+2024-07-30 17:53:47,627 LOG Updated supervisord.conf: 'chmod' changed from '0700                       ; sockef file mode (default 0700)' to '0760'
+2024-07-30 17:53:47,627 LOG Updated supervisord.conf: 'chown' changed from '' to 'vkraft:vkraft'
+2024-07-30 17:54:02,615 DEBUG /usr/bin/supervisorctl reread
+2024-07-30 17:54:02,735 DEBUG /usr/bin/supervisorctl update
+2024-07-30 17:54:02,875 DEBUG sudo /usr/sbin/nginx -t
+2024-07-30 17:54:02,889 DEBUG sudo systemctl reload nginx
+2024-07-30 17:54:02,967 INFO /usr/local/bin/bench worker --queue short,default
+2024-07-30 17:54:02,974 INFO /usr/local/bin/bench worker --queue long,default,short
+2024-07-30 17:54:02,978 INFO /usr/local/bin/bench schedule
+2024-07-30 18:00:01,607 INFO /usr/local/bin/bench --verbose --site all backup
+2024-07-31 09:56:59,429 INFO /usr/local/bin/bench worker --queue long,default,short
+2024-07-31 09:56:59,429 INFO /usr/local/bin/bench schedule
+2024-07-31 09:56:59,429 INFO /usr/local/bin/bench worker --queue short,default
+2024-07-31 12:00:01,790 INFO /usr/local/bin/bench --verbose --site all backup
+2024-08-01 00:01:32,420 INFO /usr/local/bin/bench --verbose --site all backup
+2024-08-01 18:00:02,197 INFO /usr/local/bin/bench --verbose --site all backup
+2024-08-02 13:58:49,096 INFO /usr/local/bin/bench worker --queue long,default,short
+2024-08-02 13:58:49,096 INFO /usr/local/bin/bench worker --queue short,default
+2024-08-02 13:58:49,098 INFO /usr/local/bin/bench schedule
+2024-08-05 08:47:52,318 INFO /usr/local/bin/bench worker --queue long,default,short
+2024-08-05 08:47:52,318 INFO /usr/local/bin/bench schedule
+2024-08-05 08:47:52,318 INFO /usr/local/bin/bench worker --queue short,default
+2024-08-05 08:56:13,488 INFO /usr/local/bin/bench worker --queue long,default,short
+2024-08-05 08:56:13,488 INFO /usr/local/bin/bench worker --queue short,default
+2024-08-05 08:56:13,488 INFO /usr/local/bin/bench schedule
+2024-08-05 12:00:01,639 INFO /usr/local/bin/bench --verbose --site all backup
+2024-08-05 18:00:01,999 INFO /usr/local/bin/bench --verbose --site all backup
+2024-08-06 09:04:02,829 INFO /usr/local/bin/bench worker --queue long,default,short
+2024-08-06 09:04:02,829 INFO /usr/local/bin/bench schedule
+2024-08-06 09:04:02,829 INFO /usr/local/bin/bench worker --queue short,default
+2024-08-06 12:00:01,969 INFO /usr/local/bin/bench --verbose --site all backup
+2024-08-06 18:00:01,189 INFO /usr/local/bin/bench --verbose --site all backup
+2024-08-07 09:02:48,998 INFO /usr/local/bin/bench worker --queue long,default,short
+2024-08-07 09:02:48,998 INFO /usr/local/bin/bench schedule
+2024-08-07 09:02:48,998 INFO /usr/local/bin/bench worker --queue short,default
+2024-08-07 12:00:01,750 INFO /usr/local/bin/bench --verbose --site all backup
+2024-08-07 18:00:02,033 INFO /usr/local/bin/bench --verbose --site all backup
+2024-08-07 22:17:17,466 INFO /usr/local/bin/bench worker --queue long,default,short
+2024-08-07 22:17:17,466 INFO /usr/local/bin/bench worker --queue short,default
+2024-08-07 22:17:17,467 INFO /usr/local/bin/bench schedule
+2024-08-08 12:00:01,665 INFO /usr/local/bin/bench --verbose --site all backup
+2024-08-08 18:00:01,738 INFO /usr/local/bin/bench --verbose --site all backup
+2024-08-09 06:31:55,518 INFO /usr/local/bin/bench schedule
+2024-08-09 06:31:55,518 INFO /usr/local/bin/bench worker --queue long,default,short
+2024-08-09 06:31:55,518 INFO /usr/local/bin/bench worker --queue short,default
+2024-08-09 12:00:01,846 INFO /usr/local/bin/bench --verbose --site all backup
+2024-08-11 20:10:50,249 INFO /usr/local/bin/bench worker --queue long,default,short
+2024-08-11 20:10:50,250 INFO /usr/local/bin/bench schedule
+2024-08-11 20:10:50,250 INFO /usr/local/bin/bench worker --queue short,default
+2024-08-12 12:00:02,467 INFO /usr/local/bin/bench --verbose --site all backup
+2024-08-12 18:00:02,128 INFO /usr/local/bin/bench --verbose --site all backup
+2024-08-13 12:00:01,995 INFO /usr/local/bin/bench --verbose --site all backup
+2024-08-13 17:48:33,156 INFO /usr/local/bin/bench set-config -g server_script_enabled 1
+2024-08-13 17:49:18,159 INFO /usr/local/bin/bench --site hrmsdemo.com set-config server_script_enabled true
+2024-08-13 17:50:40,575 INFO /usr/local/bin/bench restart
+2024-08-13 17:50:46,486 DEBUG cd /home/vkraft/frappe-bench && sudo supervisorctl restart frappe-bench-web:
+2024-08-13 17:50:58,330 DEBUG cd /home/vkraft/frappe-bench && sudo supervisorctl restart frappe-bench-workers:
+2024-08-13 17:55:26,434 INFO /usr/local/bin/bench schedule
+2024-08-13 17:55:26,438 INFO /usr/local/bin/bench worker --queue long,default,short
+2024-08-13 17:55:26,447 INFO /usr/local/bin/bench worker --queue short,default
+2024-08-13 18:00:01,189 INFO /usr/local/bin/bench --verbose --site all backup
+2024-08-13 18:24:29,928 INFO /usr/local/bin/bench worker --queue short,default
+2024-08-13 18:24:29,930 INFO /usr/local/bin/bench worker --queue long,default,short
+2024-08-13 18:24:29,931 INFO /usr/local/bin/bench schedule
+2024-08-14 12:00:01,838 INFO /usr/local/bin/bench --verbose --site all backup
+2024-08-14 14:11:14,179 INFO /usr/local/bin/bench restart
+2024-08-14 14:11:18,526 DEBUG cd /home/vkraft/frappe-bench && sudo supervisorctl restart frappe-bench-web:
+2024-08-14 14:11:24,046 WARNING cd /home/vkraft/frappe-bench && sudo supervisorctl restart frappe-bench-web: executed with exit code 7
+2024-08-14 14:11:24,047 WARNING /usr/local/bin/bench restart executed with exit code 1
+2024-08-14 14:12:28,731 INFO /usr/local/bin/bench restart
+2024-08-14 14:12:33,106 DEBUG cd /home/vkraft/frappe-bench && sudo supervisorctl restart frappe-bench-web:
+2024-08-14 14:12:36,063 WARNING cd /home/vkraft/frappe-bench && sudo supervisorctl restart frappe-bench-web: executed with exit code 7
+2024-08-14 14:12:36,063 WARNING /usr/local/bin/bench restart executed with exit code 1
+2024-08-14 14:13:57,717 INFO /usr/local/bin/bench restart
+2024-08-14 14:14:01,090 DEBUG cd /home/vkraft/frappe-bench && sudo supervisorctl restart frappe-bench-web:
+2024-08-14 14:14:04,027 WARNING cd /home/vkraft/frappe-bench && sudo supervisorctl restart frappe-bench-web: executed with exit code 7
+2024-08-14 14:14:04,027 WARNING /usr/local/bin/bench restart executed with exit code 1
+2024-08-14 14:17:15,228 INFO /usr/local/bin/bench restart
+2024-08-14 14:17:19,060 DEBUG cd /home/vkraft/frappe-bench && sudo supervisorctl restart frappe-bench-web:
+2024-08-14 14:17:22,009 WARNING cd /home/vkraft/frappe-bench && sudo supervisorctl restart frappe-bench-web: executed with exit code 7
+2024-08-14 14:17:22,010 WARNING /usr/local/bin/bench restart executed with exit code 1
+2024-08-14 14:22:56,051 INFO /usr/local/bin/bench worker --queue long,default,short
+2024-08-14 14:22:56,052 INFO /usr/local/bin/bench worker --queue short,default
+2024-08-14 14:22:56,053 INFO /usr/local/bin/bench schedule
+2024-08-14 18:00:01,492 INFO /usr/local/bin/bench --verbose --site all backup
+2024-08-16 12:00:01,853 INFO /usr/local/bin/bench --verbose --site all backup
+2024-08-19 12:00:01,862 INFO /usr/local/bin/bench --verbose --site all backup
+2024-08-19 14:13:04,406 INFO /usr/local/bin/bench schedule
+2024-08-19 14:13:04,406 INFO /usr/local/bin/bench worker --queue long,default,short
+2024-08-19 14:13:04,407 INFO /usr/local/bin/bench worker --queue short,default
+2024-08-19 18:00:02,032 INFO /usr/local/bin/bench --verbose --site all backup
+2024-08-20 12:00:02,074 INFO /usr/local/bin/bench --verbose --site all backup
+2024-08-20 12:05:37,127 INFO /usr/local/bin/bench worker --queue short,default
+2024-08-20 12:05:37,141 INFO /usr/local/bin/bench worker --queue long,default,short
+2024-08-20 12:05:37,151 INFO /usr/local/bin/bench schedule
+2024-08-20 12:21:52,529 INFO /usr/local/bin/bench worker --queue short,default
+2024-08-20 12:21:52,530 INFO /usr/local/bin/bench schedule
+2024-08-20 12:21:52,533 INFO /usr/local/bin/bench worker --queue long,default,short
+2024-08-20 18:00:01,443 INFO /usr/local/bin/bench --verbose --site all backup
+2024-08-21 12:00:01,280 INFO /usr/local/bin/bench --verbose --site all backup
+2024-08-21 12:23:16,576 INFO /usr/local/bin/bench worker --queue short,default
+2024-08-21 12:23:16,576 INFO /usr/local/bin/bench schedule
+2024-08-21 12:23:16,576 INFO /usr/local/bin/bench worker --queue long,default,short
+2024-08-21 12:24:21,684 INFO /usr/local/bin/bench schedule
+2024-08-21 12:24:21,684 INFO /usr/local/bin/bench worker --queue short,default
+2024-08-21 12:24:21,684 INFO /usr/local/bin/bench worker --queue long,default,short
+2024-08-21 18:00:01,663 INFO /usr/local/bin/bench --verbose --site all backup
+2024-08-21 19:14:01,533 INFO /usr/local/bin/bench schedule
+2024-08-21 19:14:01,533 INFO /usr/local/bin/bench worker --queue long,default,short
+2024-08-21 19:14:01,533 INFO /usr/local/bin/bench worker --queue short,default
+2024-08-22 12:00:01,266 INFO /usr/local/bin/bench --verbose --site all backup
+2024-08-22 18:00:02,092 INFO /usr/local/bin/bench --verbose --site all backup
+2024-08-23 11:52:27,783 INFO /usr/local/bin/bench worker --queue short,default
+2024-08-23 11:52:27,783 INFO /usr/local/bin/bench schedule
+2024-08-23 11:52:27,783 INFO /usr/local/bin/bench worker --queue long,default,short
+2024-08-23 12:00:01,704 INFO /usr/local/bin/bench --verbose --site all backup
+2024-08-23 12:45:19,678 INFO /usr/local/bin/bench schedule
+2024-08-23 12:45:19,678 INFO /usr/local/bin/bench worker --queue short,default
+2024-08-23 12:45:19,678 INFO /usr/local/bin/bench worker --queue long,default,short
+2024-08-23 18:01:15,071 INFO /usr/local/bin/bench --verbose --site all backup
+2024-08-26 06:39:27,136 INFO /usr/local/bin/bench worker --queue long,default,short
+2024-08-26 06:39:27,229 INFO /usr/local/bin/bench schedule
+2024-08-26 06:39:27,440 INFO /usr/local/bin/bench worker --queue short,default
+2024-08-26 12:00:01,583 INFO /usr/local/bin/bench --verbose --site all backup
+2024-08-27 12:00:02,061 INFO /usr/local/bin/bench --verbose --site all backup
+2024-08-27 18:00:01,599 INFO /usr/local/bin/bench --verbose --site all backup
+2024-08-28 12:00:01,285 INFO /usr/local/bin/bench --verbose --site all backup
+2024-08-28 18:00:01,723 INFO /usr/local/bin/bench --verbose --site all backup
+2024-08-29 08:49:05,717 INFO /usr/local/bin/bench worker --queue long,default,short
+2024-08-29 08:49:05,717 INFO /usr/local/bin/bench worker --queue short,default
+2024-08-29 08:49:05,717 INFO /usr/local/bin/bench schedule
+2024-08-29 09:33:29,639 INFO /usr/local/bin/bench schedule
+2024-08-29 09:33:29,649 INFO /usr/local/bin/bench worker --queue long,default,short
+2024-08-29 09:33:29,653 INFO /usr/local/bin/bench worker --queue short,default
+2024-08-29 09:58:53,226 INFO /usr/local/bin/bench worker --queue long,default,short
+2024-08-29 09:58:53,226 INFO /usr/local/bin/bench worker --queue short,default
+2024-08-29 09:58:53,226 INFO /usr/local/bin/bench schedule
+2024-08-29 12:00:01,448 INFO /usr/local/bin/bench --verbose --site all backup
+2024-08-29 18:00:01,918 INFO /usr/local/bin/bench --verbose --site all backup
+2024-08-30 12:00:01,895 INFO /usr/local/bin/bench --verbose --site all backup
+2024-08-30 18:00:02,122 INFO /usr/local/bin/bench --verbose --site all backup
+2024-09-02 09:02:18,449 INFO /usr/local/bin/bench schedule
+2024-09-02 09:02:18,449 INFO /usr/local/bin/bench worker --queue short,default
+2024-09-02 09:02:18,449 INFO /usr/local/bin/bench worker --queue long,default,short
+2024-09-02 09:37:19,729 INFO /usr/local/bin/bench schedule
+2024-09-02 09:37:19,729 INFO /usr/local/bin/bench worker --queue short,default
+2024-09-02 09:37:19,729 INFO /usr/local/bin/bench worker --queue long,default,short
+2024-09-02 09:40:07,541 INFO /usr/local/bin/bench schedule
+2024-09-02 09:40:07,541 INFO /usr/local/bin/bench worker --queue long,default,short
+2024-09-02 09:40:07,541 INFO /usr/local/bin/bench worker --queue short,default
+2024-09-02 12:00:01,157 INFO /usr/local/bin/bench --verbose --site all backup
+2024-09-02 12:44:53,066 INFO /usr/local/bin/bench worker --queue long,default,short
+2024-09-02 12:44:53,066 INFO /usr/local/bin/bench schedule
+2024-09-02 12:44:53,066 INFO /usr/local/bin/bench worker --queue short,default
+2024-09-02 12:53:29,797 INFO /usr/local/bin/bench worker --queue long,default,short
+2024-09-02 12:53:29,797 INFO /usr/local/bin/bench schedule
+2024-09-02 12:53:29,797 INFO /usr/local/bin/bench worker --queue short,default
+2024-09-02 14:57:07,963 INFO /usr/local/bin/bench worker --queue long,default,short
+2024-09-02 14:57:07,963 INFO /usr/local/bin/bench schedule
+2024-09-02 14:57:07,972 INFO /usr/local/bin/bench worker --queue short,default
+2024-09-02 18:00:02,010 INFO /usr/local/bin/bench --verbose --site all backup
+2024-09-03 12:00:02,146 INFO /usr/local/bin/bench --verbose --site all backup
+2024-09-03 18:00:02,093 INFO /usr/local/bin/bench --verbose --site all backup
+2024-09-04 12:00:01,870 INFO /usr/local/bin/bench --verbose --site all backup
+2024-09-05 11:21:57,713 INFO /usr/local/bin/bench schedule
+2024-09-05 11:21:57,713 INFO /usr/local/bin/bench worker --queue long,default,short
+2024-09-05 11:21:57,713 INFO /usr/local/bin/bench worker --queue short,default
+2024-09-05 12:00:01,096 INFO /usr/local/bin/bench --verbose --site all backup
+2024-09-05 15:58:06,033 INFO /usr/local/bin/bench worker --queue long,default,short
+2024-09-05 15:58:06,033 INFO /usr/local/bin/bench worker --queue short,default
+2024-09-05 15:58:06,034 INFO /usr/local/bin/bench schedule
+2024-09-05 18:00:02,002 INFO /usr/local/bin/bench --verbose --site all backup
+2024-09-07 18:00:02,049 INFO /usr/local/bin/bench --verbose --site all backup
+2024-09-08 12:00:01,319 INFO /usr/local/bin/bench --verbose --site all backup
+2024-09-08 22:23:18,138 INFO /usr/local/bin/bench worker --queue long,default,short
+2024-09-08 22:23:18,138 INFO /usr/local/bin/bench schedule
+2024-09-08 22:23:18,138 INFO /usr/local/bin/bench worker --queue short,default
+2024-09-09 12:00:01,270 INFO /usr/local/bin/bench --verbose --site all backup
+2024-09-10 12:00:02,180 INFO /usr/local/bin/bench --verbose --site all backup
+2024-09-10 18:00:01,659 INFO /usr/local/bin/bench --verbose --site all backup
+2024-09-11 12:00:02,157 INFO /usr/local/bin/bench --verbose --site all backup
+2024-09-11 12:22:15,111 INFO /usr/local/bin/bench schedule
+2024-09-11 12:22:15,111 INFO /usr/local/bin/bench worker --queue short,default
+2024-09-11 12:22:15,111 INFO /usr/local/bin/bench worker --queue long,default,short
+2024-09-11 18:00:02,185 INFO /usr/local/bin/bench --verbose --site all backup
+2024-09-12 12:00:01,488 INFO /usr/local/bin/bench --verbose --site all backup
+2024-09-12 18:00:02,051 INFO /usr/local/bin/bench --verbose --site all backup
+2024-09-13 12:00:01,638 INFO /usr/local/bin/bench --verbose --site all backup
+2024-09-18 07:53:54,879 INFO /usr/local/bin/bench worker --queue long,default,short
+2024-09-18 07:53:54,880 INFO /usr/local/bin/bench schedule
+2024-09-18 07:53:54,880 INFO /usr/local/bin/bench worker --queue short,default
+2024-09-20 11:01:43,124 INFO /usr/local/bin/bench worker --queue long,default,short
+2024-09-20 11:01:43,124 INFO /usr/local/bin/bench worker --queue short,default
+2024-09-20 11:01:43,125 INFO /usr/local/bin/bench schedule
+2024-09-20 12:00:01,808 INFO /usr/local/bin/bench --verbose --site all backup
+2024-09-23 09:23:51,837 INFO /usr/local/bin/bench worker --queue long,default,short
+2024-09-23 09:23:51,880 INFO /usr/local/bin/bench worker --queue short,default
+2024-09-23 09:23:52,601 INFO /usr/local/bin/bench schedule
+2024-09-23 12:00:02,149 INFO /usr/local/bin/bench --verbose --site all backup
+2024-09-23 18:00:01,947 INFO /usr/local/bin/bench --verbose --site all backup
+2024-09-24 12:00:01,824 INFO /usr/local/bin/bench --verbose --site all backup
+2024-09-24 18:00:01,796 INFO /usr/local/bin/bench --verbose --site all backup
+2024-09-25 12:00:02,115 INFO /usr/local/bin/bench --verbose --site all backup
+2024-09-25 18:00:01,534 INFO /usr/local/bin/bench --verbose --site all backup
+2024-09-26 12:00:01,354 INFO /usr/local/bin/bench --verbose --site all backup
+2024-09-26 18:00:01,654 INFO /usr/local/bin/bench --verbose --site all backup
+2024-09-27 12:00:02,823 INFO /usr/local/bin/bench --verbose --site all backup
+2024-09-30 09:10:56,271 INFO /usr/local/bin/bench schedule
+2024-09-30 09:10:56,271 INFO /usr/local/bin/bench worker --queue short,default
+2024-09-30 09:10:56,272 INFO /usr/local/bin/bench worker --queue long,default,short
+2024-09-30 12:00:01,853 INFO /usr/local/bin/bench --verbose --site all backup
+2024-10-01 09:19:44,514 INFO /usr/local/bin/bench schedule
+2024-10-01 09:19:44,514 INFO /usr/local/bin/bench worker --queue short,default
+2024-10-01 09:19:44,514 INFO /usr/local/bin/bench worker --queue long,default,short
+2024-10-01 12:00:01,835 INFO /usr/local/bin/bench --verbose --site all backup
+2024-10-01 18:00:02,190 INFO /usr/local/bin/bench --verbose --site all backup
+2024-10-03 12:00:02,198 INFO /usr/local/bin/bench --verbose --site all backup
+2024-10-03 18:00:02,181 INFO /usr/local/bin/bench --verbose --site all backup
+2024-10-04 10:35:30,677 INFO /usr/local/bin/bench backup
+2024-10-04 10:41:21,018 INFO /usr/local/bin/bench backup
+2024-10-04 10:42:52,489 INFO /usr/local/bin/bench --site hrmsdemo.com backup
+2024-10-04 11:03:32,765 INFO /usr/local/bin/bench --site hrmsdemo.com backup
+2024-10-04 11:41:32,923 INFO /usr/local/bin/bench worker --queue short,default
+2024-10-04 11:41:32,923 INFO /usr/local/bin/bench worker --queue long,default,short
+2024-10-04 11:41:32,923 INFO /usr/local/bin/bench schedule
+2024-10-04 12:00:02,543 INFO /usr/local/bin/bench --verbose --site all backup
+2024-10-04 18:00:01,593 INFO /usr/local/bin/bench --verbose --site all backup
+2024-10-07 10:40:01,639 INFO /usr/local/bin/bench new-app my_erp_app
+2024-10-07 10:40:01,665 LOG creating new app my_erp_app
+2024-10-07 10:41:29,476 LOG Installing my_erp_app
+2024-10-07 10:41:29,478 DEBUG cd /home/vkraft/frappe-bench && /home/vkraft/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/vkraft/frappe-bench/apps/my_erp_app 
+2024-10-07 10:42:04,312 DEBUG bench build --app my_erp_app
+2024-10-07 10:42:04,521 INFO /usr/local/bin/bench build --app my_erp_app
+2024-10-07 10:42:06,854 WARNING bench build --app my_erp_app executed with exit code 1
+2024-10-07 10:42:06,855 WARNING /usr/local/bin/bench new-app my_erp_app executed with exit code 1
+2024-10-07 11:50:53,341 INFO /usr/local/bin/bench --site hrmsdemo.com backup --with-files
+2024-10-07 11:55:01,767 INFO /usr/local/bin/bench --site hrmsdemo.com backup
+2024-10-07 12:00:01,322 INFO /usr/local/bin/bench --verbose --site all backup
+2024-10-07 14:42:57,943 INFO /usr/local/bin/bench new-site hrmsdemo1.com
+2024-10-07 14:44:28,240 INFO /usr/local/bin/bench --site hrmsdemo1.com install-app erpnext
+2024-10-07 14:48:48,684 INFO /usr/local/bin/bench --site hrmsdemo1.com restore 20241007_122026-hrmsdemo_comd-atabase-backup.sql.gz
+2024-10-07 15:06:18,014 INFO /usr/local/bin/bench schedule
+2024-10-07 15:06:18,023 INFO /usr/local/bin/bench worker --queue long,default,short
+2024-10-07 15:06:18,018 INFO /usr/local/bin/bench worker --queue short,default
+2024-10-07 15:13:57,505 INFO /usr/local/bin/bench --site hrmsdem1.com --force restore 20241007_122026-hrmsdemo_com-database.sql.gz
+2024-10-07 15:27:15,985 INFO /usr/local/bin/bench new-site hrmsdemo2.com
+2024-10-07 15:30:35,444 INFO /usr/local/bin/bench --site hrmsdemo2.com install-app erpnext
+2024-10-07 15:34:41,165 INFO /usr/local/bin/bench start
+2024-10-07 15:35:12,568 INFO /usr/local/bin/bench restart
+2024-10-07 15:35:16,080 DEBUG cd /home/vkraft/frappe-bench && sudo supervisorctl restart frappe-bench-web:
+2024-10-07 15:35:18,931 WARNING cd /home/vkraft/frappe-bench && sudo supervisorctl restart frappe-bench-web: executed with exit code 7
+2024-10-07 15:35:18,932 WARNING /usr/local/bin/bench restart executed with exit code 1
+2024-10-07 15:36:46,215 INFO /usr/local/bin/bench --site hrmsdem2.com --force restore 20241007_122026-hrmsdemo_com-database.sql.gz
+2024-10-07 15:38:16,790 INFO /usr/local/bin/bench --site hrmsdemo2.com --force restore 20241007_122026-hrmsdemo_com-database.sql.gz
+2024-10-07 16:03:14,110 INFO /usr/local/bin/bench backup --site hrmademo.com
+2024-10-07 16:07:12,366 INFO /usr/local/bin/bench --site hrmsdemo.com backup
+2024-10-07 16:32:40,816 INFO /usr/local/bin/bench --site hrmsdemo1.com --force restore /20241007_122026-hrmsdemo_com-database.sql.gz
+2024-10-07 16:46:52,657 INFO /usr/local/bin/bench --site hrmsdem1.com --force restore /home/vkraft/frappe-bench/sites/hrmsdemo.com/private/backups/20241007_122026-hrmsdemo_com-database.sql.gz
+2024-10-07 16:47:05,996 INFO /usr/local/bin/bench --site hrmsdemo1.com --force restore /home/vkraft/frappe-bench/sites/hrmsdemo.com/private/backups/20241007_122026-hrmsdemo_com-database.sql.gz
+2024-10-07 16:56:20,032 INFO /usr/local/bin/bench --site hrmsdemo1.com set-config enable_scheduler true
+2024-10-07 16:56:49,451 INFO /usr/local/bin/bench --site hrmsdemo1.com migrate
+2024-10-07 16:57:53,036 INFO /usr/local/bin/bench start
+2024-10-07 17:06:56,896 INFO /usr/local/bin/bench ps
+2024-10-07 17:08:46,231 INFO /usr/local/bin/bench start
+2024-10-07 17:12:31,275 INFO /usr/local/bin/bench --site hrmsdemo1.com set-config enable_scheduler true
+2024-10-07 17:12:57,879 INFO /usr/local/bin/bench clear-cache
+2024-10-07 17:13:38,291 INFO /usr/local/bin/bench --site hrmsdemo1.com clear-cache
+2024-10-07 17:14:06,127 INFO /usr/local/bin/bench migrate
+2024-10-07 17:16:31,495 INFO /usr/local/bin/bench --site hrmsdemo1.com migrate
+2024-10-07 17:17:07,498 INFO /usr/local/bin/bench sites
+2024-10-07 17:17:41,381 INFO /usr/local/bin/bench start
+2024-10-07 17:21:48,676 INFO /usr/local/bin/bench logs
+2024-10-07 18:00:02,026 INFO /usr/local/bin/bench --verbose --site all backup
+2024-10-08 09:13:38,909 INFO /usr/local/bin/bench worker --queue long,default,short
+2024-10-08 09:13:38,909 INFO /usr/local/bin/bench worker --queue short,default
+2024-10-08 09:13:38,909 INFO /usr/local/bin/bench schedule
+2024-10-08 12:00:01,335 INFO /usr/local/bin/bench --verbose --site all backup
+2024-10-08 18:00:01,523 INFO /usr/local/bin/bench --verbose --site all backup
+2024-10-09 12:00:02,420 INFO /usr/local/bin/bench --verbose --site all backup
+2024-10-09 18:00:03,556 INFO /usr/local/bin/bench --verbose --site all backup
+2024-10-10 12:00:01,736 INFO /usr/local/bin/bench --verbose --site all backup
+2024-10-10 18:00:02,127 INFO /usr/local/bin/bench --verbose --site all backup
+2024-10-11 10:24:16,733 INFO /usr/local/bin/bench schedule
+2024-10-11 10:24:16,733 INFO /usr/local/bin/bench worker --queue long,default,short
+2024-10-11 10:24:16,733 INFO /usr/local/bin/bench worker --queue short,default
+2024-10-11 12:00:01,808 INFO /usr/local/bin/bench --verbose --site all backup
+2024-10-11 18:00:01,818 INFO /usr/local/bin/bench --verbose --site all backup
+2024-10-13 18:00:01,437 INFO /usr/local/bin/bench --verbose --site all backup
+2024-10-14 12:00:01,202 INFO /usr/local/bin/bench --verbose --site all backup
+2024-10-14 18:00:01,620 INFO /usr/local/bin/bench --verbose --site all backup
+2024-10-15 18:00:01,896 INFO /usr/local/bin/bench --verbose --site all backup
+2024-10-16 08:55:46,694 INFO /usr/local/bin/bench backup
+2024-10-16 09:03:02,986 INFO /usr/local/bin/bench --site hrmsdemo.com backup
+2024-10-16 12:00:01,132 INFO /usr/local/bin/bench --verbose --site all backup
+2024-10-17 09:48:40,612 INFO /usr/local/bin/bench backup --with-files
+2024-10-17 09:51:39,035 INFO /usr/local/bin/bench --site hrmsdemo.com backup --with-files

@@ -1,0 +1,804 @@
+set -o pipefail; /usr/bin/mariadb-dump --user=_41fabb16676dfcab --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _41fabb16676dfcab | /usr/bin/gzip >> ./hrmsdemo.com/private/backups/20240730_180001-hrmsdemo_com-database.sql.gz
+
+Backup Summary for hrmsdemo.com at 2024-07-30 18:00:03.402796
+Config  : ./hrmsdemo.com/private/backups/20240730_180001-hrmsdemo_com-site_config_backup.json 182.0B
+Database: ./hrmsdemo.com/private/backups/20240730_180001-hrmsdemo_com-database.sql.gz         922.7KiB
+Backup for Site hrmsdemo.com has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_41fabb16676dfcab --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _41fabb16676dfcab | /usr/bin/gzip >> ./hrmsdemo.com/private/backups/20240731_120001-hrmsdemo_com-database.sql.gz
+
+Backup Summary for hrmsdemo.com at 2024-07-31 12:00:03.618719
+Config  : ./hrmsdemo.com/private/backups/20240731_120001-hrmsdemo_com-site_config_backup.json 182.0B
+Database: ./hrmsdemo.com/private/backups/20240731_120001-hrmsdemo_com-database.sql.gz         951.1KiB
+Backup for Site hrmsdemo.com has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_41fabb16676dfcab --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _41fabb16676dfcab | /usr/bin/gzip >> ./hrmsdemo.com/private/backups/20240801_000132-hrmsdemo_com-database.sql.gz
+
+Backup Summary for hrmsdemo.com at 2024-08-01 00:01:33.950930
+Config  : ./hrmsdemo.com/private/backups/20240801_000132-hrmsdemo_com-site_config_backup.json 182.0B
+Database: ./hrmsdemo.com/private/backups/20240801_000132-hrmsdemo_com-database.sql.gz         999.9KiB
+Backup for Site hrmsdemo.com has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_41fabb16676dfcab --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _41fabb16676dfcab | /usr/bin/gzip >> ./hrmsdemo.com/private/backups/20240801_180002-hrmsdemo_com-database.sql.gz
+
+Backup Summary for hrmsdemo.com at 2024-08-01 18:00:04.283403
+Config  : ./hrmsdemo.com/private/backups/20240801_180002-hrmsdemo_com-site_config_backup.json 182.0B
+Database: ./hrmsdemo.com/private/backups/20240801_180002-hrmsdemo_com-database.sql.gz         1.0MiB
+Backup for Site hrmsdemo.com has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_41fabb16676dfcab --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _41fabb16676dfcab | /usr/bin/gzip >> ./hrmsdemo.com/private/backups/20240805_120002-hrmsdemo_com-database.sql.gz
+
+Backup Summary for hrmsdemo.com at 2024-08-05 12:00:08.104873
+Config  : ./hrmsdemo.com/private/backups/20240805_120002-hrmsdemo_com-site_config_backup.json 182.0B
+Database: ./hrmsdemo.com/private/backups/20240805_120002-hrmsdemo_com-database.sql.gz         1.0MiB
+Backup for Site hrmsdemo.com has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_41fabb16676dfcab --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _41fabb16676dfcab | /usr/bin/gzip >> ./hrmsdemo.com/private/backups/20240805_180002-hrmsdemo_com-database.sql.gz
+
+Backup Summary for hrmsdemo.com at 2024-08-05 18:00:03.989358
+Config  : ./hrmsdemo.com/private/backups/20240805_180002-hrmsdemo_com-site_config_backup.json 182.0B
+Database: ./hrmsdemo.com/private/backups/20240805_180002-hrmsdemo_com-database.sql.gz         1.0MiB
+Backup for Site hrmsdemo.com has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_41fabb16676dfcab --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _41fabb16676dfcab | /usr/bin/gzip >> ./hrmsdemo.com/private/backups/20240806_120002-hrmsdemo_com-database.sql.gz
+
+Backup Summary for hrmsdemo.com at 2024-08-06 12:00:03.896136
+Config  : ./hrmsdemo.com/private/backups/20240806_120002-hrmsdemo_com-site_config_backup.json 182.0B
+Database: ./hrmsdemo.com/private/backups/20240806_120002-hrmsdemo_com-database.sql.gz         1.0MiB
+Backup for Site hrmsdemo.com has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_41fabb16676dfcab --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _41fabb16676dfcab | /usr/bin/gzip >> ./hrmsdemo.com/private/backups/20240806_180001-hrmsdemo_com-database.sql.gz
+
+Backup Summary for hrmsdemo.com at 2024-08-06 18:00:03.265542
+Config  : ./hrmsdemo.com/private/backups/20240806_180001-hrmsdemo_com-site_config_backup.json 182.0B
+Database: ./hrmsdemo.com/private/backups/20240806_180001-hrmsdemo_com-database.sql.gz         1.0MiB
+Backup for Site hrmsdemo.com has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_41fabb16676dfcab --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _41fabb16676dfcab | /usr/bin/gzip >> ./hrmsdemo.com/private/backups/20240807_120002-hrmsdemo_com-database.sql.gz
+
+Backup Summary for hrmsdemo.com at 2024-08-07 12:00:03.657465
+Config  : ./hrmsdemo.com/private/backups/20240807_120002-hrmsdemo_com-site_config_backup.json 182.0B
+Database: ./hrmsdemo.com/private/backups/20240807_120002-hrmsdemo_com-database.sql.gz         1.0MiB
+Backup for Site hrmsdemo.com has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_41fabb16676dfcab --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _41fabb16676dfcab | /usr/bin/gzip >> ./hrmsdemo.com/private/backups/20240807_180002-hrmsdemo_com-database.sql.gz
+
+Backup Summary for hrmsdemo.com at 2024-08-07 18:00:04.689761
+Config  : ./hrmsdemo.com/private/backups/20240807_180002-hrmsdemo_com-site_config_backup.json 249.0B
+Database: ./hrmsdemo.com/private/backups/20240807_180002-hrmsdemo_com-database.sql.gz         4.8MiB
+Backup for Site hrmsdemo.com has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_41fabb16676dfcab --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _41fabb16676dfcab | /usr/bin/gzip >> ./hrmsdemo.com/private/backups/20240808_120002-hrmsdemo_com-database.sql.gz
+
+Backup Summary for hrmsdemo.com at 2024-08-08 12:00:09.832418
+Config  : ./hrmsdemo.com/private/backups/20240808_120002-hrmsdemo_com-site_config_backup.json 249.0B
+Database: ./hrmsdemo.com/private/backups/20240808_120002-hrmsdemo_com-database.sql.gz         5.0MiB
+Backup for Site hrmsdemo.com has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_41fabb16676dfcab --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _41fabb16676dfcab | /usr/bin/gzip >> ./hrmsdemo.com/private/backups/20240808_180002-hrmsdemo_com-database.sql.gz
+
+Backup Summary for hrmsdemo.com at 2024-08-08 18:00:08.369053
+Config  : ./hrmsdemo.com/private/backups/20240808_180002-hrmsdemo_com-site_config_backup.json 249.0B
+Database: ./hrmsdemo.com/private/backups/20240808_180002-hrmsdemo_com-database.sql.gz         5.2MiB
+Backup for Site hrmsdemo.com has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_41fabb16676dfcab --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _41fabb16676dfcab | /usr/bin/gzip >> ./hrmsdemo.com/private/backups/20240809_120002-hrmsdemo_com-database.sql.gz
+
+Backup Summary for hrmsdemo.com at 2024-08-09 12:00:05.859306
+Config  : ./hrmsdemo.com/private/backups/20240809_120002-hrmsdemo_com-site_config_backup.json 249.0B
+Database: ./hrmsdemo.com/private/backups/20240809_120002-hrmsdemo_com-database.sql.gz         5.5MiB
+Backup for Site hrmsdemo.com has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_41fabb16676dfcab --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _41fabb16676dfcab | /usr/bin/gzip >> ./hrmsdemo.com/private/backups/20240812_120003-hrmsdemo_com-database.sql.gz
+
+Backup Summary for hrmsdemo.com at 2024-08-12 12:00:23.128665
+Config  : ./hrmsdemo.com/private/backups/20240812_120003-hrmsdemo_com-site_config_backup.json 249.0B
+Database: ./hrmsdemo.com/private/backups/20240812_120003-hrmsdemo_com-database.sql.gz         6.6MiB
+Backup for Site hrmsdemo.com has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_41fabb16676dfcab --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _41fabb16676dfcab | /usr/bin/gzip >> ./hrmsdemo.com/private/backups/20240812_180002-hrmsdemo_com-database.sql.gz
+
+Backup Summary for hrmsdemo.com at 2024-08-12 18:00:09.364456
+Config  : ./hrmsdemo.com/private/backups/20240812_180002-hrmsdemo_com-site_config_backup.json 249.0B
+Database: ./hrmsdemo.com/private/backups/20240812_180002-hrmsdemo_com-database.sql.gz         6.7MiB
+Backup for Site hrmsdemo.com has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_41fabb16676dfcab --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _41fabb16676dfcab | /usr/bin/gzip >> ./hrmsdemo.com/private/backups/20240813_120002-hrmsdemo_com-database.sql.gz
+
+Backup Summary for hrmsdemo.com at 2024-08-13 12:00:08.423477
+Config  : ./hrmsdemo.com/private/backups/20240813_120002-hrmsdemo_com-site_config_backup.json 249.0B
+Database: ./hrmsdemo.com/private/backups/20240813_120002-hrmsdemo_com-database.sql.gz         7.1MiB
+Backup for Site hrmsdemo.com has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_41fabb16676dfcab --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _41fabb16676dfcab | /usr/bin/gzip >> ./hrmsdemo.com/private/backups/20240813_180001-hrmsdemo_com-database.sql.gz
+
+Backup Summary for hrmsdemo.com at 2024-08-13 18:00:06.027075
+Config  : ./hrmsdemo.com/private/backups/20240813_180001-hrmsdemo_com-site_config_backup.json 281.0B
+Database: ./hrmsdemo.com/private/backups/20240813_180001-hrmsdemo_com-database.sql.gz         7.2MiB
+Backup for Site hrmsdemo.com has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_41fabb16676dfcab --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _41fabb16676dfcab | /usr/bin/gzip >> ./hrmsdemo.com/private/backups/20240814_120002-hrmsdemo_com-database.sql.gz
+
+Backup Summary for hrmsdemo.com at 2024-08-14 12:00:04.959251
+Config  : ./hrmsdemo.com/private/backups/20240814_120002-hrmsdemo_com-site_config_backup.json 281.0B
+Database: ./hrmsdemo.com/private/backups/20240814_120002-hrmsdemo_com-database.sql.gz         7.5MiB
+Backup for Site hrmsdemo.com has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_41fabb16676dfcab --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _41fabb16676dfcab | /usr/bin/gzip >> ./hrmsdemo.com/private/backups/20240814_180002-hrmsdemo_com-database.sql.gz
+
+Backup Summary for hrmsdemo.com at 2024-08-14 18:00:08.619527
+Config  : ./hrmsdemo.com/private/backups/20240814_180002-hrmsdemo_com-site_config_backup.json 281.0B
+Database: ./hrmsdemo.com/private/backups/20240814_180002-hrmsdemo_com-database.sql.gz         7.7MiB
+Backup for Site hrmsdemo.com has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_41fabb16676dfcab --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _41fabb16676dfcab | /usr/bin/gzip >> ./hrmsdemo.com/private/backups/20240816_120002-hrmsdemo_com-database.sql.gz
+
+Backup Summary for hrmsdemo.com at 2024-08-16 12:00:09.101720
+Config  : ./hrmsdemo.com/private/backups/20240816_120002-hrmsdemo_com-site_config_backup.json 281.0B
+Database: ./hrmsdemo.com/private/backups/20240816_120002-hrmsdemo_com-database.sql.gz         8.4MiB
+Backup for Site hrmsdemo.com has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_41fabb16676dfcab --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _41fabb16676dfcab | /usr/bin/gzip >> ./hrmsdemo.com/private/backups/20240819_120002-hrmsdemo_com-database.sql.gz
+
+Backup Summary for hrmsdemo.com at 2024-08-19 12:00:08.828105
+Config  : ./hrmsdemo.com/private/backups/20240819_120002-hrmsdemo_com-site_config_backup.json 281.0B
+Database: ./hrmsdemo.com/private/backups/20240819_120002-hrmsdemo_com-database.sql.gz         9.2MiB
+Backup for Site hrmsdemo.com has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_41fabb16676dfcab --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _41fabb16676dfcab | /usr/bin/gzip >> ./hrmsdemo.com/private/backups/20240819_180002-hrmsdemo_com-database.sql.gz
+
+Backup Summary for hrmsdemo.com at 2024-08-19 18:00:07.326975
+Config  : ./hrmsdemo.com/private/backups/20240819_180002-hrmsdemo_com-site_config_backup.json 281.0B
+Database: ./hrmsdemo.com/private/backups/20240819_180002-hrmsdemo_com-database.sql.gz         9.2MiB
+Backup for Site hrmsdemo.com has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_41fabb16676dfcab --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _41fabb16676dfcab | /usr/bin/gzip >> ./hrmsdemo.com/private/backups/20240820_120002-hrmsdemo_com-database.sql.gz
+
+Backup Summary for hrmsdemo.com at 2024-08-20 12:00:10.379724
+Config  : ./hrmsdemo.com/private/backups/20240820_120002-hrmsdemo_com-site_config_backup.json 281.0B
+Database: ./hrmsdemo.com/private/backups/20240820_120002-hrmsdemo_com-database.sql.gz         9.6MiB
+Backup for Site hrmsdemo.com has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_41fabb16676dfcab --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _41fabb16676dfcab | /usr/bin/gzip >> ./hrmsdemo.com/private/backups/20240820_180001-hrmsdemo_com-database.sql.gz
+
+Backup Summary for hrmsdemo.com at 2024-08-20 18:00:03.971914
+Config  : ./hrmsdemo.com/private/backups/20240820_180001-hrmsdemo_com-site_config_backup.json 281.0B
+Database: ./hrmsdemo.com/private/backups/20240820_180001-hrmsdemo_com-database.sql.gz         9.7MiB
+Backup for Site hrmsdemo.com has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_41fabb16676dfcab --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _41fabb16676dfcab | /usr/bin/gzip >> ./hrmsdemo.com/private/backups/20240821_120001-hrmsdemo_com-database.sql.gz
+
+Backup Summary for hrmsdemo.com at 2024-08-21 12:00:04.314761
+Config  : ./hrmsdemo.com/private/backups/20240821_120001-hrmsdemo_com-site_config_backup.json 281.0B
+Database: ./hrmsdemo.com/private/backups/20240821_120001-hrmsdemo_com-database.sql.gz         9.9MiB
+Backup for Site hrmsdemo.com has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_41fabb16676dfcab --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _41fabb16676dfcab | /usr/bin/gzip >> ./hrmsdemo.com/private/backups/20240821_180002-hrmsdemo_com-database.sql.gz
+
+Backup Summary for hrmsdemo.com at 2024-08-21 18:00:10.480466
+Config  : ./hrmsdemo.com/private/backups/20240821_180002-hrmsdemo_com-site_config_backup.json 281.0B
+Database: ./hrmsdemo.com/private/backups/20240821_180002-hrmsdemo_com-database.sql.gz         10.1MiB
+Backup for Site hrmsdemo.com has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_41fabb16676dfcab --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _41fabb16676dfcab | /usr/bin/gzip >> ./hrmsdemo.com/private/backups/20240822_120001-hrmsdemo_com-database.sql.gz
+
+Backup Summary for hrmsdemo.com at 2024-08-22 12:00:04.087033
+Config  : ./hrmsdemo.com/private/backups/20240822_120001-hrmsdemo_com-site_config_backup.json 281.0B
+Database: ./hrmsdemo.com/private/backups/20240822_120001-hrmsdemo_com-database.sql.gz         10.4MiB
+Backup for Site hrmsdemo.com has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_41fabb16676dfcab --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _41fabb16676dfcab | /usr/bin/gzip >> ./hrmsdemo.com/private/backups/20240822_180002-hrmsdemo_com-database.sql.gz
+
+Backup Summary for hrmsdemo.com at 2024-08-22 18:00:05.609397
+Config  : ./hrmsdemo.com/private/backups/20240822_180002-hrmsdemo_com-site_config_backup.json 281.0B
+Database: ./hrmsdemo.com/private/backups/20240822_180002-hrmsdemo_com-database.sql.gz         10.5MiB
+Backup for Site hrmsdemo.com has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_41fabb16676dfcab --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _41fabb16676dfcab | /usr/bin/gzip >> ./hrmsdemo.com/private/backups/20240823_120002-hrmsdemo_com-database.sql.gz
+
+Backup Summary for hrmsdemo.com at 2024-08-23 12:00:08.870071
+Config  : ./hrmsdemo.com/private/backups/20240823_120002-hrmsdemo_com-site_config_backup.json 281.0B
+Database: ./hrmsdemo.com/private/backups/20240823_120002-hrmsdemo_com-database.sql.gz         10.7MiB
+Backup for Site hrmsdemo.com has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_41fabb16676dfcab --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _41fabb16676dfcab | /usr/bin/gzip >> ./hrmsdemo.com/private/backups/20240826_120001-hrmsdemo_com-database.sql.gz
+
+Backup Summary for hrmsdemo.com at 2024-08-26 12:00:05.390621
+Config  : ./hrmsdemo.com/private/backups/20240826_120001-hrmsdemo_com-site_config_backup.json 281.0B
+Database: ./hrmsdemo.com/private/backups/20240826_120001-hrmsdemo_com-database.sql.gz         11.5MiB
+Backup for Site hrmsdemo.com has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_41fabb16676dfcab --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _41fabb16676dfcab | /usr/bin/gzip >> ./hrmsdemo.com/private/backups/20240827_120002-hrmsdemo_com-database.sql.gz
+
+Backup Summary for hrmsdemo.com at 2024-08-27 12:00:11.433692
+Config  : ./hrmsdemo.com/private/backups/20240827_120002-hrmsdemo_com-site_config_backup.json 281.0B
+Database: ./hrmsdemo.com/private/backups/20240827_120002-hrmsdemo_com-database.sql.gz         11.6MiB
+Backup for Site hrmsdemo.com has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_41fabb16676dfcab --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _41fabb16676dfcab | /usr/bin/gzip >> ./hrmsdemo.com/private/backups/20240827_180001-hrmsdemo_com-database.sql.gz
+
+Backup Summary for hrmsdemo.com at 2024-08-27 18:00:05.397302
+Config  : ./hrmsdemo.com/private/backups/20240827_180001-hrmsdemo_com-site_config_backup.json 281.0B
+Database: ./hrmsdemo.com/private/backups/20240827_180001-hrmsdemo_com-database.sql.gz         11.6MiB
+Backup for Site hrmsdemo.com has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_41fabb16676dfcab --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _41fabb16676dfcab | /usr/bin/gzip >> ./hrmsdemo.com/private/backups/20240828_120001-hrmsdemo_com-database.sql.gz
+
+Backup Summary for hrmsdemo.com at 2024-08-28 12:00:04.783664
+Config  : ./hrmsdemo.com/private/backups/20240828_120001-hrmsdemo_com-site_config_backup.json 281.0B
+Database: ./hrmsdemo.com/private/backups/20240828_120001-hrmsdemo_com-database.sql.gz         11.6MiB
+Backup for Site hrmsdemo.com has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_41fabb16676dfcab --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _41fabb16676dfcab | /usr/bin/gzip >> ./hrmsdemo.com/private/backups/20240828_180002-hrmsdemo_com-database.sql.gz
+
+Backup Summary for hrmsdemo.com at 2024-08-28 18:00:07.940252
+Config  : ./hrmsdemo.com/private/backups/20240828_180002-hrmsdemo_com-site_config_backup.json 281.0B
+Database: ./hrmsdemo.com/private/backups/20240828_180002-hrmsdemo_com-database.sql.gz         11.6MiB
+Backup for Site hrmsdemo.com has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_41fabb16676dfcab --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _41fabb16676dfcab | /usr/bin/gzip >> ./hrmsdemo.com/private/backups/20240829_120001-hrmsdemo_com-database.sql.gz
+
+Backup Summary for hrmsdemo.com at 2024-08-29 12:00:05.274970
+Config  : ./hrmsdemo.com/private/backups/20240829_120001-hrmsdemo_com-site_config_backup.json 281.0B
+Database: ./hrmsdemo.com/private/backups/20240829_120001-hrmsdemo_com-database.sql.gz         12.1MiB
+Backup for Site hrmsdemo.com has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_41fabb16676dfcab --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _41fabb16676dfcab | /usr/bin/gzip >> ./hrmsdemo.com/private/backups/20240829_180002-hrmsdemo_com-database.sql.gz
+
+Backup Summary for hrmsdemo.com at 2024-08-29 18:00:06.475021
+Config  : ./hrmsdemo.com/private/backups/20240829_180002-hrmsdemo_com-site_config_backup.json 281.0B
+Database: ./hrmsdemo.com/private/backups/20240829_180002-hrmsdemo_com-database.sql.gz         12.3MiB
+Backup for Site hrmsdemo.com has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_41fabb16676dfcab --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _41fabb16676dfcab | /usr/bin/gzip >> ./hrmsdemo.com/private/backups/20240830_120002-hrmsdemo_com-database.sql.gz
+
+Backup Summary for hrmsdemo.com at 2024-08-30 12:00:12.457557
+Config  : ./hrmsdemo.com/private/backups/20240830_120002-hrmsdemo_com-site_config_backup.json 281.0B
+Database: ./hrmsdemo.com/private/backups/20240830_120002-hrmsdemo_com-database.sql.gz         12.6MiB
+Backup for Site hrmsdemo.com has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_41fabb16676dfcab --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _41fabb16676dfcab | /usr/bin/gzip >> ./hrmsdemo.com/private/backups/20240830_180002-hrmsdemo_com-database.sql.gz
+
+Backup Summary for hrmsdemo.com at 2024-08-30 18:00:06.305255
+Config  : ./hrmsdemo.com/private/backups/20240830_180002-hrmsdemo_com-site_config_backup.json 281.0B
+Database: ./hrmsdemo.com/private/backups/20240830_180002-hrmsdemo_com-database.sql.gz         12.7MiB
+Backup for Site hrmsdemo.com has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_41fabb16676dfcab --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _41fabb16676dfcab | /usr/bin/gzip >> ./hrmsdemo.com/private/backups/20240902_120001-hrmsdemo_com-database.sql.gz
+
+Backup Summary for hrmsdemo.com at 2024-09-02 12:00:04.645164
+Config  : ./hrmsdemo.com/private/backups/20240902_120001-hrmsdemo_com-site_config_backup.json 281.0B
+Database: ./hrmsdemo.com/private/backups/20240902_120001-hrmsdemo_com-database.sql.gz         13.6MiB
+Backup for Site hrmsdemo.com has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_41fabb16676dfcab --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _41fabb16676dfcab | /usr/bin/gzip >> ./hrmsdemo.com/private/backups/20240902_180002-hrmsdemo_com-database.sql.gz
+
+Backup Summary for hrmsdemo.com at 2024-09-02 18:00:06.300026
+Config  : ./hrmsdemo.com/private/backups/20240902_180002-hrmsdemo_com-site_config_backup.json 281.0B
+Database: ./hrmsdemo.com/private/backups/20240902_180002-hrmsdemo_com-database.sql.gz         13.6MiB
+Backup for Site hrmsdemo.com has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_41fabb16676dfcab --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _41fabb16676dfcab | /usr/bin/gzip >> ./hrmsdemo.com/private/backups/20240903_120002-hrmsdemo_com-database.sql.gz
+
+Backup Summary for hrmsdemo.com at 2024-09-03 12:00:13.428240
+Config  : ./hrmsdemo.com/private/backups/20240903_120002-hrmsdemo_com-site_config_backup.json 281.0B
+Database: ./hrmsdemo.com/private/backups/20240903_120002-hrmsdemo_com-database.sql.gz         13.6MiB
+Backup for Site hrmsdemo.com has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_41fabb16676dfcab --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _41fabb16676dfcab | /usr/bin/gzip >> ./hrmsdemo.com/private/backups/20240903_180002-hrmsdemo_com-database.sql.gz
+
+Backup Summary for hrmsdemo.com at 2024-09-03 18:00:06.488334
+Config  : ./hrmsdemo.com/private/backups/20240903_180002-hrmsdemo_com-site_config_backup.json 281.0B
+Database: ./hrmsdemo.com/private/backups/20240903_180002-hrmsdemo_com-database.sql.gz         13.6MiB
+Backup for Site hrmsdemo.com has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_41fabb16676dfcab --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _41fabb16676dfcab | /usr/bin/gzip >> ./hrmsdemo.com/private/backups/20240904_120002-hrmsdemo_com-database.sql.gz
+
+Backup Summary for hrmsdemo.com at 2024-09-04 12:00:11.922682
+Config  : ./hrmsdemo.com/private/backups/20240904_120002-hrmsdemo_com-site_config_backup.json 281.0B
+Database: ./hrmsdemo.com/private/backups/20240904_120002-hrmsdemo_com-database.sql.gz         13.6MiB
+Backup for Site hrmsdemo.com has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_41fabb16676dfcab --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _41fabb16676dfcab | /usr/bin/gzip >> ./hrmsdemo.com/private/backups/20240905_120001-hrmsdemo_com-database.sql.gz
+
+Backup Summary for hrmsdemo.com at 2024-09-05 12:00:04.759179
+Config  : ./hrmsdemo.com/private/backups/20240905_120001-hrmsdemo_com-site_config_backup.json 281.0B
+Database: ./hrmsdemo.com/private/backups/20240905_120001-hrmsdemo_com-database.sql.gz         14.5MiB
+Backup for Site hrmsdemo.com has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_41fabb16676dfcab --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _41fabb16676dfcab | /usr/bin/gzip >> ./hrmsdemo.com/private/backups/20240905_180002-hrmsdemo_com-database.sql.gz
+
+Backup Summary for hrmsdemo.com at 2024-09-05 18:00:05.274561
+Config  : ./hrmsdemo.com/private/backups/20240905_180002-hrmsdemo_com-site_config_backup.json 281.0B
+Database: ./hrmsdemo.com/private/backups/20240905_180002-hrmsdemo_com-database.sql.gz         15.0MiB
+Backup for Site hrmsdemo.com has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_41fabb16676dfcab --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _41fabb16676dfcab | /usr/bin/gzip >> ./hrmsdemo.com/private/backups/20240907_180002-hrmsdemo_com-database.sql.gz
+
+Backup Summary for hrmsdemo.com at 2024-09-07 18:00:12.960513
+Config  : ./hrmsdemo.com/private/backups/20240907_180002-hrmsdemo_com-site_config_backup.json 281.0B
+Database: ./hrmsdemo.com/private/backups/20240907_180002-hrmsdemo_com-database.sql.gz         15.6MiB
+Backup for Site hrmsdemo.com has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_41fabb16676dfcab --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _41fabb16676dfcab | /usr/bin/gzip >> ./hrmsdemo.com/private/backups/20240908_120001-hrmsdemo_com-database.sql.gz
+
+Backup Summary for hrmsdemo.com at 2024-09-08 12:00:05.363221
+Config  : ./hrmsdemo.com/private/backups/20240908_120001-hrmsdemo_com-site_config_backup.json 281.0B
+Database: ./hrmsdemo.com/private/backups/20240908_120001-hrmsdemo_com-database.sql.gz         15.8MiB
+Backup for Site hrmsdemo.com has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_41fabb16676dfcab --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _41fabb16676dfcab | /usr/bin/gzip >> ./hrmsdemo.com/private/backups/20240909_120001-hrmsdemo_com-database.sql.gz
+
+Backup Summary for hrmsdemo.com at 2024-09-09 12:00:05.334906
+Config  : ./hrmsdemo.com/private/backups/20240909_120001-hrmsdemo_com-site_config_backup.json 281.0B
+Database: ./hrmsdemo.com/private/backups/20240909_120001-hrmsdemo_com-database.sql.gz         16.3MiB
+Backup for Site hrmsdemo.com has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_41fabb16676dfcab --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _41fabb16676dfcab | /usr/bin/gzip >> ./hrmsdemo.com/private/backups/20240910_120002-hrmsdemo_com-database.sql.gz
+
+Backup Summary for hrmsdemo.com at 2024-09-10 12:00:15.006013
+Config  : ./hrmsdemo.com/private/backups/20240910_120002-hrmsdemo_com-site_config_backup.json 281.0B
+Database: ./hrmsdemo.com/private/backups/20240910_120002-hrmsdemo_com-database.sql.gz         16.6MiB
+Backup for Site hrmsdemo.com has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_41fabb16676dfcab --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _41fabb16676dfcab | /usr/bin/gzip >> ./hrmsdemo.com/private/backups/20240910_180001-hrmsdemo_com-database.sql.gz
+
+Backup Summary for hrmsdemo.com at 2024-09-10 18:00:07.040071
+Config  : ./hrmsdemo.com/private/backups/20240910_180001-hrmsdemo_com-site_config_backup.json 281.0B
+Database: ./hrmsdemo.com/private/backups/20240910_180001-hrmsdemo_com-database.sql.gz         16.8MiB
+Backup for Site hrmsdemo.com has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_41fabb16676dfcab --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _41fabb16676dfcab | /usr/bin/gzip >> ./hrmsdemo.com/private/backups/20240911_120003-hrmsdemo_com-database.sql.gz
+
+Backup Summary for hrmsdemo.com at 2024-09-11 12:00:15.830335
+Config  : ./hrmsdemo.com/private/backups/20240911_120003-hrmsdemo_com-site_config_backup.json 281.0B
+Database: ./hrmsdemo.com/private/backups/20240911_120003-hrmsdemo_com-database.sql.gz         17.0MiB
+Backup for Site hrmsdemo.com has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_41fabb16676dfcab --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _41fabb16676dfcab | /usr/bin/gzip >> ./hrmsdemo.com/private/backups/20240911_180002-hrmsdemo_com-database.sql.gz
+
+Backup Summary for hrmsdemo.com at 2024-09-11 18:00:12.752315
+Config  : ./hrmsdemo.com/private/backups/20240911_180002-hrmsdemo_com-site_config_backup.json 281.0B
+Database: ./hrmsdemo.com/private/backups/20240911_180002-hrmsdemo_com-database.sql.gz         17.1MiB
+Backup for Site hrmsdemo.com has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_41fabb16676dfcab --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _41fabb16676dfcab | /usr/bin/gzip >> ./hrmsdemo.com/private/backups/20240912_120001-hrmsdemo_com-database.sql.gz
+
+Backup Summary for hrmsdemo.com at 2024-09-12 12:00:11.942008
+Config  : ./hrmsdemo.com/private/backups/20240912_120001-hrmsdemo_com-site_config_backup.json 281.0B
+Database: ./hrmsdemo.com/private/backups/20240912_120001-hrmsdemo_com-database.sql.gz         17.4MiB
+Backup for Site hrmsdemo.com has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_41fabb16676dfcab --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _41fabb16676dfcab | /usr/bin/gzip >> ./hrmsdemo.com/private/backups/20240912_180002-hrmsdemo_com-database.sql.gz
+
+Backup Summary for hrmsdemo.com at 2024-09-12 18:00:07.490229
+Config  : ./hrmsdemo.com/private/backups/20240912_180002-hrmsdemo_com-site_config_backup.json 281.0B
+Database: ./hrmsdemo.com/private/backups/20240912_180002-hrmsdemo_com-database.sql.gz         17.6MiB
+Backup for Site hrmsdemo.com has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_41fabb16676dfcab --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _41fabb16676dfcab | /usr/bin/gzip >> ./hrmsdemo.com/private/backups/20240913_120002-hrmsdemo_com-database.sql.gz
+
+Backup Summary for hrmsdemo.com at 2024-09-13 12:00:13.474569
+Config  : ./hrmsdemo.com/private/backups/20240913_120002-hrmsdemo_com-site_config_backup.json 281.0B
+Database: ./hrmsdemo.com/private/backups/20240913_120002-hrmsdemo_com-database.sql.gz         17.8MiB
+Backup for Site hrmsdemo.com has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_41fabb16676dfcab --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _41fabb16676dfcab | /usr/bin/gzip >> ./hrmsdemo.com/private/backups/20240920_120002-hrmsdemo_com-database.sql.gz
+
+Backup Summary for hrmsdemo.com at 2024-09-20 12:00:07.433742
+Config  : ./hrmsdemo.com/private/backups/20240920_120002-hrmsdemo_com-site_config_backup.json 281.0B
+Database: ./hrmsdemo.com/private/backups/20240920_120002-hrmsdemo_com-database.sql.gz         20.0MiB
+Backup for Site hrmsdemo.com has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_41fabb16676dfcab --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _41fabb16676dfcab | /usr/bin/gzip >> ./hrmsdemo.com/private/backups/20240923_120002-hrmsdemo_com-database.sql.gz
+
+Backup Summary for hrmsdemo.com at 2024-09-23 12:00:07.981475
+Config  : ./hrmsdemo.com/private/backups/20240923_120002-hrmsdemo_com-site_config_backup.json 281.0B
+Database: ./hrmsdemo.com/private/backups/20240923_120002-hrmsdemo_com-database.sql.gz         20.0MiB
+Backup for Site hrmsdemo.com has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_41fabb16676dfcab --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _41fabb16676dfcab | /usr/bin/gzip >> ./hrmsdemo.com/private/backups/20240923_180002-hrmsdemo_com-database.sql.gz
+
+Backup Summary for hrmsdemo.com at 2024-09-23 18:00:07.292934
+Config  : ./hrmsdemo.com/private/backups/20240923_180002-hrmsdemo_com-site_config_backup.json 281.0B
+Database: ./hrmsdemo.com/private/backups/20240923_180002-hrmsdemo_com-database.sql.gz         20.0MiB
+Backup for Site hrmsdemo.com has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_41fabb16676dfcab --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _41fabb16676dfcab | /usr/bin/gzip >> ./hrmsdemo.com/private/backups/20240924_120002-hrmsdemo_com-database.sql.gz
+
+Backup Summary for hrmsdemo.com at 2024-09-24 12:00:07.276209
+Config  : ./hrmsdemo.com/private/backups/20240924_120002-hrmsdemo_com-site_config_backup.json 281.0B
+Database: ./hrmsdemo.com/private/backups/20240924_120002-hrmsdemo_com-database.sql.gz         21.4MiB
+Backup for Site hrmsdemo.com has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_41fabb16676dfcab --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _41fabb16676dfcab | /usr/bin/gzip >> ./hrmsdemo.com/private/backups/20240924_180002-hrmsdemo_com-database.sql.gz
+
+Backup Summary for hrmsdemo.com at 2024-09-24 18:00:10.853911
+Config  : ./hrmsdemo.com/private/backups/20240924_180002-hrmsdemo_com-site_config_backup.json 281.0B
+Database: ./hrmsdemo.com/private/backups/20240924_180002-hrmsdemo_com-database.sql.gz         21.4MiB
+Backup for Site hrmsdemo.com has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_41fabb16676dfcab --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _41fabb16676dfcab | /usr/bin/gzip >> ./hrmsdemo.com/private/backups/20240925_120002-hrmsdemo_com-database.sql.gz
+
+Backup Summary for hrmsdemo.com at 2024-09-25 12:00:09.128848
+Config  : ./hrmsdemo.com/private/backups/20240925_120002-hrmsdemo_com-site_config_backup.json 281.0B
+Database: ./hrmsdemo.com/private/backups/20240925_120002-hrmsdemo_com-database.sql.gz         21.8MiB
+Backup for Site hrmsdemo.com has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_41fabb16676dfcab --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _41fabb16676dfcab | /usr/bin/gzip >> ./hrmsdemo.com/private/backups/20240925_180002-hrmsdemo_com-database.sql.gz
+
+Backup Summary for hrmsdemo.com at 2024-09-25 18:00:07.550913
+Config  : ./hrmsdemo.com/private/backups/20240925_180002-hrmsdemo_com-site_config_backup.json 281.0B
+Database: ./hrmsdemo.com/private/backups/20240925_180002-hrmsdemo_com-database.sql.gz         21.8MiB
+Backup for Site hrmsdemo.com has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_41fabb16676dfcab --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _41fabb16676dfcab | /usr/bin/gzip >> ./hrmsdemo.com/private/backups/20240926_120001-hrmsdemo_com-database.sql.gz
+
+Backup Summary for hrmsdemo.com at 2024-09-26 12:00:07.606658
+Config  : ./hrmsdemo.com/private/backups/20240926_120001-hrmsdemo_com-site_config_backup.json 281.0B
+Database: ./hrmsdemo.com/private/backups/20240926_120001-hrmsdemo_com-database.sql.gz         21.8MiB
+Backup for Site hrmsdemo.com has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_41fabb16676dfcab --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _41fabb16676dfcab | /usr/bin/gzip >> ./hrmsdemo.com/private/backups/20240926_180002-hrmsdemo_com-database.sql.gz
+
+Backup Summary for hrmsdemo.com at 2024-09-26 18:00:18.170018
+Config  : ./hrmsdemo.com/private/backups/20240926_180002-hrmsdemo_com-site_config_backup.json 281.0B
+Database: ./hrmsdemo.com/private/backups/20240926_180002-hrmsdemo_com-database.sql.gz         21.8MiB
+Backup for Site hrmsdemo.com has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_41fabb16676dfcab --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _41fabb16676dfcab | /usr/bin/gzip >> ./hrmsdemo.com/private/backups/20240927_120003-hrmsdemo_com-database.sql.gz
+
+Backup Summary for hrmsdemo.com at 2024-09-27 12:00:18.493969
+Config  : ./hrmsdemo.com/private/backups/20240927_120003-hrmsdemo_com-site_config_backup.json 281.0B
+Database: ./hrmsdemo.com/private/backups/20240927_120003-hrmsdemo_com-database.sql.gz         22.8MiB
+Backup for Site hrmsdemo.com has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_41fabb16676dfcab --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _41fabb16676dfcab | /usr/bin/gzip >> ./hrmsdemo.com/private/backups/20240930_120002-hrmsdemo_com-database.sql.gz
+
+Backup Summary for hrmsdemo.com at 2024-09-30 12:00:15.296180
+Config  : ./hrmsdemo.com/private/backups/20240930_120002-hrmsdemo_com-site_config_backup.json 281.0B
+Database: ./hrmsdemo.com/private/backups/20240930_120002-hrmsdemo_com-database.sql.gz         22.8MiB
+Backup for Site hrmsdemo.com has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_41fabb16676dfcab --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _41fabb16676dfcab | /usr/bin/gzip >> ./hrmsdemo.com/private/backups/20241001_120002-hrmsdemo_com-database.sql.gz
+
+Backup Summary for hrmsdemo.com at 2024-10-01 12:00:07.249090
+Config  : ./hrmsdemo.com/private/backups/20241001_120002-hrmsdemo_com-site_config_backup.json 281.0B
+Database: ./hrmsdemo.com/private/backups/20241001_120002-hrmsdemo_com-database.sql.gz         22.8MiB
+Backup for Site hrmsdemo.com has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_41fabb16676dfcab --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _41fabb16676dfcab | /usr/bin/gzip >> ./hrmsdemo.com/private/backups/20241001_180002-hrmsdemo_com-database.sql.gz
+
+Backup Summary for hrmsdemo.com at 2024-10-01 18:00:08.845096
+Config  : ./hrmsdemo.com/private/backups/20241001_180002-hrmsdemo_com-site_config_backup.json 281.0B
+Database: ./hrmsdemo.com/private/backups/20241001_180002-hrmsdemo_com-database.sql.gz         24.3MiB
+Backup for Site hrmsdemo.com has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_41fabb16676dfcab --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _41fabb16676dfcab | /usr/bin/gzip >> ./hrmsdemo.com/private/backups/20241003_120002-hrmsdemo_com-database.sql.gz
+
+Backup Summary for hrmsdemo.com at 2024-10-03 12:00:09.163011
+Config  : ./hrmsdemo.com/private/backups/20241003_120002-hrmsdemo_com-site_config_backup.json 281.0B
+Database: ./hrmsdemo.com/private/backups/20241003_120002-hrmsdemo_com-database.sql.gz         24.8MiB
+Backup for Site hrmsdemo.com has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_41fabb16676dfcab --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _41fabb16676dfcab | /usr/bin/gzip >> ./hrmsdemo.com/private/backups/20241003_180002-hrmsdemo_com-database.sql.gz
+
+Backup Summary for hrmsdemo.com at 2024-10-03 18:00:08.134864
+Config  : ./hrmsdemo.com/private/backups/20241003_180002-hrmsdemo_com-site_config_backup.json 281.0B
+Database: ./hrmsdemo.com/private/backups/20241003_180002-hrmsdemo_com-database.sql.gz         25.3MiB
+Backup for Site hrmsdemo.com has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_41fabb16676dfcab --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _41fabb16676dfcab | /usr/bin/gzip >> ./hrmsdemo.com/private/backups/20241004_120003-hrmsdemo_com-database.sql.gz
+
+Backup Summary for hrmsdemo.com at 2024-10-04 12:00:28.278533
+Config  : ./hrmsdemo.com/private/backups/20241004_120003-hrmsdemo_com-site_config_backup.json 281.0B
+Database: ./hrmsdemo.com/private/backups/20241004_120003-hrmsdemo_com-database.sql.gz         25.3MiB
+Backup for Site hrmsdemo.com has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_41fabb16676dfcab --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _41fabb16676dfcab | /usr/bin/gzip >> ./hrmsdemo.com/private/backups/20241004_180002-hrmsdemo_com-database.sql.gz
+
+Backup Summary for hrmsdemo.com at 2024-10-04 18:00:14.953549
+Config  : ./hrmsdemo.com/private/backups/20241004_180002-hrmsdemo_com-site_config_backup.json 281.0B
+Database: ./hrmsdemo.com/private/backups/20241004_180002-hrmsdemo_com-database.sql.gz         25.7MiB
+Backup for Site hrmsdemo.com has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_41fabb16676dfcab --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _41fabb16676dfcab | /usr/bin/gzip >> ./hrmsdemo.com/private/backups/20241007_120001-hrmsdemo_com-database.sql.gz
+
+Backup Summary for hrmsdemo.com at 2024-10-07 12:00:16.908044
+Config  : ./hrmsdemo.com/private/backups/20241007_120001-hrmsdemo_com-site_config_backup.json 281.0B
+Database: ./hrmsdemo.com/private/backups/20241007_120001-hrmsdemo_com-database.sql.gz         26.4MiB
+Backup for Site hrmsdemo.com has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_41fabb16676dfcab --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _41fabb16676dfcab | /usr/bin/gzip >> ./hrmsdemo.com/private/backups/20241007_180002-hrmsdemo_com-database.sql.gz
+
+Backup Summary for hrmsdemo.com at 2024-10-07 18:00:16.146094
+Config  : ./hrmsdemo.com/private/backups/20241007_180002-hrmsdemo_com-site_config_backup.json 281.0B
+Database: ./hrmsdemo.com/private/backups/20241007_180002-hrmsdemo_com-database.sql.gz         26.4MiB
+Backup for Site hrmsdemo.com has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_deecfd916918053b --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _deecfd916918053b | /usr/bin/gzip >> ./hrmsdemo1.com/private/backups/20241007_180016-hrmsdemo1_com-database.sql.gz
+
+Backup Summary for hrmsdemo1.com at 2024-10-07 18:00:29.818659
+Config  : ./hrmsdemo1.com/private/backups/20241007_180016-hrmsdemo1_com-site_config_backup.json 121.0B
+Database: ./hrmsdemo1.com/private/backups/20241007_180016-hrmsdemo1_com-database.sql.gz         26.4MiB
+Backup for Site hrmsdemo1.com has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_49c03e54f119b2de --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _49c03e54f119b2de | /usr/bin/gzip >> ./hrmsdemo2.com/private/backups/20241007_180030-hrmsdemo2_com-database.sql.gz
+
+Backup Summary for hrmsdemo2.com at 2024-10-07 18:00:39.072749
+Config  : ./hrmsdemo2.com/private/backups/20241007_180030-hrmsdemo2_com-site_config_backup.json 94.0B
+Database: ./hrmsdemo2.com/private/backups/20241007_180030-hrmsdemo2_com-database.sql.gz         731.0KiB
+Backup for Site hrmsdemo2.com has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_41fabb16676dfcab --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _41fabb16676dfcab | /usr/bin/gzip >> ./hrmsdemo.com/private/backups/20241008_120001-hrmsdemo_com-database.sql.gz
+
+Backup Summary for hrmsdemo.com at 2024-10-08 12:00:08.084012
+Config  : ./hrmsdemo.com/private/backups/20241008_120001-hrmsdemo_com-site_config_backup.json 281.0B
+Database: ./hrmsdemo.com/private/backups/20241008_120001-hrmsdemo_com-database.sql.gz         26.8MiB
+Backup for Site hrmsdemo.com has been successfully completed
+File ./hrmsdemo1.com/private/backups/20241007_180016-hrmsdemo1_com-database.sql.gz is recent
+File ./hrmsdemo1.com/private/backups/20241007_180016-hrmsdemo1_com-site_config_backup.json is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_deecfd916918053b --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _deecfd916918053b | /usr/bin/gzip >> ./hrmsdemo1.com/private/backups/20241008_120008-hrmsdemo1_com-database.sql.gz
+
+Backup Summary for hrmsdemo1.com at 2024-10-08 12:00:14.811296
+Config  : ./hrmsdemo1.com/private/backups/20241008_120008-hrmsdemo1_com-site_config_backup.json 121.0B
+Database: ./hrmsdemo1.com/private/backups/20241008_120008-hrmsdemo1_com-database.sql.gz         26.4MiB
+Backup for Site hrmsdemo1.com has been successfully completed
+File ./hrmsdemo2.com/private/backups/20241007_180030-hrmsdemo2_com-site_config_backup.json is recent
+File ./hrmsdemo2.com/private/backups/20241007_180030-hrmsdemo2_com-database.sql.gz is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_49c03e54f119b2de --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _49c03e54f119b2de | /usr/bin/gzip >> ./hrmsdemo2.com/private/backups/20241008_120014-hrmsdemo2_com-database.sql.gz
+
+Backup Summary for hrmsdemo2.com at 2024-10-08 12:00:17.613879
+Config  : ./hrmsdemo2.com/private/backups/20241008_120014-hrmsdemo2_com-site_config_backup.json 94.0B
+Database: ./hrmsdemo2.com/private/backups/20241008_120014-hrmsdemo2_com-database.sql.gz         731.0KiB
+Backup for Site hrmsdemo2.com has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_41fabb16676dfcab --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _41fabb16676dfcab | /usr/bin/gzip >> ./hrmsdemo.com/private/backups/20241008_180001-hrmsdemo_com-database.sql.gz
+
+Backup Summary for hrmsdemo.com at 2024-10-08 18:00:09.505351
+Config  : ./hrmsdemo.com/private/backups/20241008_180001-hrmsdemo_com-site_config_backup.json 281.0B
+Database: ./hrmsdemo.com/private/backups/20241008_180001-hrmsdemo_com-database.sql.gz         26.8MiB
+Backup for Site hrmsdemo.com has been successfully completed
+File ./hrmsdemo1.com/private/backups/20241008_120008-hrmsdemo1_com-site_config_backup.json is recent
+File ./hrmsdemo1.com/private/backups/20241007_180016-hrmsdemo1_com-database.sql.gz is recent
+File ./hrmsdemo1.com/private/backups/20241008_120008-hrmsdemo1_com-database.sql.gz is recent
+File ./hrmsdemo1.com/private/backups/20241007_180016-hrmsdemo1_com-site_config_backup.json is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_deecfd916918053b --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _deecfd916918053b | /usr/bin/gzip >> ./hrmsdemo1.com/private/backups/20241008_180009-hrmsdemo1_com-database.sql.gz
+
+Backup Summary for hrmsdemo1.com at 2024-10-08 18:00:15.304017
+Config  : ./hrmsdemo1.com/private/backups/20241008_180009-hrmsdemo1_com-site_config_backup.json 121.0B
+Database: ./hrmsdemo1.com/private/backups/20241008_180009-hrmsdemo1_com-database.sql.gz         26.4MiB
+Backup for Site hrmsdemo1.com has been successfully completed
+File ./hrmsdemo2.com/private/backups/20241007_180030-hrmsdemo2_com-site_config_backup.json is recent
+File ./hrmsdemo2.com/private/backups/20241008_120014-hrmsdemo2_com-database.sql.gz is recent
+File ./hrmsdemo2.com/private/backups/20241007_180030-hrmsdemo2_com-database.sql.gz is recent
+File ./hrmsdemo2.com/private/backups/20241008_120014-hrmsdemo2_com-site_config_backup.json is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_49c03e54f119b2de --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _49c03e54f119b2de | /usr/bin/gzip >> ./hrmsdemo2.com/private/backups/20241008_180015-hrmsdemo2_com-database.sql.gz
+
+Backup Summary for hrmsdemo2.com at 2024-10-08 18:00:16.971994
+Config  : ./hrmsdemo2.com/private/backups/20241008_180015-hrmsdemo2_com-site_config_backup.json 94.0B
+Database: ./hrmsdemo2.com/private/backups/20241008_180015-hrmsdemo2_com-database.sql.gz         731.0KiB
+Backup for Site hrmsdemo2.com has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_41fabb16676dfcab --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _41fabb16676dfcab | /usr/bin/gzip >> ./hrmsdemo.com/private/backups/20241009_120003-hrmsdemo_com-database.sql.gz
+
+Backup Summary for hrmsdemo.com at 2024-10-09 12:00:21.021581
+Config  : ./hrmsdemo.com/private/backups/20241009_120003-hrmsdemo_com-site_config_backup.json 281.0B
+Database: ./hrmsdemo.com/private/backups/20241009_120003-hrmsdemo_com-database.sql.gz         27.1MiB
+Backup for Site hrmsdemo.com has been successfully completed
+File ./hrmsdemo1.com/private/backups/20241008_120008-hrmsdemo1_com-site_config_backup.json is older than 24 hours
+File ./hrmsdemo1.com/private/backups/20241007_180016-hrmsdemo1_com-database.sql.gz is older than 24 hours
+File ./hrmsdemo1.com/private/backups/20241008_120008-hrmsdemo1_com-database.sql.gz is older than 24 hours
+File ./hrmsdemo1.com/private/backups/20241008_180009-hrmsdemo1_com-database.sql.gz is recent
+File ./hrmsdemo1.com/private/backups/20241007_180016-hrmsdemo1_com-site_config_backup.json is older than 24 hours
+File ./hrmsdemo1.com/private/backups/20241008_180009-hrmsdemo1_com-site_config_backup.json is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_deecfd916918053b --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _deecfd916918053b | /usr/bin/gzip >> ./hrmsdemo1.com/private/backups/20241009_120021-hrmsdemo1_com-database.sql.gz
+
+Backup Summary for hrmsdemo1.com at 2024-10-09 12:00:39.420399
+Config  : ./hrmsdemo1.com/private/backups/20241009_120021-hrmsdemo1_com-site_config_backup.json 121.0B
+Database: ./hrmsdemo1.com/private/backups/20241009_120021-hrmsdemo1_com-database.sql.gz         26.4MiB
+Backup for Site hrmsdemo1.com has been successfully completed
+File ./hrmsdemo2.com/private/backups/20241007_180030-hrmsdemo2_com-site_config_backup.json is older than 24 hours
+File ./hrmsdemo2.com/private/backups/20241008_180015-hrmsdemo2_com-database.sql.gz is recent
+File ./hrmsdemo2.com/private/backups/20241008_180015-hrmsdemo2_com-site_config_backup.json is recent
+File ./hrmsdemo2.com/private/backups/20241008_120014-hrmsdemo2_com-database.sql.gz is older than 24 hours
+File ./hrmsdemo2.com/private/backups/20241007_180030-hrmsdemo2_com-database.sql.gz is older than 24 hours
+File ./hrmsdemo2.com/private/backups/20241008_120014-hrmsdemo2_com-site_config_backup.json is older than 24 hours
+set -o pipefail; /usr/bin/mariadb-dump --user=_49c03e54f119b2de --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _49c03e54f119b2de | /usr/bin/gzip >> ./hrmsdemo2.com/private/backups/20241009_120039-hrmsdemo2_com-database.sql.gz
+
+Backup Summary for hrmsdemo2.com at 2024-10-09 12:00:45.213653
+Config  : ./hrmsdemo2.com/private/backups/20241009_120039-hrmsdemo2_com-site_config_backup.json 94.0B
+Database: ./hrmsdemo2.com/private/backups/20241009_120039-hrmsdemo2_com-database.sql.gz         731.0KiB
+Backup for Site hrmsdemo2.com has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_41fabb16676dfcab --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _41fabb16676dfcab | /usr/bin/gzip >> ./hrmsdemo.com/private/backups/20241009_180005-hrmsdemo_com-database.sql.gz
+
+Backup Summary for hrmsdemo.com at 2024-10-09 18:00:28.112368
+Config  : ./hrmsdemo.com/private/backups/20241009_180005-hrmsdemo_com-site_config_backup.json 281.0B
+Database: ./hrmsdemo.com/private/backups/20241009_180005-hrmsdemo_com-database.sql.gz         27.1MiB
+Backup for Site hrmsdemo.com has been successfully completed
+File ./hrmsdemo1.com/private/backups/20241009_120021-hrmsdemo1_com-database.sql.gz is recent
+File ./hrmsdemo1.com/private/backups/20241009_120021-hrmsdemo1_com-site_config_backup.json is recent
+File ./hrmsdemo1.com/private/backups/20241008_180009-hrmsdemo1_com-database.sql.gz is older than 24 hours
+File ./hrmsdemo1.com/private/backups/20241008_180009-hrmsdemo1_com-site_config_backup.json is older than 24 hours
+set -o pipefail; /usr/bin/mariadb-dump --user=_deecfd916918053b --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _deecfd916918053b | /usr/bin/gzip >> ./hrmsdemo1.com/private/backups/20241009_180028-hrmsdemo1_com-database.sql.gz
+
+Backup Summary for hrmsdemo1.com at 2024-10-09 18:00:44.470539
+Config  : ./hrmsdemo1.com/private/backups/20241009_180028-hrmsdemo1_com-site_config_backup.json 121.0B
+Database: ./hrmsdemo1.com/private/backups/20241009_180028-hrmsdemo1_com-database.sql.gz         26.4MiB
+Backup for Site hrmsdemo1.com has been successfully completed
+File ./hrmsdemo2.com/private/backups/20241008_180015-hrmsdemo2_com-database.sql.gz is older than 24 hours
+File ./hrmsdemo2.com/private/backups/20241008_180015-hrmsdemo2_com-site_config_backup.json is older than 24 hours
+File ./hrmsdemo2.com/private/backups/20241009_120039-hrmsdemo2_com-site_config_backup.json is recent
+File ./hrmsdemo2.com/private/backups/20241009_120039-hrmsdemo2_com-database.sql.gz is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_49c03e54f119b2de --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _49c03e54f119b2de | /usr/bin/gzip >> ./hrmsdemo2.com/private/backups/20241009_180044-hrmsdemo2_com-database.sql.gz
+
+Backup Summary for hrmsdemo2.com at 2024-10-09 18:00:50.212527
+Config  : ./hrmsdemo2.com/private/backups/20241009_180044-hrmsdemo2_com-site_config_backup.json 94.0B
+Database: ./hrmsdemo2.com/private/backups/20241009_180044-hrmsdemo2_com-database.sql.gz         731.0KiB
+Backup for Site hrmsdemo2.com has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_41fabb16676dfcab --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _41fabb16676dfcab | /usr/bin/gzip >> ./hrmsdemo.com/private/backups/20241010_120002-hrmsdemo_com-database.sql.gz
+
+Backup Summary for hrmsdemo.com at 2024-10-10 12:00:10.805615
+Config  : ./hrmsdemo.com/private/backups/20241010_120002-hrmsdemo_com-site_config_backup.json 281.0B
+Database: ./hrmsdemo.com/private/backups/20241010_120002-hrmsdemo_com-database.sql.gz         27.4MiB
+Backup for Site hrmsdemo.com has been successfully completed
+File ./hrmsdemo1.com/private/backups/20241009_120021-hrmsdemo1_com-database.sql.gz is recent
+File ./hrmsdemo1.com/private/backups/20241009_120021-hrmsdemo1_com-site_config_backup.json is recent
+File ./hrmsdemo1.com/private/backups/20241009_180028-hrmsdemo1_com-database.sql.gz is recent
+File ./hrmsdemo1.com/private/backups/20241009_180028-hrmsdemo1_com-site_config_backup.json is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_deecfd916918053b --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _deecfd916918053b | /usr/bin/gzip >> ./hrmsdemo1.com/private/backups/20241010_120010-hrmsdemo1_com-database.sql.gz
+
+Backup Summary for hrmsdemo1.com at 2024-10-10 12:00:16.787763
+Config  : ./hrmsdemo1.com/private/backups/20241010_120010-hrmsdemo1_com-site_config_backup.json 121.0B
+Database: ./hrmsdemo1.com/private/backups/20241010_120010-hrmsdemo1_com-database.sql.gz         26.4MiB
+Backup for Site hrmsdemo1.com has been successfully completed
+File ./hrmsdemo2.com/private/backups/20241009_180044-hrmsdemo2_com-site_config_backup.json is recent
+File ./hrmsdemo2.com/private/backups/20241009_180044-hrmsdemo2_com-database.sql.gz is recent
+File ./hrmsdemo2.com/private/backups/20241009_120039-hrmsdemo2_com-site_config_backup.json is recent
+File ./hrmsdemo2.com/private/backups/20241009_120039-hrmsdemo2_com-database.sql.gz is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_49c03e54f119b2de --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _49c03e54f119b2de | /usr/bin/gzip >> ./hrmsdemo2.com/private/backups/20241010_120016-hrmsdemo2_com-database.sql.gz
+
+Backup Summary for hrmsdemo2.com at 2024-10-10 12:00:18.568189
+Config  : ./hrmsdemo2.com/private/backups/20241010_120016-hrmsdemo2_com-site_config_backup.json 94.0B
+Database: ./hrmsdemo2.com/private/backups/20241010_120016-hrmsdemo2_com-database.sql.gz         731.0KiB
+Backup for Site hrmsdemo2.com has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_41fabb16676dfcab --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _41fabb16676dfcab | /usr/bin/gzip >> ./hrmsdemo.com/private/backups/20241010_180003-hrmsdemo_com-database.sql.gz
+
+Backup Summary for hrmsdemo.com at 2024-10-10 18:00:26.978138
+Config  : ./hrmsdemo.com/private/backups/20241010_180003-hrmsdemo_com-site_config_backup.json 281.0B
+Database: ./hrmsdemo.com/private/backups/20241010_180003-hrmsdemo_com-database.sql.gz         27.4MiB
+Backup for Site hrmsdemo.com has been successfully completed
+File ./hrmsdemo1.com/private/backups/20241010_120010-hrmsdemo1_com-database.sql.gz is recent
+File ./hrmsdemo1.com/private/backups/20241009_120021-hrmsdemo1_com-database.sql.gz is older than 24 hours
+File ./hrmsdemo1.com/private/backups/20241009_120021-hrmsdemo1_com-site_config_backup.json is older than 24 hours
+File ./hrmsdemo1.com/private/backups/20241009_180028-hrmsdemo1_com-database.sql.gz is recent
+File ./hrmsdemo1.com/private/backups/20241010_120010-hrmsdemo1_com-site_config_backup.json is recent
+File ./hrmsdemo1.com/private/backups/20241009_180028-hrmsdemo1_com-site_config_backup.json is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_deecfd916918053b --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _deecfd916918053b | /usr/bin/gzip >> ./hrmsdemo1.com/private/backups/20241010_180027-hrmsdemo1_com-database.sql.gz
+
+Backup Summary for hrmsdemo1.com at 2024-10-10 22:52:18.432911
+Config  : ./hrmsdemo1.com/private/backups/20241010_180027-hrmsdemo1_com-site_config_backup.json 121.0B
+Database: ./hrmsdemo1.com/private/backups/20241010_180027-hrmsdemo1_com-database.sql.gz         26.4MiB
+Backup for Site hrmsdemo1.com has been successfully completed
+File ./hrmsdemo2.com/private/backups/20241010_120016-hrmsdemo2_com-database.sql.gz is recent
+File ./hrmsdemo2.com/private/backups/20241009_180044-hrmsdemo2_com-site_config_backup.json is older than 24 hours
+File ./hrmsdemo2.com/private/backups/20241010_120016-hrmsdemo2_com-site_config_backup.json is recent
+File ./hrmsdemo2.com/private/backups/20241009_180044-hrmsdemo2_com-database.sql.gz is older than 24 hours
+File ./hrmsdemo2.com/private/backups/20241009_120039-hrmsdemo2_com-site_config_backup.json is older than 24 hours
+File ./hrmsdemo2.com/private/backups/20241009_120039-hrmsdemo2_com-database.sql.gz is older than 24 hours
+set -o pipefail; /usr/bin/mariadb-dump --user=_49c03e54f119b2de --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _49c03e54f119b2de | /usr/bin/gzip >> ./hrmsdemo2.com/private/backups/20241010_225218-hrmsdemo2_com-database.sql.gz
+
+Backup Summary for hrmsdemo2.com at 2024-10-10 22:52:30.481568
+Config  : ./hrmsdemo2.com/private/backups/20241010_225218-hrmsdemo2_com-site_config_backup.json 94.0B
+Database: ./hrmsdemo2.com/private/backups/20241010_225218-hrmsdemo2_com-database.sql.gz         731.0KiB
+Backup for Site hrmsdemo2.com has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_41fabb16676dfcab --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _41fabb16676dfcab | /usr/bin/gzip >> ./hrmsdemo.com/private/backups/20241011_120001-hrmsdemo_com-database.sql.gz
+
+Backup Summary for hrmsdemo.com at 2024-10-11 12:00:07.837073
+Config  : ./hrmsdemo.com/private/backups/20241011_120001-hrmsdemo_com-site_config_backup.json 281.0B
+Database: ./hrmsdemo.com/private/backups/20241011_120001-hrmsdemo_com-database.sql.gz         27.4MiB
+Backup for Site hrmsdemo.com has been successfully completed
+File ./hrmsdemo1.com/private/backups/20241010_180027-hrmsdemo1_com-database.sql.gz is recent
+File ./hrmsdemo1.com/private/backups/20241010_120010-hrmsdemo1_com-database.sql.gz is recent
+File ./hrmsdemo1.com/private/backups/20241009_180028-hrmsdemo1_com-database.sql.gz is older than 24 hours
+File ./hrmsdemo1.com/private/backups/20241010_180027-hrmsdemo1_com-site_config_backup.json is recent
+File ./hrmsdemo1.com/private/backups/20241010_120010-hrmsdemo1_com-site_config_backup.json is recent
+File ./hrmsdemo1.com/private/backups/20241009_180028-hrmsdemo1_com-site_config_backup.json is older than 24 hours
+set -o pipefail; /usr/bin/mariadb-dump --user=_deecfd916918053b --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _deecfd916918053b | /usr/bin/gzip >> ./hrmsdemo1.com/private/backups/20241011_120007-hrmsdemo1_com-database.sql.gz
+
+Backup Summary for hrmsdemo1.com at 2024-10-11 12:00:15.362586
+Config  : ./hrmsdemo1.com/private/backups/20241011_120007-hrmsdemo1_com-site_config_backup.json 121.0B
+Database: ./hrmsdemo1.com/private/backups/20241011_120007-hrmsdemo1_com-database.sql.gz         26.4MiB
+Backup for Site hrmsdemo1.com has been successfully completed
+File ./hrmsdemo2.com/private/backups/20241010_225218-hrmsdemo2_com-site_config_backup.json is recent
+File ./hrmsdemo2.com/private/backups/20241010_120016-hrmsdemo2_com-database.sql.gz is recent
+File ./hrmsdemo2.com/private/backups/20241010_120016-hrmsdemo2_com-site_config_backup.json is recent
+File ./hrmsdemo2.com/private/backups/20241010_225218-hrmsdemo2_com-database.sql.gz is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_49c03e54f119b2de --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _49c03e54f119b2de | /usr/bin/gzip >> ./hrmsdemo2.com/private/backups/20241011_120015-hrmsdemo2_com-database.sql.gz
+
+Backup Summary for hrmsdemo2.com at 2024-10-11 12:00:18.184328
+Config  : ./hrmsdemo2.com/private/backups/20241011_120015-hrmsdemo2_com-site_config_backup.json 94.0B
+Database: ./hrmsdemo2.com/private/backups/20241011_120015-hrmsdemo2_com-database.sql.gz         731.0KiB
+Backup for Site hrmsdemo2.com has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_41fabb16676dfcab --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _41fabb16676dfcab | /usr/bin/gzip >> ./hrmsdemo.com/private/backups/20241011_180002-hrmsdemo_com-database.sql.gz
+
+Backup Summary for hrmsdemo.com at 2024-10-11 18:00:08.086422
+Config  : ./hrmsdemo.com/private/backups/20241011_180002-hrmsdemo_com-site_config_backup.json 281.0B
+Database: ./hrmsdemo.com/private/backups/20241011_180002-hrmsdemo_com-database.sql.gz         27.4MiB
+Backup for Site hrmsdemo.com has been successfully completed
+File ./hrmsdemo1.com/private/backups/20241010_180027-hrmsdemo1_com-database.sql.gz is recent
+File ./hrmsdemo1.com/private/backups/20241010_120010-hrmsdemo1_com-database.sql.gz is older than 24 hours
+File ./hrmsdemo1.com/private/backups/20241011_120007-hrmsdemo1_com-site_config_backup.json is recent
+File ./hrmsdemo1.com/private/backups/20241011_120007-hrmsdemo1_com-database.sql.gz is recent
+File ./hrmsdemo1.com/private/backups/20241010_180027-hrmsdemo1_com-site_config_backup.json is recent
+File ./hrmsdemo1.com/private/backups/20241010_120010-hrmsdemo1_com-site_config_backup.json is older than 24 hours
+set -o pipefail; /usr/bin/mariadb-dump --user=_deecfd916918053b --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _deecfd916918053b | /usr/bin/gzip >> ./hrmsdemo1.com/private/backups/20241011_180008-hrmsdemo1_com-database.sql.gz
+
+Backup Summary for hrmsdemo1.com at 2024-10-11 18:00:13.986584
+Config  : ./hrmsdemo1.com/private/backups/20241011_180008-hrmsdemo1_com-site_config_backup.json 121.0B
+Database: ./hrmsdemo1.com/private/backups/20241011_180008-hrmsdemo1_com-database.sql.gz         26.4MiB
+Backup for Site hrmsdemo1.com has been successfully completed
+File ./hrmsdemo2.com/private/backups/20241010_225218-hrmsdemo2_com-site_config_backup.json is recent
+File ./hrmsdemo2.com/private/backups/20241011_120015-hrmsdemo2_com-database.sql.gz is recent
+File ./hrmsdemo2.com/private/backups/20241010_120016-hrmsdemo2_com-database.sql.gz is older than 24 hours
+File ./hrmsdemo2.com/private/backups/20241011_120015-hrmsdemo2_com-site_config_backup.json is recent
+File ./hrmsdemo2.com/private/backups/20241010_120016-hrmsdemo2_com-site_config_backup.json is older than 24 hours
+File ./hrmsdemo2.com/private/backups/20241010_225218-hrmsdemo2_com-database.sql.gz is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_49c03e54f119b2de --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _49c03e54f119b2de | /usr/bin/gzip >> ./hrmsdemo2.com/private/backups/20241011_180013-hrmsdemo2_com-database.sql.gz
+
+Backup Summary for hrmsdemo2.com at 2024-10-11 18:00:15.896570
+Config  : ./hrmsdemo2.com/private/backups/20241011_180013-hrmsdemo2_com-site_config_backup.json 94.0B
+Database: ./hrmsdemo2.com/private/backups/20241011_180013-hrmsdemo2_com-database.sql.gz         731.0KiB
+Backup for Site hrmsdemo2.com has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_41fabb16676dfcab --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _41fabb16676dfcab | /usr/bin/gzip >> ./hrmsdemo.com/private/backups/20241013_180001-hrmsdemo_com-database.sql.gz
+
+Backup Summary for hrmsdemo.com at 2024-10-13 18:00:22.729696
+Config  : ./hrmsdemo.com/private/backups/20241013_180001-hrmsdemo_com-site_config_backup.json 281.0B
+Database: ./hrmsdemo.com/private/backups/20241013_180001-hrmsdemo_com-database.sql.gz         27.4MiB
+Backup for Site hrmsdemo.com has been successfully completed
+File ./hrmsdemo1.com/private/backups/20241010_180027-hrmsdemo1_com-database.sql.gz is older than 24 hours
+File ./hrmsdemo1.com/private/backups/20241011_180008-hrmsdemo1_com-database.sql.gz is older than 24 hours
+File ./hrmsdemo1.com/private/backups/20241011_120007-hrmsdemo1_com-site_config_backup.json is older than 24 hours
+File ./hrmsdemo1.com/private/backups/20241011_120007-hrmsdemo1_com-database.sql.gz is older than 24 hours
+File ./hrmsdemo1.com/private/backups/20241011_180008-hrmsdemo1_com-site_config_backup.json is older than 24 hours
+File ./hrmsdemo1.com/private/backups/20241010_180027-hrmsdemo1_com-site_config_backup.json is older than 24 hours
+set -o pipefail; /usr/bin/mariadb-dump --user=_deecfd916918053b --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _deecfd916918053b | /usr/bin/gzip >> ./hrmsdemo1.com/private/backups/20241013_180022-hrmsdemo1_com-database.sql.gz
+
+Backup Summary for hrmsdemo1.com at 2024-10-13 18:00:41.129495
+Config  : ./hrmsdemo1.com/private/backups/20241013_180022-hrmsdemo1_com-site_config_backup.json 121.0B
+Database: ./hrmsdemo1.com/private/backups/20241013_180022-hrmsdemo1_com-database.sql.gz         26.4MiB
+Backup for Site hrmsdemo1.com has been successfully completed
+File ./hrmsdemo2.com/private/backups/20241010_225218-hrmsdemo2_com-site_config_backup.json is older than 24 hours
+File ./hrmsdemo2.com/private/backups/20241011_120015-hrmsdemo2_com-database.sql.gz is older than 24 hours
+File ./hrmsdemo2.com/private/backups/20241011_180013-hrmsdemo2_com-database.sql.gz is older than 24 hours
+File ./hrmsdemo2.com/private/backups/20241011_120015-hrmsdemo2_com-site_config_backup.json is older than 24 hours
+File ./hrmsdemo2.com/private/backups/20241010_225218-hrmsdemo2_com-database.sql.gz is older than 24 hours
+File ./hrmsdemo2.com/private/backups/20241011_180013-hrmsdemo2_com-site_config_backup.json is older than 24 hours
+set -o pipefail; /usr/bin/mariadb-dump --user=_49c03e54f119b2de --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _49c03e54f119b2de | /usr/bin/gzip >> ./hrmsdemo2.com/private/backups/20241013_180041-hrmsdemo2_com-database.sql.gz
+
+Backup Summary for hrmsdemo2.com at 2024-10-13 18:00:50.216246
+Config  : ./hrmsdemo2.com/private/backups/20241013_180041-hrmsdemo2_com-site_config_backup.json 94.0B
+Database: ./hrmsdemo2.com/private/backups/20241013_180041-hrmsdemo2_com-database.sql.gz         731.0KiB
+Backup for Site hrmsdemo2.com has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_41fabb16676dfcab --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _41fabb16676dfcab | /usr/bin/gzip >> ./hrmsdemo.com/private/backups/20241014_120001-hrmsdemo_com-database.sql.gz
+
+Backup Summary for hrmsdemo.com at 2024-10-14 12:00:07.629971
+Config  : ./hrmsdemo.com/private/backups/20241014_120001-hrmsdemo_com-site_config_backup.json 281.0B
+Database: ./hrmsdemo.com/private/backups/20241014_120001-hrmsdemo_com-database.sql.gz         27.4MiB
+Backup for Site hrmsdemo.com has been successfully completed
+File ./hrmsdemo1.com/private/backups/20241013_180022-hrmsdemo1_com-site_config_backup.json is recent
+File ./hrmsdemo1.com/private/backups/20241013_180022-hrmsdemo1_com-database.sql.gz is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_deecfd916918053b --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _deecfd916918053b | /usr/bin/gzip >> ./hrmsdemo1.com/private/backups/20241014_120007-hrmsdemo1_com-database.sql.gz
+
+Backup Summary for hrmsdemo1.com at 2024-10-14 12:00:13.763136
+Config  : ./hrmsdemo1.com/private/backups/20241014_120007-hrmsdemo1_com-site_config_backup.json 121.0B
+Database: ./hrmsdemo1.com/private/backups/20241014_120007-hrmsdemo1_com-database.sql.gz         26.4MiB
+Backup for Site hrmsdemo1.com has been successfully completed
+File ./hrmsdemo2.com/private/backups/20241013_180041-hrmsdemo2_com-database.sql.gz is recent
+File ./hrmsdemo2.com/private/backups/20241013_180041-hrmsdemo2_com-site_config_backup.json is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_49c03e54f119b2de --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _49c03e54f119b2de | /usr/bin/gzip >> ./hrmsdemo2.com/private/backups/20241014_120013-hrmsdemo2_com-database.sql.gz
+
+Backup Summary for hrmsdemo2.com at 2024-10-14 12:00:15.528578
+Config  : ./hrmsdemo2.com/private/backups/20241014_120013-hrmsdemo2_com-site_config_backup.json 94.0B
+Database: ./hrmsdemo2.com/private/backups/20241014_120013-hrmsdemo2_com-database.sql.gz         731.0KiB
+Backup for Site hrmsdemo2.com has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_41fabb16676dfcab --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _41fabb16676dfcab | /usr/bin/gzip >> ./hrmsdemo.com/private/backups/20241014_180001-hrmsdemo_com-database.sql.gz
+
+Backup Summary for hrmsdemo.com at 2024-10-14 18:00:08.440449
+Config  : ./hrmsdemo.com/private/backups/20241014_180001-hrmsdemo_com-site_config_backup.json 281.0B
+Database: ./hrmsdemo.com/private/backups/20241014_180001-hrmsdemo_com-database.sql.gz         27.4MiB
+Backup for Site hrmsdemo.com has been successfully completed
+File ./hrmsdemo1.com/private/backups/20241013_180022-hrmsdemo1_com-site_config_backup.json is recent
+File ./hrmsdemo1.com/private/backups/20241013_180022-hrmsdemo1_com-database.sql.gz is recent
+File ./hrmsdemo1.com/private/backups/20241014_120007-hrmsdemo1_com-database.sql.gz is recent
+File ./hrmsdemo1.com/private/backups/20241014_120007-hrmsdemo1_com-site_config_backup.json is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_deecfd916918053b --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _deecfd916918053b | /usr/bin/gzip >> ./hrmsdemo1.com/private/backups/20241014_180008-hrmsdemo1_com-database.sql.gz
+
+Backup Summary for hrmsdemo1.com at 2024-10-14 18:00:16.196710
+Config  : ./hrmsdemo1.com/private/backups/20241014_180008-hrmsdemo1_com-site_config_backup.json 121.0B
+Database: ./hrmsdemo1.com/private/backups/20241014_180008-hrmsdemo1_com-database.sql.gz         26.4MiB
+Backup for Site hrmsdemo1.com has been successfully completed
+File ./hrmsdemo2.com/private/backups/20241014_120013-hrmsdemo2_com-database.sql.gz is recent
+File ./hrmsdemo2.com/private/backups/20241014_120013-hrmsdemo2_com-site_config_backup.json is recent
+File ./hrmsdemo2.com/private/backups/20241013_180041-hrmsdemo2_com-database.sql.gz is recent
+File ./hrmsdemo2.com/private/backups/20241013_180041-hrmsdemo2_com-site_config_backup.json is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_49c03e54f119b2de --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _49c03e54f119b2de | /usr/bin/gzip >> ./hrmsdemo2.com/private/backups/20241014_180016-hrmsdemo2_com-database.sql.gz
+
+Backup Summary for hrmsdemo2.com at 2024-10-14 18:00:18.341624
+Config  : ./hrmsdemo2.com/private/backups/20241014_180016-hrmsdemo2_com-site_config_backup.json 94.0B
+Database: ./hrmsdemo2.com/private/backups/20241014_180016-hrmsdemo2_com-database.sql.gz         731.0KiB
+Backup for Site hrmsdemo2.com has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_41fabb16676dfcab --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _41fabb16676dfcab | /usr/bin/gzip >> ./hrmsdemo.com/private/backups/20241015_180003-hrmsdemo_com-database.sql.gz
+
+Backup Summary for hrmsdemo.com at 2024-10-15 18:00:25.743463
+Config  : ./hrmsdemo.com/private/backups/20241015_180003-hrmsdemo_com-site_config_backup.json 281.0B
+Database: ./hrmsdemo.com/private/backups/20241015_180003-hrmsdemo_com-database.sql.gz         27.5MiB
+Backup for Site hrmsdemo.com has been successfully completed
+File ./hrmsdemo1.com/private/backups/20241013_180022-hrmsdemo1_com-site_config_backup.json is older than 24 hours
+File ./hrmsdemo1.com/private/backups/20241013_180022-hrmsdemo1_com-database.sql.gz is older than 24 hours
+File ./hrmsdemo1.com/private/backups/20241014_180008-hrmsdemo1_com-database.sql.gz is older than 24 hours
+File ./hrmsdemo1.com/private/backups/20241014_180008-hrmsdemo1_com-site_config_backup.json is older than 24 hours
+File ./hrmsdemo1.com/private/backups/20241014_120007-hrmsdemo1_com-database.sql.gz is older than 24 hours
+File ./hrmsdemo1.com/private/backups/20241014_120007-hrmsdemo1_com-site_config_backup.json is older than 24 hours
+set -o pipefail; /usr/bin/mariadb-dump --user=_deecfd916918053b --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _deecfd916918053b | /usr/bin/gzip >> ./hrmsdemo1.com/private/backups/20241015_180025-hrmsdemo1_com-database.sql.gz
+
+Backup Summary for hrmsdemo1.com at 2024-10-15 18:00:44.959128
+Config  : ./hrmsdemo1.com/private/backups/20241015_180025-hrmsdemo1_com-site_config_backup.json 121.0B
+Database: ./hrmsdemo1.com/private/backups/20241015_180025-hrmsdemo1_com-database.sql.gz         26.4MiB
+Backup for Site hrmsdemo1.com has been successfully completed
+File ./hrmsdemo2.com/private/backups/20241014_180016-hrmsdemo2_com-site_config_backup.json is older than 24 hours
+File ./hrmsdemo2.com/private/backups/20241014_120013-hrmsdemo2_com-database.sql.gz is older than 24 hours
+File ./hrmsdemo2.com/private/backups/20241014_180016-hrmsdemo2_com-database.sql.gz is older than 24 hours
+File ./hrmsdemo2.com/private/backups/20241014_120013-hrmsdemo2_com-site_config_backup.json is older than 24 hours
+File ./hrmsdemo2.com/private/backups/20241013_180041-hrmsdemo2_com-database.sql.gz is older than 24 hours
+File ./hrmsdemo2.com/private/backups/20241013_180041-hrmsdemo2_com-site_config_backup.json is older than 24 hours
+set -o pipefail; /usr/bin/mariadb-dump --user=_49c03e54f119b2de --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _49c03e54f119b2de | /usr/bin/gzip >> ./hrmsdemo2.com/private/backups/20241015_180044-hrmsdemo2_com-database.sql.gz
+
+Backup Summary for hrmsdemo2.com at 2024-10-15 18:00:51.632675
+Config  : ./hrmsdemo2.com/private/backups/20241015_180044-hrmsdemo2_com-site_config_backup.json 94.0B
+Database: ./hrmsdemo2.com/private/backups/20241015_180044-hrmsdemo2_com-database.sql.gz         731.0KiB
+Backup for Site hrmsdemo2.com has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_41fabb16676dfcab --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _41fabb16676dfcab | /usr/bin/gzip >> ./hrmsdemo.com/private/backups/20241016_120001-hrmsdemo_com-database.sql.gz
+
+Backup Summary for hrmsdemo.com at 2024-10-16 12:00:07.677539
+Config  : ./hrmsdemo.com/private/backups/20241016_120001-hrmsdemo_com-site_config_backup.json 281.0B
+Database: ./hrmsdemo.com/private/backups/20241016_120001-hrmsdemo_com-database.sql.gz         27.5MiB
+Backup for Site hrmsdemo.com has been successfully completed
+File ./hrmsdemo1.com/private/backups/20241015_180025-hrmsdemo1_com-database.sql.gz is recent
+File ./hrmsdemo1.com/private/backups/20241015_180025-hrmsdemo1_com-site_config_backup.json is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_deecfd916918053b --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _deecfd916918053b | /usr/bin/gzip >> ./hrmsdemo1.com/private/backups/20241016_120007-hrmsdemo1_com-database.sql.gz
+
+Backup Summary for hrmsdemo1.com at 2024-10-16 12:00:17.631857
+Config  : ./hrmsdemo1.com/private/backups/20241016_120007-hrmsdemo1_com-site_config_backup.json 121.0B
+Database: ./hrmsdemo1.com/private/backups/20241016_120007-hrmsdemo1_com-database.sql.gz         26.4MiB
+Backup for Site hrmsdemo1.com has been successfully completed
+File ./hrmsdemo2.com/private/backups/20241015_180044-hrmsdemo2_com-site_config_backup.json is recent
+File ./hrmsdemo2.com/private/backups/20241015_180044-hrmsdemo2_com-database.sql.gz is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_49c03e54f119b2de --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _49c03e54f119b2de | /usr/bin/gzip >> ./hrmsdemo2.com/private/backups/20241016_120017-hrmsdemo2_com-database.sql.gz
+
+Backup Summary for hrmsdemo2.com at 2024-10-16 12:00:20.997494
+Config  : ./hrmsdemo2.com/private/backups/20241016_120017-hrmsdemo2_com-site_config_backup.json 94.0B
+Database: ./hrmsdemo2.com/private/backups/20241016_120017-hrmsdemo2_com-database.sql.gz         731.0KiB
+Backup for Site hrmsdemo2.com has been successfully completed

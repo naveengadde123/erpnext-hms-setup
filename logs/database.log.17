@@ -1,0 +1,1433 @@
+2024-07-30 17:56:49,412 WARNING database DDL Query made to DB:
+ALTER TABLE `tabSalary Component` MODIFY `max_benefit_amount` decimal(21,9) not null default 0, MODIFY `amount` decimal(21,9) not null default 0
+2024-07-30 17:56:49,449 WARNING database DDL Query made to DB:
+ALTER TABLE `tabSalary Component` ADD INDEX `creation`(`creation`)
+2024-07-30 17:56:49,567 WARNING database DDL Query made to DB:
+ALTER TABLE `tabCompany` ADD COLUMN `basic_component` varchar(140), ADD COLUMN `hra_component` varchar(140), ADD COLUMN `arrear_component` varchar(140)
+2024-07-30 17:56:49,590 WARNING database DDL Query made to DB:
+ALTER TABLE `tabCompany` MODIFY `total_monthly_sales` decimal(21,9) not null default 0, MODIFY `monthly_sales_target` decimal(21,9) not null default 0, MODIFY `credit_limit` decimal(21,9) not null default 0
+2024-07-30 17:56:49,680 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee Tax Exemption Declaration` ADD COLUMN `monthly_house_rent` decimal(21,9) not null default 0, ADD COLUMN `rented_in_metro_city` int(1) not null default 0, ADD COLUMN `salary_structure_hra` decimal(21,9) not null default 0, ADD COLUMN `annual_hra_exemption` decimal(21,9) not null default 0, ADD COLUMN `monthly_hra_exemption` decimal(21,9) not null default 0
+2024-07-30 17:56:49,702 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee Tax Exemption Declaration` MODIFY `total_exemption_amount` decimal(21,9) not null default 0, MODIFY `total_declared_amount` decimal(21,9) not null default 0
+2024-07-30 17:56:49,733 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee Tax Exemption Declaration` ADD INDEX `creation`(`creation`)
+2024-07-30 17:56:49,826 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee Tax Exemption Proof Submission` ADD COLUMN `house_rent_payment_amount` decimal(21,9) not null default 0, ADD COLUMN `rented_in_metro_city` int(1) not null default 0, ADD COLUMN `rented_from_date` date, ADD COLUMN `rented_to_date` date, ADD COLUMN `monthly_house_rent` decimal(21,9) not null default 0, ADD COLUMN `monthly_hra_exemption` decimal(21,9) not null default 0, ADD COLUMN `total_eligible_hra_exemption` decimal(21,9) not null default 0
+2024-07-30 17:56:49,845 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee Tax Exemption Proof Submission` MODIFY `total_actual_amount` decimal(21,9) not null default 0, MODIFY `exemption_amount` decimal(21,9) not null default 0
+2024-07-30 17:56:49,874 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee Tax Exemption Proof Submission` ADD INDEX `creation`(`creation`)
+2024-07-30 17:57:04,443 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee Tax Exemption Declaration` MODIFY `total_declared_amount` decimal(21,9) not null default 0, MODIFY `total_exemption_amount` decimal(21,9) not null default 0, MODIFY `monthly_house_rent` decimal(21,9) not null default 0, MODIFY `monthly_hra_exemption` decimal(21,9) not null default 0, MODIFY `annual_hra_exemption` decimal(21,9) not null default 0, MODIFY `salary_structure_hra` decimal(21,9) not null default 0
+2024-07-30 17:57:04,513 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `ctc` decimal(21,9) not null default 0
+2024-07-30 17:57:04,582 WARNING database DDL Query made to DB:
+ALTER TABLE `tabSalary Component` MODIFY `max_benefit_amount` decimal(21,9) not null default 0, MODIFY `amount` decimal(21,9) not null default 0
+2024-07-30 17:57:04,646 WARNING database DDL Query made to DB:
+ALTER TABLE `tabCompany` MODIFY `total_monthly_sales` decimal(21,9) not null default 0, MODIFY `monthly_sales_target` decimal(21,9) not null default 0, MODIFY `credit_limit` decimal(21,9) not null default 0
+2024-07-30 17:57:04,701 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee Tax Exemption Proof Submission` MODIFY `total_actual_amount` decimal(21,9) not null default 0, MODIFY `exemption_amount` decimal(21,9) not null default 0, MODIFY `total_eligible_hra_exemption` decimal(21,9) not null default 0, MODIFY `monthly_house_rent` decimal(21,9) not null default 0, MODIFY `house_rent_payment_amount` decimal(21,9) not null default 0, MODIFY `monthly_hra_exemption` decimal(21,9) not null default 0
+2024-07-30 23:31:25,821 WARNING database DDL Query made to DB:
+create table `tabRecruitment` (
+			name varchar(140) primary key,
+			creation datetime(6),
+			modified datetime(6),
+			modified_by varchar(140),
+			owner varchar(140),
+			docstatus int(1) not null default '0',
+			idx int(8) not null default '0',
+			parent varchar(140),
+parentfield varchar(140),
+parenttype varchar(140),
+index parent(parent))
+			ENGINE=InnoDB
+			ROW_FORMAT=DYNAMIC
+			CHARACTER SET=utf8mb4
+			COLLATE=utf8mb4_unicode_ci
+2024-07-31 15:52:23,905 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee Tax Exemption Proof Submission` MODIFY `exemption_amount` decimal(21,9) not null default 0, MODIFY `monthly_house_rent` decimal(21,9) not null default 0, MODIFY `total_eligible_hra_exemption` decimal(21,9) not null default 0, MODIFY `house_rent_payment_amount` decimal(21,9) not null default 0, MODIFY `total_actual_amount` decimal(21,9) not null default 0, MODIFY `monthly_hra_exemption` decimal(21,9) not null default 0
+2024-07-31 15:52:23,965 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `ctc` decimal(21,9) not null default 0
+2024-07-31 15:52:24,016 WARNING database DDL Query made to DB:
+ALTER TABLE `tabSalary Component` MODIFY `amount` decimal(21,9) not null default 0, MODIFY `max_benefit_amount` decimal(21,9) not null default 0
+2024-07-31 15:52:24,081 WARNING database DDL Query made to DB:
+ALTER TABLE `tabCompany` MODIFY `credit_limit` decimal(21,9) not null default 0, MODIFY `monthly_sales_target` decimal(21,9) not null default 0, MODIFY `total_monthly_sales` decimal(21,9) not null default 0
+2024-07-31 15:52:24,126 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee Tax Exemption Declaration` MODIFY `monthly_house_rent` decimal(21,9) not null default 0, MODIFY `monthly_hra_exemption` decimal(21,9) not null default 0, MODIFY `salary_structure_hra` decimal(21,9) not null default 0, MODIFY `annual_hra_exemption` decimal(21,9) not null default 0, MODIFY `total_exemption_amount` decimal(21,9) not null default 0, MODIFY `total_declared_amount` decimal(21,9) not null default 0
+2024-08-01 11:06:43,516 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `ctc` decimal(21,9) not null default 0
+2024-08-01 11:08:48,406 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `ctc` decimal(21,9) not null default 0
+2024-08-01 11:15:14,509 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `ctc` decimal(21,9) not null default 0
+2024-08-01 11:15:14,649 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `ctc` decimal(21,9) not null default 0
+2024-08-01 11:15:14,785 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `ctc` decimal(21,9) not null default 0
+2024-08-01 11:15:14,920 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` ADD COLUMN `custom_start_date` date
+2024-08-01 11:15:14,934 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `ctc` decimal(21,9) not null default 0
+2024-08-01 11:15:15,240 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `ctc` decimal(21,9) not null default 0
+2024-08-01 11:27:36,186 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `ctc` decimal(21,9) not null default 0
+2024-08-01 11:27:44,926 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `ctc` decimal(21,9) not null default 0
+2024-08-01 11:27:49,367 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `ctc` decimal(21,9) not null default 0
+2024-08-01 11:40:30,922 WARNING database DDL Query made to DB:
+create table `tabProject Details` (
+			name varchar(140) primary key,
+			creation datetime(6),
+			modified datetime(6),
+			modified_by varchar(140),
+			owner varchar(140),
+			docstatus int(1) not null default '0',
+			idx int(8) not null default '0',
+			`_user_tags` text,
+`_comments` text,
+`_assign` text,
+`_liked_by` text,
+index modified(modified))
+			ENGINE=InnoDB
+			ROW_FORMAT=DYNAMIC
+			CHARACTER SET=utf8mb4
+			COLLATE=utf8mb4_unicode_ci
+2024-08-01 11:44:49,984 WARNING database DDL Query made to DB:
+create table `tabProject Details1` (
+			name varchar(140) primary key,
+			creation datetime(6),
+			modified datetime(6),
+			modified_by varchar(140),
+			owner varchar(140),
+			docstatus int(1) not null default '0',
+			idx int(8) not null default '0',
+			parent varchar(140),
+parentfield varchar(140),
+parenttype varchar(140),
+index parent(parent))
+			ENGINE=InnoDB
+			ROW_FORMAT=DYNAMIC
+			CHARACTER SET=utf8mb4
+			COLLATE=utf8mb4_unicode_ci
+2024-08-01 12:31:41,639 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `ctc` decimal(21,9) not null default 0
+2024-08-01 12:31:41,971 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` ADD COLUMN `custom_pn` varchar(140)
+2024-08-01 12:31:42,006 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `ctc` decimal(21,9) not null default 0
+2024-08-01 12:31:42,326 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` ADD COLUMN `custom_test` varchar(140)
+2024-08-01 12:31:42,364 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `ctc` decimal(21,9) not null default 0
+2024-08-01 12:31:42,681 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `ctc` decimal(21,9) not null default 0
+2024-08-01 12:34:40,410 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `ctc` decimal(21,9) not null default 0
+2024-08-01 12:38:51,332 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` ADD COLUMN `custom_project_starting_date` date
+2024-08-01 12:38:51,374 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `ctc` decimal(21,9) not null default 0
+2024-08-01 12:38:51,708 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` ADD COLUMN `custom_project_ending_date` date
+2024-08-01 12:38:51,745 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `ctc` decimal(21,9) not null default 0
+2024-08-01 12:38:52,054 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `ctc` decimal(21,9) not null default 0
+2024-08-01 12:44:11,443 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `ctc` decimal(21,9) not null default 0
+2024-08-01 12:44:11,803 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` ADD COLUMN `custom_time_period_in_bench` date
+2024-08-01 12:44:11,834 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `ctc` decimal(21,9) not null default 0
+2024-08-01 12:44:12,101 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `ctc` decimal(21,9) not null default 0
+2024-08-01 12:44:24,920 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `ctc` decimal(21,9) not null default 0
+2024-08-01 12:48:40,198 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` ADD COLUMN `custom_bench_period` varchar(140)
+2024-08-01 12:48:40,250 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `ctc` decimal(21,9) not null default 0
+2024-08-01 12:48:40,543 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` ADD COLUMN `custom_start_time` date
+2024-08-01 12:48:40,572 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `ctc` decimal(21,9) not null default 0
+2024-08-01 12:48:40,867 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` ADD COLUMN `custom_end_time` date
+2024-08-01 12:48:40,905 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `ctc` decimal(21,9) not null default 0
+2024-08-01 12:48:41,715 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `ctc` decimal(21,9) not null default 0
+2024-08-01 12:48:46,500 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `ctc` decimal(21,9) not null default 0
+2024-08-01 14:22:33,518 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `ctc` decimal(21,9) not null default 0
+2024-08-01 14:22:33,819 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `ctc` decimal(21,9) not null default 0
+2024-08-01 14:22:34,170 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` ADD COLUMN `custom_primary_skills` varchar(140)
+2024-08-01 14:22:34,208 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `ctc` decimal(21,9) not null default 0
+2024-08-01 14:22:34,556 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` ADD COLUMN `custom_secondary_skills` varchar(140)
+2024-08-01 14:22:34,598 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `ctc` decimal(21,9) not null default 0
+2024-08-01 14:22:34,983 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `ctc` decimal(21,9) not null default 0
+2024-08-01 15:54:19,791 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `ctc` decimal(21,9) not null default 0
+2024-08-01 15:54:22,942 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `ctc` decimal(21,9) not null default 0
+2024-08-01 15:56:18,547 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `ctc` decimal(21,9) not null default 0
+2024-08-01 15:56:27,521 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `ctc` decimal(21,9) not null default 0
+2024-08-01 15:58:04,503 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `ctc` decimal(21,9) not null default 0
+2024-08-01 16:00:25,038 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `ctc` decimal(21,9) not null default 0
+2024-08-01 16:06:35,325 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `ctc` decimal(21,9) not null default 0
+2024-08-01 16:07:05,634 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `ctc` decimal(21,9) not null default 0
+2024-08-02 16:59:48,655 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` ADD COLUMN `custom_client_name` varchar(140)
+2024-08-02 16:59:48,674 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `ctc` decimal(21,9) not null default 0
+2024-08-02 16:59:48,831 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `ctc` decimal(21,9) not null default 0
+2024-08-02 17:00:15,798 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `ctc` decimal(21,9) not null default 0
+2024-08-02 17:00:23,891 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `ctc` decimal(21,9) not null default 0
+2024-08-02 17:00:53,044 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `ctc` decimal(21,9) not null default 0
+2024-08-02 17:01:00,656 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `ctc` decimal(21,9) not null default 0
+2024-08-02 17:04:04,433 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `ctc` decimal(21,9) not null default 0
+2024-08-02 17:04:04,553 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` ADD COLUMN `custom_months` varchar(140)
+2024-08-02 17:04:04,568 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `ctc` decimal(21,9) not null default 0
+2024-08-02 17:05:31,182 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `ctc` decimal(21,9) not null default 0
+2024-08-02 17:07:05,236 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `ctc` decimal(21,9) not null default 0
+2024-08-02 17:07:05,355 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` ADD COLUMN `custom_time_period` varchar(140)
+2024-08-02 17:07:05,370 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `ctc` decimal(21,9) not null default 0
+2024-08-02 17:09:19,744 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `ctc` decimal(21,9) not null default 0
+2024-08-02 17:11:40,351 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `ctc` decimal(21,9) not null default 0
+2024-08-02 17:11:40,499 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` ADD COLUMN `custom_months_in_bench` varchar(140)
+2024-08-02 17:11:40,516 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `ctc` decimal(21,9) not null default 0
+2024-08-02 17:21:33,249 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `ctc` decimal(21,9) not null default 0
+2024-08-02 17:36:34,840 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` ADD COLUMN `custom_start` date
+2024-08-02 17:36:34,860 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `ctc` decimal(21,9) not null default 0
+2024-08-02 17:36:35,180 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` ADD COLUMN `custom_end` date
+2024-08-02 17:36:35,227 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `ctc` decimal(21,9) not null default 0
+2024-08-02 17:38:16,677 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `ctc` decimal(21,9) not null default 0
+2024-08-02 17:40:55,867 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `ctc` decimal(21,9) not null default 0
+2024-08-08 09:21:47,195 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `ctc` decimal(21,9) not null default 0
+2024-08-08 09:37:39,560 WARNING database DDL Query made to DB:
+create table `tabEmployee Technology Details` (
+			name varchar(140) primary key,
+			creation datetime(6),
+			modified datetime(6),
+			modified_by varchar(140),
+			owner varchar(140),
+			docstatus int(1) not null default '0',
+			idx int(8) not null default '0',
+			parent varchar(140),
+parentfield varchar(140),
+parenttype varchar(140),
+index parent(parent))
+			ENGINE=InnoDB
+			ROW_FORMAT=DYNAMIC
+			CHARACTER SET=utf8mb4
+			COLLATE=utf8mb4_unicode_ci
+2024-08-08 09:59:41,183 WARNING database DDL Query made to DB:
+alter table `tabEmployee Technology Details` add column if not exists parent varchar(140)
+2024-08-08 09:59:41,185 WARNING database DDL Query made to DB:
+alter table `tabEmployee Technology Details` add column if not exists parenttype varchar(140)
+2024-08-08 09:59:41,186 WARNING database DDL Query made to DB:
+alter table `tabEmployee Technology Details` add column if not exists parentfield varchar(140)
+2024-08-08 09:59:41,261 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee Technology Details` ADD COLUMN `technology` varchar(140)
+2024-08-08 10:05:35,880 WARNING database DDL Query made to DB:
+create table `tabTechnology Details` (
+			name varchar(140) primary key,
+			creation datetime(6),
+			modified datetime(6),
+			modified_by varchar(140),
+			owner varchar(140),
+			docstatus int(1) not null default '0',
+			idx int(8) not null default '0',
+			parent varchar(140),
+parentfield varchar(140),
+parenttype varchar(140),
+index parent(parent))
+			ENGINE=InnoDB
+			ROW_FORMAT=DYNAMIC
+			CHARACTER SET=utf8mb4
+			COLLATE=utf8mb4_unicode_ci
+2024-08-08 10:12:36,782 WARNING database DDL Query made to DB:
+alter table `tabTechnology Details` add column if not exists parent varchar(140)
+2024-08-08 10:12:36,784 WARNING database DDL Query made to DB:
+alter table `tabTechnology Details` add column if not exists parenttype varchar(140)
+2024-08-08 10:12:36,784 WARNING database DDL Query made to DB:
+alter table `tabTechnology Details` add column if not exists parentfield varchar(140)
+2024-08-08 10:12:36,843 WARNING database DDL Query made to DB:
+ALTER TABLE `tabTechnology Details` ADD COLUMN `technology` varchar(140), ADD COLUMN `level` varchar(140)
+2024-08-08 10:15:24,460 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `ctc` decimal(21,9) not null default 0
+2024-08-08 10:15:25,663 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `ctc` decimal(21,9) not null default 0
+2024-08-08 11:15:20,778 WARNING database DDL Query made to DB:
+alter table `tabTechnology Details` add column if not exists parent varchar(140)
+2024-08-08 11:15:20,846 WARNING database DDL Query made to DB:
+alter table `tabTechnology Details` add column if not exists parenttype varchar(140)
+2024-08-08 11:15:20,849 WARNING database DDL Query made to DB:
+alter table `tabTechnology Details` add column if not exists parentfield varchar(140)
+2024-08-08 11:16:00,204 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `ctc` decimal(21,9) not null default 0
+2024-08-08 11:26:17,359 WARNING database DDL Query made to DB:
+alter table `tabTechnology Details` add column if not exists parent varchar(140)
+2024-08-08 11:26:17,409 WARNING database DDL Query made to DB:
+alter table `tabTechnology Details` add column if not exists parenttype varchar(140)
+2024-08-08 11:26:17,410 WARNING database DDL Query made to DB:
+alter table `tabTechnology Details` add column if not exists parentfield varchar(140)
+2024-08-08 11:26:17,562 WARNING database DDL Query made to DB:
+ALTER TABLE `tabTechnology Details` ADD COLUMN `client_name` varchar(140), ADD COLUMN `project_name` varchar(140)
+2024-08-08 11:33:37,314 WARNING database DDL Query made to DB:
+alter table `tabTechnology Details` add column if not exists parent varchar(140)
+2024-08-08 11:33:37,319 WARNING database DDL Query made to DB:
+alter table `tabTechnology Details` add column if not exists parenttype varchar(140)
+2024-08-08 11:33:37,320 WARNING database DDL Query made to DB:
+alter table `tabTechnology Details` add column if not exists parentfield varchar(140)
+2024-08-08 11:49:16,310 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `ctc` decimal(21,9) not null default 0
+2024-08-08 11:49:32,718 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `ctc` decimal(21,9) not null default 0
+2024-08-08 11:49:56,752 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `ctc` decimal(21,9) not null default 0
+2024-08-08 11:50:00,233 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `ctc` decimal(21,9) not null default 0
+2024-08-08 11:50:38,561 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `ctc` decimal(21,9) not null default 0
+2024-08-08 11:50:59,164 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `ctc` decimal(21,9) not null default 0
+2024-08-08 11:52:02,860 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `ctc` decimal(21,9) not null default 0
+2024-08-08 11:53:35,731 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `ctc` decimal(21,9) not null default 0
+2024-08-08 11:54:01,411 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `ctc` decimal(21,9) not null default 0
+2024-08-08 12:07:08,173 WARNING database DDL Query made to DB:
+alter table `tabProject Details` add column if not exists parent varchar(140)
+2024-08-08 12:07:08,223 WARNING database DDL Query made to DB:
+alter table `tabProject Details` add column if not exists parenttype varchar(140)
+2024-08-08 12:07:08,261 WARNING database DDL Query made to DB:
+alter table `tabProject Details` add column if not exists parentfield varchar(140)
+2024-08-08 12:07:08,457 WARNING database DDL Query made to DB:
+ALTER TABLE `tabProject Details` ADD COLUMN `client_name` varchar(140), ADD COLUMN `project_name` varchar(140), ADD COLUMN `technology` varchar(140), ADD COLUMN `bench_in_months` varchar(140)
+2024-08-08 12:16:12,051 WARNING database DDL Query made to DB:
+alter table `tabProject Details` add column if not exists parent varchar(140)
+2024-08-08 12:16:12,055 WARNING database DDL Query made to DB:
+alter table `tabProject Details` add column if not exists parenttype varchar(140)
+2024-08-08 12:16:12,058 WARNING database DDL Query made to DB:
+alter table `tabProject Details` add column if not exists parentfield varchar(140)
+2024-08-08 12:16:12,290 WARNING database DDL Query made to DB:
+ALTER TABLE `tabProject Details` ADD COLUMN `months` varchar(140)
+2024-08-08 12:36:10,999 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` ADD COLUMN `custom_project_status` varchar(140)
+2024-08-08 12:36:11,018 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `ctc` decimal(21,9) not null default 0
+2024-08-08 12:36:11,172 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `ctc` decimal(21,9) not null default 0
+2024-08-08 12:36:52,618 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `ctc` decimal(21,9) not null default 0
+2024-08-08 12:42:30,780 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `ctc` decimal(21,9) not null default 0
+2024-08-08 12:42:33,531 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `ctc` decimal(21,9) not null default 0
+2024-08-08 14:11:58,378 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `ctc` decimal(21,9) not null default 0
+2024-08-08 14:14:46,446 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `ctc` decimal(21,9) not null default 0
+2024-08-08 14:35:17,461 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `ctc` decimal(21,9) not null default 0
+2024-08-08 14:40:17,639 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `ctc` decimal(21,9) not null default 0
+2024-08-08 14:40:25,095 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `ctc` decimal(21,9) not null default 0
+2024-08-08 14:41:53,677 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `ctc` decimal(21,9) not null default 0
+2024-08-08 14:43:16,366 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `ctc` decimal(21,9) not null default 0
+2024-08-08 16:45:13,711 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `ctc` decimal(21,9) not null default 0
+2024-08-08 16:45:46,151 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `ctc` decimal(21,9) not null default 0
+2024-08-08 17:26:09,518 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `ctc` decimal(21,9) not null default 0
+2024-08-08 17:47:40,515 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `ctc` decimal(21,9) not null default 0
+2024-08-08 17:58:15,898 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `ctc` decimal(21,9) not null default 0
+2024-08-08 17:58:20,722 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `ctc` decimal(21,9) not null default 0
+2024-08-08 17:59:19,993 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `ctc` decimal(21,9) not null default 0
+2024-08-08 17:59:22,966 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `ctc` decimal(21,9) not null default 0
+2024-08-09 10:10:39,812 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `ctc` decimal(21,9) not null default 0
+2024-08-09 10:10:43,338 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `ctc` decimal(21,9) not null default 0
+2024-08-09 10:12:04,568 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `ctc` decimal(21,9) not null default 0
+2024-08-09 10:12:08,766 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `ctc` decimal(21,9) not null default 0
+2024-08-09 15:23:06,247 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `ctc` decimal(21,9) not null default 0
+2024-08-09 15:23:09,368 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `ctc` decimal(21,9) not null default 0
+2024-08-09 15:42:55,981 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `ctc` decimal(21,9) not null default 0
+2024-08-09 15:43:36,063 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `ctc` decimal(21,9) not null default 0
+2024-08-09 15:43:41,429 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `ctc` decimal(21,9) not null default 0
+2024-08-12 09:07:23,458 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` ADD COLUMN `custom_po_time_period` varchar(140)
+2024-08-12 09:07:23,500 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `ctc` decimal(21,9) not null default 0
+2024-08-12 09:07:23,777 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `ctc` decimal(21,9) not null default 0
+2024-08-12 09:07:24,166 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` ADD COLUMN `custom_bench_time_period` varchar(140)
+2024-08-12 09:07:24,202 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `ctc` decimal(21,9) not null default 0
+2024-08-12 09:07:24,470 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `ctc` decimal(21,9) not null default 0
+2024-08-12 11:02:48,318 WARNING database DDL Query made to DB:
+create table `tabEmployee Project Details` (
+			name varchar(140) primary key,
+			creation datetime(6),
+			modified datetime(6),
+			modified_by varchar(140),
+			owner varchar(140),
+			docstatus int(1) not null default '0',
+			idx int(8) not null default '0',
+			parent varchar(140),
+parentfield varchar(140),
+parenttype varchar(140),
+index parent(parent))
+			ENGINE=InnoDB
+			ROW_FORMAT=DYNAMIC
+			CHARACTER SET=utf8mb4
+			COLLATE=utf8mb4_unicode_ci
+2024-08-12 12:58:30,013 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `ctc` decimal(21,9) not null default 0
+2024-08-12 13:02:15,965 WARNING database DDL Query made to DB:
+alter table `tabEmployee Project Details` add column if not exists parent varchar(140)
+2024-08-12 13:02:15,969 WARNING database DDL Query made to DB:
+alter table `tabEmployee Project Details` add column if not exists parenttype varchar(140)
+2024-08-12 13:02:15,973 WARNING database DDL Query made to DB:
+alter table `tabEmployee Project Details` add column if not exists parentfield varchar(140)
+2024-08-12 13:02:16,184 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee Project Details` ADD COLUMN `po_start_date` date, ADD COLUMN `po_end_date` date, ADD COLUMN `current_project_status` varchar(140)
+2024-08-12 14:43:49,936 WARNING database DDL Query made to DB:
+create table `tabEmployee Project Reference` (
+			name varchar(140) primary key,
+			creation datetime(6),
+			modified datetime(6),
+			modified_by varchar(140),
+			owner varchar(140),
+			docstatus int(1) not null default '0',
+			idx int(8) not null default '0',
+			parent varchar(140),
+parentfield varchar(140),
+parenttype varchar(140),
+index parent(parent))
+			ENGINE=InnoDB
+			ROW_FORMAT=DYNAMIC
+			CHARACTER SET=utf8mb4
+			COLLATE=utf8mb4_unicode_ci
+2024-08-12 15:25:02,230 WARNING database DDL Query made to DB:
+create table `tabEmployeePOEnd Notify` (
+			name varchar(140) primary key,
+			creation datetime(6),
+			modified datetime(6),
+			modified_by varchar(140),
+			owner varchar(140),
+			docstatus int(1) not null default '0',
+			idx int(8) not null default '0',
+			parent varchar(140),
+parentfield varchar(140),
+parenttype varchar(140),
+index parent(parent))
+			ENGINE=InnoDB
+			ROW_FORMAT=DYNAMIC
+			CHARACTER SET=utf8mb4
+			COLLATE=utf8mb4_unicode_ci
+2024-08-12 15:29:01,284 WARNING database DDL Query made to DB:
+alter table `tabEmployeePOEnd Notify` add column if not exists parent varchar(140)
+2024-08-12 15:29:01,300 WARNING database DDL Query made to DB:
+alter table `tabEmployeePOEnd Notify` add column if not exists parenttype varchar(140)
+2024-08-12 15:29:01,301 WARNING database DDL Query made to DB:
+alter table `tabEmployeePOEnd Notify` add column if not exists parentfield varchar(140)
+2024-08-12 15:29:01,437 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployeePOEnd Notify` ADD COLUMN `po_start_date` date, ADD COLUMN `po_end_date` date, ADD COLUMN `current_project_status` varchar(140)
+2024-08-13 15:50:19,832 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `ctc` decimal(21,9) not null default 0
+2024-08-13 15:50:20,183 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` ADD COLUMN `custom_project_manager_review` decimal(21,9) not null default 0
+2024-08-13 15:50:20,203 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `ctc` decimal(21,9) not null default 0
+2024-08-13 15:50:20,428 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` ADD COLUMN `custom_team_lead_review` decimal(21,9) not null default 0
+2024-08-13 15:50:20,451 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `custom_project_manager_review` decimal(21,9) not null default 0, MODIFY `ctc` decimal(21,9) not null default 0
+2024-08-13 15:50:20,729 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` ADD COLUMN `custom_management_review` decimal(21,9) not null default 0
+2024-08-13 15:50:20,747 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `ctc` decimal(21,9) not null default 0, MODIFY `custom_project_manager_review` decimal(21,9) not null default 0, MODIFY `custom_team_lead_review` decimal(21,9) not null default 0
+2024-08-13 15:50:20,971 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `ctc` decimal(21,9) not null default 0, MODIFY `custom_project_manager_review` decimal(21,9) not null default 0, MODIFY `custom_management_review` decimal(21,9) not null default 0, MODIFY `custom_team_lead_review` decimal(21,9) not null default 0
+2024-08-13 15:50:24,051 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `ctc` decimal(21,9) not null default 0, MODIFY `custom_management_review` decimal(21,9) not null default 0, MODIFY `custom_project_manager_review` decimal(21,9) not null default 0, MODIFY `custom_team_lead_review` decimal(21,9) not null default 0
+2024-08-13 16:18:54,577 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `custom_project_manager_review` decimal(21,9) not null default 0, MODIFY `custom_team_lead_review` decimal(21,9) not null default 0, MODIFY `ctc` decimal(21,9) not null default 0, MODIFY `custom_management_review` decimal(21,9) not null default 0
+2024-08-13 16:18:54,782 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` ADD COLUMN `custom_overall_review` decimal(21,9) not null default 0
+2024-08-13 16:18:54,798 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `ctc` decimal(21,9) not null default 0, MODIFY `custom_management_review` decimal(21,9) not null default 0, MODIFY `custom_team_lead_review` decimal(21,9) not null default 0, MODIFY `custom_project_manager_review` decimal(21,9) not null default 0
+2024-08-13 16:18:54,958 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `ctc` decimal(21,9) not null default 0, MODIFY `custom_project_manager_review` decimal(21,9) not null default 0, MODIFY `custom_management_review` decimal(21,9) not null default 0, MODIFY `custom_team_lead_review` decimal(21,9) not null default 0, MODIFY `custom_overall_review` decimal(21,9) not null default 0
+2024-08-13 16:18:58,272 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `custom_overall_review` decimal(21,9) not null default 0, MODIFY `custom_project_manager_review` decimal(21,9) not null default 0, MODIFY `custom_management_review` decimal(21,9) not null default 0, MODIFY `ctc` decimal(21,9) not null default 0, MODIFY `custom_team_lead_review` decimal(21,9) not null default 0
+2024-08-13 17:15:34,792 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `custom_management_review` decimal(21,9) not null default 0, MODIFY `custom_overall_review` decimal(21,9) not null default 0, MODIFY `custom_project_manager_review` decimal(21,9) not null default 0, MODIFY `custom_team_lead_review` decimal(21,9) not null default 0, MODIFY `ctc` decimal(21,9) not null default 0
+2024-08-13 17:15:39,536 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `custom_management_review` decimal(21,9) not null default 0, MODIFY `custom_project_manager_review` decimal(21,9) not null default 0, MODIFY `custom_overall_review` decimal(21,9) not null default 0, MODIFY `custom_team_lead_review` decimal(21,9) not null default 0, MODIFY `ctc` decimal(21,9) not null default 0
+2024-08-14 12:01:12,044 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `custom_team_lead_review` decimal(21,9) not null default 0, MODIFY `custom_overall_review` decimal(21,9) not null default 0, MODIFY `ctc` decimal(21,9) not null default 0, MODIFY `custom_project_manager_review` decimal(21,9) not null default 0, MODIFY `custom_management_review` decimal(21,9) not null default 0
+2024-08-14 12:02:29,680 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `custom_team_lead_review` decimal(21,9) not null default 0, MODIFY `custom_management_review` decimal(21,9) not null default 0, MODIFY `custom_project_manager_review` decimal(21,9) not null default 0, MODIFY `ctc` decimal(21,9) not null default 0, MODIFY `custom_overall_review` decimal(21,9) not null default 0
+2024-08-14 16:58:59,975 WARNING database DDL Query made to DB:
+create table `tabEmployees` (
+			name varchar(140) primary key,
+			creation datetime(6),
+			modified datetime(6),
+			modified_by varchar(140),
+			owner varchar(140),
+			docstatus int(1) not null default '0',
+			idx int(8) not null default '0',
+			`_user_tags` text,
+`_comments` text,
+`_assign` text,
+`_liked_by` text,
+index modified(modified))
+			ENGINE=InnoDB
+			ROW_FORMAT=DYNAMIC
+			CHARACTER SET=utf8mb4
+			COLLATE=utf8mb4_unicode_ci
+2024-08-16 15:48:38,949 WARNING database DDL Query made to DB:
+create table `tabSample` (
+			name varchar(140) primary key,
+			creation datetime(6),
+			modified datetime(6),
+			modified_by varchar(140),
+			owner varchar(140),
+			docstatus int(1) not null default '0',
+			idx int(8) not null default '0',
+			parent varchar(140),
+parentfield varchar(140),
+parenttype varchar(140),
+index parent(parent))
+			ENGINE=InnoDB
+			ROW_FORMAT=DYNAMIC
+			CHARACTER SET=utf8mb4
+			COLLATE=utf8mb4_unicode_ci
+2024-08-19 13:01:29,330 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` ADD COLUMN `custom_po_number` varchar(140)
+2024-08-19 13:01:29,352 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `custom_overall_review` decimal(21,9) not null default 0, MODIFY `ctc` decimal(21,9) not null default 0, MODIFY `custom_project_manager_review` decimal(21,9) not null default 0, MODIFY `custom_management_review` decimal(21,9) not null default 0, MODIFY `custom_team_lead_review` decimal(21,9) not null default 0
+2024-08-19 13:01:29,675 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `custom_team_lead_review` decimal(21,9) not null default 0, MODIFY `custom_overall_review` decimal(21,9) not null default 0, MODIFY `custom_project_manager_review` decimal(21,9) not null default 0, MODIFY `custom_management_review` decimal(21,9) not null default 0, MODIFY `ctc` decimal(21,9) not null default 0
+2024-08-19 13:01:47,967 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `custom_project_manager_review` decimal(21,9) not null default 0, MODIFY `ctc` decimal(21,9) not null default 0, MODIFY `custom_management_review` decimal(21,9) not null default 0, MODIFY `custom_team_lead_review` decimal(21,9) not null default 0, MODIFY `custom_overall_review` decimal(21,9) not null default 0
+2024-08-19 15:44:03,412 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` ADD COLUMN `custom_validate` int(1) not null default 0
+2024-08-19 15:44:03,432 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `custom_project_manager_review` decimal(21,9) not null default 0, MODIFY `custom_team_lead_review` decimal(21,9) not null default 0, MODIFY `custom_overall_review` decimal(21,9) not null default 0, MODIFY `custom_management_review` decimal(21,9) not null default 0, MODIFY `ctc` decimal(21,9) not null default 0
+2024-08-19 16:14:48,535 WARNING database DDL Query made to DB:
+create table `tabCertifications` (
+			name varchar(140) primary key,
+			creation datetime(6),
+			modified datetime(6),
+			modified_by varchar(140),
+			owner varchar(140),
+			docstatus int(1) not null default '0',
+			idx int(8) not null default '0',
+			parent varchar(140),
+parentfield varchar(140),
+parenttype varchar(140),
+index parent(parent))
+			ENGINE=InnoDB
+			ROW_FORMAT=DYNAMIC
+			CHARACTER SET=utf8mb4
+			COLLATE=utf8mb4_unicode_ci
+2024-08-19 16:18:19,733 WARNING database DDL Query made to DB:
+alter table `tabCertifications` add column if not exists parent varchar(140)
+2024-08-19 16:18:19,736 WARNING database DDL Query made to DB:
+alter table `tabCertifications` add column if not exists parenttype varchar(140)
+2024-08-19 16:18:19,736 WARNING database DDL Query made to DB:
+alter table `tabCertifications` add column if not exists parentfield varchar(140)
+2024-08-19 16:18:19,819 WARNING database DDL Query made to DB:
+ALTER TABLE `tabCertifications` ADD COLUMN `certification_name` varchar(140), ADD COLUMN `issue_date` date, ADD COLUMN `expiry_date` date
+2024-08-19 16:19:01,893 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `ctc` decimal(21,9) not null default 0, MODIFY `custom_project_manager_review` decimal(21,9) not null default 0, MODIFY `custom_overall_review` decimal(21,9) not null default 0, MODIFY `custom_team_lead_review` decimal(21,9) not null default 0, MODIFY `custom_management_review` decimal(21,9) not null default 0
+2024-08-19 16:19:20,444 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `ctc` decimal(21,9) not null default 0, MODIFY `custom_project_manager_review` decimal(21,9) not null default 0, MODIFY `custom_team_lead_review` decimal(21,9) not null default 0, MODIFY `custom_overall_review` decimal(21,9) not null default 0, MODIFY `custom_management_review` decimal(21,9) not null default 0
+2024-08-19 16:19:52,269 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `custom_team_lead_review` decimal(21,9) not null default 0, MODIFY `custom_overall_review` decimal(21,9) not null default 0, MODIFY `custom_project_manager_review` decimal(21,9) not null default 0, MODIFY `ctc` decimal(21,9) not null default 0, MODIFY `custom_management_review` decimal(21,9) not null default 0
+2024-08-19 16:20:12,462 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `custom_team_lead_review` decimal(21,9) not null default 0, MODIFY `ctc` decimal(21,9) not null default 0, MODIFY `custom_overall_review` decimal(21,9) not null default 0, MODIFY `custom_project_manager_review` decimal(21,9) not null default 0, MODIFY `custom_management_review` decimal(21,9) not null default 0
+2024-08-19 16:20:14,730 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `custom_team_lead_review` decimal(21,9) not null default 0, MODIFY `custom_management_review` decimal(21,9) not null default 0, MODIFY `custom_project_manager_review` decimal(21,9) not null default 0, MODIFY `ctc` decimal(21,9) not null default 0, MODIFY `custom_overall_review` decimal(21,9) not null default 0
+2024-08-19 16:22:34,381 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `custom_project_manager_review` decimal(21,9) not null default 0, MODIFY `ctc` decimal(21,9) not null default 0, MODIFY `custom_team_lead_review` decimal(21,9) not null default 0, MODIFY `custom_overall_review` decimal(21,9) not null default 0, MODIFY `custom_management_review` decimal(21,9) not null default 0
+2024-08-19 16:22:34,582 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `custom_overall_review` decimal(21,9) not null default 0, MODIFY `ctc` decimal(21,9) not null default 0, MODIFY `custom_team_lead_review` decimal(21,9) not null default 0, MODIFY `custom_project_manager_review` decimal(21,9) not null default 0, MODIFY `custom_management_review` decimal(21,9) not null default 0
+2024-08-19 16:22:36,677 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `ctc` decimal(21,9) not null default 0, MODIFY `custom_team_lead_review` decimal(21,9) not null default 0, MODIFY `custom_management_review` decimal(21,9) not null default 0, MODIFY `custom_project_manager_review` decimal(21,9) not null default 0, MODIFY `custom_overall_review` decimal(21,9) not null default 0
+2024-08-19 16:22:39,398 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `custom_management_review` decimal(21,9) not null default 0, MODIFY `ctc` decimal(21,9) not null default 0, MODIFY `custom_overall_review` decimal(21,9) not null default 0, MODIFY `custom_project_manager_review` decimal(21,9) not null default 0, MODIFY `custom_team_lead_review` decimal(21,9) not null default 0
+2024-08-20 15:31:22,800 WARNING database DDL Query made to DB:
+alter table `tabProject Details` add column if not exists parent varchar(140)
+2024-08-20 15:31:22,803 WARNING database DDL Query made to DB:
+alter table `tabProject Details` add column if not exists parenttype varchar(140)
+2024-08-20 15:31:22,804 WARNING database DDL Query made to DB:
+alter table `tabProject Details` add column if not exists parentfield varchar(140)
+2024-08-20 15:31:22,888 WARNING database DDL Query made to DB:
+ALTER TABLE `tabProject Details` ADD COLUMN `po_number` varchar(140)
+2024-08-20 15:41:00,201 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `custom_management_review` decimal(21,9) not null default 0, MODIFY `custom_project_manager_review` decimal(21,9) not null default 0, MODIFY `custom_team_lead_review` decimal(21,9) not null default 0, MODIFY `custom_overall_review` decimal(21,9) not null default 0, MODIFY `ctc` decimal(21,9) not null default 0
+2024-08-20 15:41:05,358 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `custom_management_review` decimal(21,9) not null default 0, MODIFY `custom_team_lead_review` decimal(21,9) not null default 0, MODIFY `custom_overall_review` decimal(21,9) not null default 0, MODIFY `ctc` decimal(21,9) not null default 0, MODIFY `custom_project_manager_review` decimal(21,9) not null default 0
+2024-08-20 15:43:33,886 WARNING database DDL Query made to DB:
+alter table `tabProject Details` add column if not exists parent varchar(140)
+2024-08-20 15:43:33,888 WARNING database DDL Query made to DB:
+alter table `tabProject Details` add column if not exists parenttype varchar(140)
+2024-08-20 15:43:33,890 WARNING database DDL Query made to DB:
+alter table `tabProject Details` add column if not exists parentfield varchar(140)
+2024-08-20 16:22:22,159 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `custom_project_manager_review` decimal(21,9) not null default 0, MODIFY `custom_overall_review` decimal(21,9) not null default 0, MODIFY `custom_management_review` decimal(21,9) not null default 0, MODIFY `ctc` decimal(21,9) not null default 0, MODIFY `custom_team_lead_review` decimal(21,9) not null default 0
+2024-08-20 16:22:22,586 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `custom_overall_review` decimal(21,9) not null default 0, MODIFY `ctc` decimal(21,9) not null default 0, MODIFY `custom_management_review` decimal(21,9) not null default 0, MODIFY `custom_team_lead_review` decimal(21,9) not null default 0, MODIFY `custom_project_manager_review` decimal(21,9) not null default 0
+2024-08-20 16:22:44,304 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `custom_project_manager_review` decimal(21,9) not null default 0, MODIFY `custom_team_lead_review` decimal(21,9) not null default 0, MODIFY `custom_overall_review` decimal(21,9) not null default 0, MODIFY `custom_management_review` decimal(21,9) not null default 0, MODIFY `ctc` decimal(21,9) not null default 0
+2024-08-21 15:22:03,340 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `custom_project_manager_review` decimal(21,9) not null default 0, MODIFY `ctc` decimal(21,9) not null default 0, MODIFY `custom_management_review` decimal(21,9) not null default 0, MODIFY `custom_team_lead_review` decimal(21,9) not null default 0, MODIFY `custom_overall_review` decimal(21,9) not null default 0
+2024-08-21 15:22:26,382 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `custom_overall_review` decimal(21,9) not null default 0, MODIFY `custom_project_manager_review` decimal(21,9) not null default 0, MODIFY `ctc` decimal(21,9) not null default 0, MODIFY `custom_team_lead_review` decimal(21,9) not null default 0, MODIFY `custom_management_review` decimal(21,9) not null default 0
+2024-08-21 15:22:33,962 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `custom_project_manager_review` decimal(21,9) not null default 0, MODIFY `custom_overall_review` decimal(21,9) not null default 0, MODIFY `custom_management_review` decimal(21,9) not null default 0, MODIFY `custom_team_lead_review` decimal(21,9) not null default 0, MODIFY `ctc` decimal(21,9) not null default 0
+2024-08-22 11:07:26,949 WARNING database DDL Query made to DB:
+alter table `tabProject Details` add column if not exists parent varchar(140)
+2024-08-22 11:07:26,953 WARNING database DDL Query made to DB:
+alter table `tabProject Details` add column if not exists parenttype varchar(140)
+2024-08-22 11:07:26,953 WARNING database DDL Query made to DB:
+alter table `tabProject Details` add column if not exists parentfield varchar(140)
+2024-08-22 11:07:27,038 WARNING database DDL Query made to DB:
+ALTER TABLE `tabProject Details` ADD COLUMN `po_start_date` date, ADD COLUMN `po_end_date` date
+2024-08-23 15:57:02,129 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` ADD COLUMN `custom_billable_status` varchar(140)
+2024-08-23 15:57:02,146 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `custom_overall_review` decimal(21,9) not null default 0, MODIFY `custom_management_review` decimal(21,9) not null default 0, MODIFY `ctc` decimal(21,9) not null default 0, MODIFY `custom_project_manager_review` decimal(21,9) not null default 0, MODIFY `custom_team_lead_review` decimal(21,9) not null default 0
+2024-08-23 15:57:02,330 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `custom_team_lead_review` decimal(21,9) not null default 0, MODIFY `custom_management_review` decimal(21,9) not null default 0, MODIFY `ctc` decimal(21,9) not null default 0, MODIFY `custom_overall_review` decimal(21,9) not null default 0, MODIFY `custom_project_manager_review` decimal(21,9) not null default 0
+2024-08-23 15:57:11,054 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `custom_management_review` decimal(21,9) not null default 0, MODIFY `custom_project_manager_review` decimal(21,9) not null default 0, MODIFY `custom_team_lead_review` decimal(21,9) not null default 0, MODIFY `ctc` decimal(21,9) not null default 0, MODIFY `custom_overall_review` decimal(21,9) not null default 0
+2024-08-23 15:57:55,386 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `custom_team_lead_review` decimal(21,9) not null default 0, MODIFY `custom_overall_review` decimal(21,9) not null default 0, MODIFY `custom_management_review` decimal(21,9) not null default 0, MODIFY `custom_project_manager_review` decimal(21,9) not null default 0, MODIFY `ctc` decimal(21,9) not null default 0
+2024-08-23 15:57:58,190 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `custom_management_review` decimal(21,9) not null default 0, MODIFY `custom_overall_review` decimal(21,9) not null default 0, MODIFY `custom_team_lead_review` decimal(21,9) not null default 0, MODIFY `custom_project_manager_review` decimal(21,9) not null default 0, MODIFY `ctc` decimal(21,9) not null default 0
+2024-08-23 15:59:10,192 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `custom_overall_review` decimal(21,9) not null default 0, MODIFY `custom_management_review` decimal(21,9) not null default 0, MODIFY `custom_team_lead_review` decimal(21,9) not null default 0, MODIFY `custom_project_manager_review` decimal(21,9) not null default 0, MODIFY `ctc` decimal(21,9) not null default 0
+2024-08-26 10:09:25,677 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `custom_project_manager_review` decimal(21,9) not null default 0, MODIFY `custom_management_review` decimal(21,9) not null default 0, MODIFY `custom_team_lead_review` decimal(21,9) not null default 0, MODIFY `ctc` decimal(21,9) not null default 0, MODIFY `custom_overall_review` decimal(21,9) not null default 0
+2024-08-26 10:29:20,242 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `custom_overall_review` decimal(21,9) not null default 0, MODIFY `custom_project_manager_review` decimal(21,9) not null default 0, MODIFY `custom_management_review` decimal(21,9) not null default 0, MODIFY `ctc` decimal(21,9) not null default 0, MODIFY `custom_team_lead_review` decimal(21,9) not null default 0
+2024-08-26 13:00:14,027 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `custom_team_lead_review` decimal(21,9) not null default 0, MODIFY `ctc` decimal(21,9) not null default 0, MODIFY `custom_project_manager_review` decimal(21,9) not null default 0, MODIFY `custom_management_review` decimal(21,9) not null default 0, MODIFY `custom_overall_review` decimal(21,9) not null default 0
+2024-08-26 13:00:27,091 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `custom_project_manager_review` decimal(21,9) not null default 0, MODIFY `custom_team_lead_review` decimal(21,9) not null default 0, MODIFY `custom_management_review` decimal(21,9) not null default 0, MODIFY `ctc` decimal(21,9) not null default 0, MODIFY `custom_overall_review` decimal(21,9) not null default 0
+2024-08-26 13:00:36,828 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `ctc` decimal(21,9) not null default 0, MODIFY `custom_project_manager_review` decimal(21,9) not null default 0, MODIFY `custom_management_review` decimal(21,9) not null default 0, MODIFY `custom_overall_review` decimal(21,9) not null default 0, MODIFY `custom_team_lead_review` decimal(21,9) not null default 0
+2024-09-05 10:10:32,571 WARNING database DDL Query made to DB:
+create table `tabPO and Bench Period Details` (
+			name varchar(140) primary key,
+			creation datetime(6),
+			modified datetime(6),
+			modified_by varchar(140),
+			owner varchar(140),
+			docstatus int(1) not null default '0',
+			idx int(8) not null default '0',
+			parent varchar(140),
+parentfield varchar(140),
+parenttype varchar(140),
+index parent(parent))
+			ENGINE=InnoDB
+			ROW_FORMAT=DYNAMIC
+			CHARACTER SET=utf8mb4
+			COLLATE=utf8mb4_unicode_ci
+2024-09-05 10:14:23,577 WARNING database DDL Query made to DB:
+alter table `tabPO and Bench Period Details` add column if not exists parent varchar(140)
+2024-09-05 10:14:23,579 WARNING database DDL Query made to DB:
+alter table `tabPO and Bench Period Details` add column if not exists parenttype varchar(140)
+2024-09-05 10:14:23,579 WARNING database DDL Query made to DB:
+alter table `tabPO and Bench Period Details` add column if not exists parentfield varchar(140)
+2024-09-05 10:14:23,747 WARNING database DDL Query made to DB:
+ALTER TABLE `tabPO and Bench Period Details` ADD COLUMN `po_number` varchar(140), ADD COLUMN `start_date` date, ADD COLUMN `end_date` date, ADD COLUMN `pobench` varchar(140), ADD COLUMN `months` varchar(140)
+2024-09-07 15:32:26,264 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `ctc` decimal(21,9) not null default 0, MODIFY `custom_project_manager_review` decimal(21,9) not null default 0, MODIFY `custom_overall_review` decimal(21,9) not null default 0, MODIFY `custom_management_review` decimal(21,9) not null default 0, MODIFY `custom_team_lead_review` decimal(21,9) not null default 0
+2024-09-07 15:32:44,224 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `custom_overall_review` decimal(21,9) not null default 0, MODIFY `custom_management_review` decimal(21,9) not null default 0, MODIFY `custom_team_lead_review` decimal(21,9) not null default 0, MODIFY `ctc` decimal(21,9) not null default 0, MODIFY `custom_project_manager_review` decimal(21,9) not null default 0
+2024-09-08 21:56:26,555 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `custom_team_lead_review` decimal(21,9) not null default 0, MODIFY `ctc` decimal(21,9) not null default 0, MODIFY `custom_management_review` decimal(21,9) not null default 0, MODIFY `custom_overall_review` decimal(21,9) not null default 0, MODIFY `custom_project_manager_review` decimal(21,9) not null default 0
+2024-09-08 21:56:26,913 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` ADD COLUMN `custom_laptop_code` varchar(140)
+2024-09-08 21:56:26,933 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `custom_project_manager_review` decimal(21,9) not null default 0, MODIFY `ctc` decimal(21,9) not null default 0, MODIFY `custom_management_review` decimal(21,9) not null default 0, MODIFY `custom_team_lead_review` decimal(21,9) not null default 0, MODIFY `custom_overall_review` decimal(21,9) not null default 0
+2024-09-08 21:56:27,282 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` ADD COLUMN `custom_id_card` varchar(140)
+2024-09-08 21:56:27,310 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `custom_team_lead_review` decimal(21,9) not null default 0, MODIFY `custom_project_manager_review` decimal(21,9) not null default 0, MODIFY `custom_overall_review` decimal(21,9) not null default 0, MODIFY `ctc` decimal(21,9) not null default 0, MODIFY `custom_management_review` decimal(21,9) not null default 0
+2024-09-08 21:56:27,702 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` ADD COLUMN `custom_mac_book` varchar(140)
+2024-09-08 21:56:27,723 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `custom_overall_review` decimal(21,9) not null default 0, MODIFY `custom_project_manager_review` decimal(21,9) not null default 0, MODIFY `ctc` decimal(21,9) not null default 0, MODIFY `custom_management_review` decimal(21,9) not null default 0, MODIFY `custom_team_lead_review` decimal(21,9) not null default 0
+2024-09-08 21:56:30,980 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `custom_management_review` decimal(21,9) not null default 0, MODIFY `custom_team_lead_review` decimal(21,9) not null default 0, MODIFY `custom_overall_review` decimal(21,9) not null default 0, MODIFY `ctc` decimal(21,9) not null default 0, MODIFY `custom_project_manager_review` decimal(21,9) not null default 0
+2024-09-08 21:56:40,368 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `custom_management_review` decimal(21,9) not null default 0, MODIFY `custom_team_lead_review` decimal(21,9) not null default 0, MODIFY `ctc` decimal(21,9) not null default 0, MODIFY `custom_project_manager_review` decimal(21,9) not null default 0, MODIFY `custom_overall_review` decimal(21,9) not null default 0
+2024-09-08 21:57:43,685 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `custom_overall_review` decimal(21,9) not null default 0, MODIFY `custom_team_lead_review` decimal(21,9) not null default 0, MODIFY `ctc` decimal(21,9) not null default 0, MODIFY `custom_project_manager_review` decimal(21,9) not null default 0, MODIFY `custom_management_review` decimal(21,9) not null default 0
+2024-09-08 21:58:32,718 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `ctc` decimal(21,9) not null default 0, MODIFY `custom_overall_review` decimal(21,9) not null default 0, MODIFY `custom_project_manager_review` decimal(21,9) not null default 0, MODIFY `custom_team_lead_review` decimal(21,9) not null default 0, MODIFY `custom_management_review` decimal(21,9) not null default 0
+2024-09-08 21:58:33,083 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `custom_project_manager_review` decimal(21,9) not null default 0, MODIFY `custom_management_review` decimal(21,9) not null default 0, MODIFY `custom_overall_review` decimal(21,9) not null default 0, MODIFY `ctc` decimal(21,9) not null default 0, MODIFY `custom_team_lead_review` decimal(21,9) not null default 0
+2024-09-08 21:58:33,798 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `custom_management_review` decimal(21,9) not null default 0, MODIFY `custom_project_manager_review` decimal(21,9) not null default 0, MODIFY `custom_team_lead_review` decimal(21,9) not null default 0, MODIFY `custom_overall_review` decimal(21,9) not null default 0, MODIFY `ctc` decimal(21,9) not null default 0
+2024-09-08 21:58:43,283 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `custom_overall_review` decimal(21,9) not null default 0, MODIFY `ctc` decimal(21,9) not null default 0, MODIFY `custom_management_review` decimal(21,9) not null default 0, MODIFY `custom_project_manager_review` decimal(21,9) not null default 0, MODIFY `custom_team_lead_review` decimal(21,9) not null default 0
+2024-09-09 11:13:05,947 WARNING database DDL Query made to DB:
+alter table `tabPO and Bench Period Details` add column if not exists parent varchar(140)
+2024-09-09 11:13:05,951 WARNING database DDL Query made to DB:
+alter table `tabPO and Bench Period Details` add column if not exists parenttype varchar(140)
+2024-09-09 11:13:05,953 WARNING database DDL Query made to DB:
+alter table `tabPO and Bench Period Details` add column if not exists parentfield varchar(140)
+2024-09-09 11:13:06,030 WARNING database DDL Query made to DB:
+ALTER TABLE `tabPO and Bench Period Details` ADD COLUMN `billable_status` varchar(140)
+2024-09-09 11:14:41,481 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `custom_project_manager_review` decimal(21,9) not null default 0, MODIFY `custom_team_lead_review` decimal(21,9) not null default 0, MODIFY `ctc` decimal(21,9) not null default 0, MODIFY `custom_management_review` decimal(21,9) not null default 0, MODIFY `custom_overall_review` decimal(21,9) not null default 0
+2024-09-09 11:16:52,748 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `custom_management_review` decimal(21,9) not null default 0, MODIFY `custom_project_manager_review` decimal(21,9) not null default 0, MODIFY `ctc` decimal(21,9) not null default 0, MODIFY `custom_overall_review` decimal(21,9) not null default 0, MODIFY `custom_team_lead_review` decimal(21,9) not null default 0
+2024-09-09 11:23:09,354 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `custom_management_review` decimal(21,9) not null default 0, MODIFY `custom_team_lead_review` decimal(21,9) not null default 0, MODIFY `ctc` decimal(21,9) not null default 0, MODIFY `custom_overall_review` decimal(21,9) not null default 0, MODIFY `custom_project_manager_review` decimal(21,9) not null default 0
+2024-09-09 11:23:11,738 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `custom_team_lead_review` decimal(21,9) not null default 0, MODIFY `custom_overall_review` decimal(21,9) not null default 0, MODIFY `custom_project_manager_review` decimal(21,9) not null default 0, MODIFY `custom_management_review` decimal(21,9) not null default 0, MODIFY `ctc` decimal(21,9) not null default 0
+2024-09-09 14:57:09,377 WARNING database DDL Query made to DB:
+alter table `tabPO and Bench Period Details` add column if not exists parent varchar(140)
+2024-09-09 14:57:09,378 WARNING database DDL Query made to DB:
+alter table `tabPO and Bench Period Details` add column if not exists parenttype varchar(140)
+2024-09-09 14:57:09,378 WARNING database DDL Query made to DB:
+alter table `tabPO and Bench Period Details` add column if not exists parentfield varchar(140)
+2024-09-20 16:27:56,293 WARNING database DDL Query made to DB:
+create table `tabLaptop Details` (
+			name varchar(140) primary key,
+			creation datetime(6),
+			modified datetime(6),
+			modified_by varchar(140),
+			owner varchar(140),
+			docstatus int(1) not null default '0',
+			idx int(8) not null default '0',
+			parent varchar(140),
+parentfield varchar(140),
+parenttype varchar(140),
+index parent(parent))
+			ENGINE=InnoDB
+			ROW_FORMAT=DYNAMIC
+			CHARACTER SET=utf8mb4
+			COLLATE=utf8mb4_unicode_ci
+2024-09-20 16:36:20,901 WARNING database DDL Query made to DB:
+alter table `tabLaptop Details` add column if not exists parent varchar(140)
+2024-09-20 16:36:20,904 WARNING database DDL Query made to DB:
+alter table `tabLaptop Details` add column if not exists parenttype varchar(140)
+2024-09-20 16:36:20,905 WARNING database DDL Query made to DB:
+alter table `tabLaptop Details` add column if not exists parentfield varchar(140)
+2024-09-20 16:36:21,018 WARNING database DDL Query made to DB:
+ALTER TABLE `tabLaptop Details` ADD COLUMN `asset_code` varchar(140), ADD COLUMN `asset_type` varchar(140), ADD COLUMN `purchase_date` varchar(140), ADD COLUMN `purchase_price` varchar(140), ADD COLUMN `invoice_number` varchar(140), ADD COLUMN `manufacture` varchar(140), ADD COLUMN `laptop_model` varchar(140), ADD COLUMN `color` varchar(140), ADD COLUMN `serial_number` varchar(140), ADD COLUMN `ram` varchar(140), ADD COLUMN `hard_disk_storage` varchar(140), ADD COLUMN `processor` varchar(140), ADD COLUMN `current_owner` varchar(140), ADD COLUMN `previous_owner` varchar(140), ADD COLUMN `issue_date` varchar(140), ADD COLUMN `remarks` varchar(140), ADD COLUMN `status` varchar(140)
+2024-09-20 16:39:54,734 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `ctc` decimal(21,9) not null default 0, MODIFY `custom_project_manager_review` decimal(21,9) not null default 0, MODIFY `custom_team_lead_review` decimal(21,9) not null default 0, MODIFY `custom_management_review` decimal(21,9) not null default 0, MODIFY `custom_overall_review` decimal(21,9) not null default 0
+2024-09-20 16:41:23,581 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `custom_team_lead_review` decimal(21,9) not null default 0, MODIFY `ctc` decimal(21,9) not null default 0, MODIFY `custom_management_review` decimal(21,9) not null default 0, MODIFY `custom_overall_review` decimal(21,9) not null default 0, MODIFY `custom_project_manager_review` decimal(21,9) not null default 0
+2024-09-20 16:41:23,734 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `ctc` decimal(21,9) not null default 0, MODIFY `custom_management_review` decimal(21,9) not null default 0, MODIFY `custom_project_manager_review` decimal(21,9) not null default 0, MODIFY `custom_team_lead_review` decimal(21,9) not null default 0, MODIFY `custom_overall_review` decimal(21,9) not null default 0
+2024-09-20 16:41:24,763 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `custom_management_review` decimal(21,9) not null default 0, MODIFY `custom_project_manager_review` decimal(21,9) not null default 0, MODIFY `custom_overall_review` decimal(21,9) not null default 0, MODIFY `custom_team_lead_review` decimal(21,9) not null default 0, MODIFY `ctc` decimal(21,9) not null default 0
+2024-09-20 16:41:35,756 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `custom_overall_review` decimal(21,9) not null default 0, MODIFY `ctc` decimal(21,9) not null default 0, MODIFY `custom_management_review` decimal(21,9) not null default 0, MODIFY `custom_team_lead_review` decimal(21,9) not null default 0, MODIFY `custom_project_manager_review` decimal(21,9) not null default 0
+2024-09-20 16:49:55,564 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `custom_management_review` decimal(21,9) not null default 0, MODIFY `custom_overall_review` decimal(21,9) not null default 0, MODIFY `ctc` decimal(21,9) not null default 0, MODIFY `custom_project_manager_review` decimal(21,9) not null default 0, MODIFY `custom_team_lead_review` decimal(21,9) not null default 0
+2024-09-20 16:52:19,377 WARNING database DDL Query made to DB:
+alter table `tabLaptop Details` add column if not exists parent varchar(140)
+2024-09-20 16:52:19,378 WARNING database DDL Query made to DB:
+alter table `tabLaptop Details` add column if not exists parenttype varchar(140)
+2024-09-20 16:52:19,379 WARNING database DDL Query made to DB:
+alter table `tabLaptop Details` add column if not exists parentfield varchar(140)
+2024-09-24 10:55:28,024 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `custom_project_manager_review` decimal(21,9) not null default 0, MODIFY `custom_team_lead_review` decimal(21,9) not null default 0, MODIFY `custom_overall_review` decimal(21,9) not null default 0, MODIFY `ctc` decimal(21,9) not null default 0, MODIFY `custom_management_review` decimal(21,9) not null default 0
+2024-09-24 10:55:31,782 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `custom_team_lead_review` decimal(21,9) not null default 0, MODIFY `custom_overall_review` decimal(21,9) not null default 0, MODIFY `custom_management_review` decimal(21,9) not null default 0, MODIFY `custom_project_manager_review` decimal(21,9) not null default 0, MODIFY `ctc` decimal(21,9) not null default 0
+2024-09-24 17:25:18,386 WARNING database DDL Query made to DB:
+alter table `tabLaptop Details` add column if not exists parent varchar(140)
+2024-09-24 17:25:18,406 WARNING database DDL Query made to DB:
+alter table `tabLaptop Details` add column if not exists parenttype varchar(140)
+2024-09-24 17:25:18,407 WARNING database DDL Query made to DB:
+alter table `tabLaptop Details` add column if not exists parentfield varchar(140)
+2024-09-24 17:25:18,860 WARNING database DDL Query made to DB:
+ALTER TABLE `tabLaptop Details` MODIFY `issue_date` date, MODIFY `purchase_date` date
+2024-10-03 16:33:46,456 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `custom_project_manager_review` decimal(21,9) not null default 0, MODIFY `custom_management_review` decimal(21,9) not null default 0, MODIFY `ctc` decimal(21,9) not null default 0, MODIFY `custom_team_lead_review` decimal(21,9) not null default 0, MODIFY `custom_overall_review` decimal(21,9) not null default 0
+2024-10-03 17:03:31,220 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `custom_management_review` decimal(21,9) not null default 0, MODIFY `custom_team_lead_review` decimal(21,9) not null default 0, MODIFY `custom_project_manager_review` decimal(21,9) not null default 0, MODIFY `ctc` decimal(21,9) not null default 0, MODIFY `custom_overall_review` decimal(21,9) not null default 0
+2024-10-03 21:23:21,817 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `custom_team_lead_review` decimal(21,9) not null default 0, MODIFY `custom_project_manager_review` decimal(21,9) not null default 0, MODIFY `custom_management_review` decimal(21,9) not null default 0, MODIFY `ctc` decimal(21,9) not null default 0, MODIFY `custom_overall_review` decimal(21,9) not null default 0
+2024-10-04 13:51:13,987 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `custom_management_review` decimal(21,9) not null default 0, MODIFY `custom_team_lead_review` decimal(21,9) not null default 0, MODIFY `custom_overall_review` decimal(21,9) not null default 0, MODIFY `ctc` decimal(21,9) not null default 0, MODIFY `custom_project_manager_review` decimal(21,9) not null default 0
+2024-10-04 13:53:02,573 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `custom_team_lead_review` decimal(21,9) not null default 0, MODIFY `custom_management_review` decimal(21,9) not null default 0, MODIFY `custom_overall_review` decimal(21,9) not null default 0, MODIFY `ctc` decimal(21,9) not null default 0, MODIFY `custom_project_manager_review` decimal(21,9) not null default 0
+2024-10-04 13:58:07,296 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `custom_management_review` decimal(21,9) not null default 0, MODIFY `custom_overall_review` decimal(21,9) not null default 0, MODIFY `custom_team_lead_review` decimal(21,9) not null default 0, MODIFY `custom_project_manager_review` decimal(21,9) not null default 0, MODIFY `ctc` decimal(21,9) not null default 0
+2024-10-04 13:58:07,493 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `custom_project_manager_review` decimal(21,9) not null default 0, MODIFY `custom_overall_review` decimal(21,9) not null default 0, MODIFY `custom_team_lead_review` decimal(21,9) not null default 0, MODIFY `ctc` decimal(21,9) not null default 0, MODIFY `custom_management_review` decimal(21,9) not null default 0
+2024-10-07 14:43:02,374 WARNING database DDL Query made to DB:
+DROP USER IF EXISTS '_deecfd916918053b'@'localhost'
+2024-10-07 14:43:02,374 WARNING database DDL Query made to DB:
+DROP USER IF EXISTS '_deecfd916918053b'@'localhost'
+2024-10-07 14:43:02,379 WARNING database DDL Query made to DB:
+DROP DATABASE IF EXISTS `_deecfd916918053b`
+2024-10-07 14:43:02,379 WARNING database DDL Query made to DB:
+DROP DATABASE IF EXISTS `_deecfd916918053b`
+2024-10-07 14:43:02,390 WARNING database DDL Query made to DB:
+CREATE USER '_deecfd916918053b'@'localhost' IDENTIFIED BY 'hn3oXVK545cvx5gz'
+2024-10-07 14:43:02,390 WARNING database DDL Query made to DB:
+CREATE USER '_deecfd916918053b'@'localhost' IDENTIFIED BY 'hn3oXVK545cvx5gz'
+2024-10-07 14:43:02,394 WARNING database DDL Query made to DB:
+CREATE DATABASE `_deecfd916918053b` CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci
+2024-10-07 14:43:02,394 WARNING database DDL Query made to DB:
+CREATE DATABASE `_deecfd916918053b` CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci
+2024-10-07 14:43:03,138 WARNING database DDL Query made to DB:
+create table if not exists `__Auth` (
+				`doctype` VARCHAR(140) NOT NULL,
+				`name` VARCHAR(255) NOT NULL,
+				`fieldname` VARCHAR(140) NOT NULL,
+				`password` TEXT NOT NULL,
+				`encrypted` INT(1) NOT NULL DEFAULT 0,
+				PRIMARY KEY (`doctype`, `name`, `fieldname`)
+			) ENGINE=InnoDB ROW_FORMAT=DYNAMIC CHARACTER SET=utf8mb4 COLLATE=utf8mb4_unicode_ci
+2024-10-07 14:43:03,138 WARNING database DDL Query made to DB:
+create table if not exists `__Auth` (
+				`doctype` VARCHAR(140) NOT NULL,
+				`name` VARCHAR(255) NOT NULL,
+				`fieldname` VARCHAR(140) NOT NULL,
+				`password` TEXT NOT NULL,
+				`encrypted` INT(1) NOT NULL DEFAULT 0,
+				PRIMARY KEY (`doctype`, `name`, `fieldname`)
+			) ENGINE=InnoDB ROW_FORMAT=DYNAMIC CHARACTER SET=utf8mb4 COLLATE=utf8mb4_unicode_ci
+2024-10-07 14:43:03,154 WARNING database DDL Query made to DB:
+create table __global_search(
+				doctype varchar(100),
+				name varchar(140),
+				title varchar(140),
+				content text,
+				fulltext(content),
+				route varchar(140),
+				published int(1) not null default 0,
+				unique `doctype_name` (doctype, name))
+				COLLATE=utf8mb4_unicode_ci
+				ENGINE=MyISAM
+				CHARACTER SET=utf8mb4
+2024-10-07 14:43:03,154 WARNING database DDL Query made to DB:
+create table __global_search(
+				doctype varchar(100),
+				name varchar(140),
+				title varchar(140),
+				content text,
+				fulltext(content),
+				route varchar(140),
+				published int(1) not null default 0,
+				unique `doctype_name` (doctype, name))
+				COLLATE=utf8mb4_unicode_ci
+				ENGINE=MyISAM
+				CHARACTER SET=utf8mb4
+2024-10-07 14:43:03,173 WARNING database DDL Query made to DB:
+create table if not exists __UserSettings (
+			`user` VARCHAR(180) NOT NULL,
+			`doctype` VARCHAR(180) NOT NULL,
+			`data` TEXT,
+			UNIQUE(user, doctype)
+			) ENGINE=InnoDB DEFAULT CHARSET=utf8
+2024-10-07 14:43:03,173 WARNING database DDL Query made to DB:
+create table if not exists __UserSettings (
+			`user` VARCHAR(180) NOT NULL,
+			`doctype` VARCHAR(180) NOT NULL,
+			`data` TEXT,
+			UNIQUE(user, doctype)
+			) ENGINE=InnoDB DEFAULT CHARSET=utf8
+2024-10-07 14:43:03,987 WARNING database DDL Query made to DB:
+create table `tabDocType State` (
+			name varchar(140) primary key,
+			creation datetime(6),
+			modified datetime(6),
+			modified_by varchar(140),
+			owner varchar(140),
+			docstatus int(1) not null default '0',
+			idx int(8) not null default '0',
+			`title` varchar(140),
+`color` varchar(140) default 'Blue',
+`custom` int(1) not null default 0,
+parent varchar(140),
+parentfield varchar(140),
+parenttype varchar(140),
+index parent(parent))
+			ENGINE=InnoDB
+			ROW_FORMAT=DYNAMIC
+			CHARACTER SET=utf8mb4
+			COLLATE=utf8mb4_unicode_ci
+2024-10-07 14:43:03,987 WARNING database DDL Query made to DB:
+create table `tabDocType State` (
+			name varchar(140) primary key,
+			creation datetime(6),
+			modified datetime(6),
+			modified_by varchar(140),
+			owner varchar(140),
+			docstatus int(1) not null default '0',
+			idx int(8) not null default '0',
+			`title` varchar(140),
+`color` varchar(140) default 'Blue',
+`custom` int(1) not null default 0,
+parent varchar(140),
+parentfield varchar(140),
+parenttype varchar(140),
+index parent(parent))
+			ENGINE=InnoDB
+			ROW_FORMAT=DYNAMIC
+			CHARACTER SET=utf8mb4
+			COLLATE=utf8mb4_unicode_ci
+2024-10-07 14:43:04,149 WARNING database DDL Query made to DB:
+ALTER TABLE `tabDocField` ADD COLUMN `non_negative` int(1) not null default 0, ADD COLUMN `is_virtual` int(1) not null default 0, ADD COLUMN `sort_options` int(1) not null default 0, ADD COLUMN `link_filters` json, ADD COLUMN `fetch_from` text, ADD COLUMN `documentation_url` varchar(140)
+2024-10-07 14:43:04,149 WARNING database DDL Query made to DB:
+ALTER TABLE `tabDocField` ADD COLUMN `non_negative` int(1) not null default 0, ADD COLUMN `is_virtual` int(1) not null default 0, ADD COLUMN `sort_options` int(1) not null default 0, ADD COLUMN `link_filters` json, ADD COLUMN `fetch_from` text, ADD COLUMN `documentation_url` varchar(140)
+2024-10-07 14:43:04,249 WARNING database DDL Query made to DB:
+ALTER TABLE `tabDocField` MODIFY `collapsible_depends_on` longtext, MODIFY `precision` varchar(140), MODIFY `fieldname` varchar(140), MODIFY `oldfieldname` varchar(140), MODIFY `oldfieldtype` varchar(140), MODIFY `fieldtype` varchar(140) default 'Data', MODIFY `mandatory_depends_on` longtext, MODIFY `read_only_depends_on` longtext, MODIFY `label` varchar(140), MODIFY `print_width` varchar(10), MODIFY `depends_on` longtext, MODIFY `width` varchar(10)
+2024-10-07 14:43:04,249 WARNING database DDL Query made to DB:
+ALTER TABLE `tabDocField` MODIFY `collapsible_depends_on` longtext, MODIFY `precision` varchar(140), MODIFY `fieldname` varchar(140), MODIFY `oldfieldname` varchar(140), MODIFY `oldfieldtype` varchar(140), MODIFY `fieldtype` varchar(140) default 'Data', MODIFY `mandatory_depends_on` longtext, MODIFY `read_only_depends_on` longtext, MODIFY `label` varchar(140), MODIFY `print_width` varchar(10), MODIFY `depends_on` longtext, MODIFY `width` varchar(10)
+2024-10-07 14:43:04,393 WARNING database DDL Query made to DB:
+ALTER TABLE `tabDocPerm` ADD COLUMN `if_owner` int(1) not null default 0, ADD COLUMN `select` int(1) not null default 0
+2024-10-07 14:43:04,393 WARNING database DDL Query made to DB:
+ALTER TABLE `tabDocPerm` ADD COLUMN `if_owner` int(1) not null default 0, ADD COLUMN `select` int(1) not null default 0
+2024-10-07 14:43:04,444 WARNING database DDL Query made to DB:
+ALTER TABLE `tabDocPerm` MODIFY `role` varchar(140)
+2024-10-07 14:43:04,444 WARNING database DDL Query made to DB:
+ALTER TABLE `tabDocPerm` MODIFY `role` varchar(140)
+2024-10-07 14:43:04,511 WARNING database DDL Query made to DB:
+ALTER TABLE `tabDocType Action` ADD COLUMN `hidden` int(1) not null default 0, ADD COLUMN `custom` int(1) not null default 0
+2024-10-07 14:43:04,511 WARNING database DDL Query made to DB:
+ALTER TABLE `tabDocType Action` ADD COLUMN `hidden` int(1) not null default 0, ADD COLUMN `custom` int(1) not null default 0
+2024-10-07 14:43:04,567 WARNING database DDL Query made to DB:
+ALTER TABLE `tabDocType Link` ADD COLUMN `parent_doctype` varchar(140), ADD COLUMN `table_fieldname` varchar(140), ADD COLUMN `hidden` int(1) not null default 0, ADD COLUMN `is_child_table` int(1) not null default 0, ADD COLUMN `custom` int(1) not null default 0
+2024-10-07 14:43:04,567 WARNING database DDL Query made to DB:
+ALTER TABLE `tabDocType Link` ADD COLUMN `parent_doctype` varchar(140), ADD COLUMN `table_fieldname` varchar(140), ADD COLUMN `hidden` int(1) not null default 0, ADD COLUMN `is_child_table` int(1) not null default 0, ADD COLUMN `custom` int(1) not null default 0
+2024-10-07 14:43:04,691 WARNING database DDL Query made to DB:
+create table `tabForm Tour Step` (
+			name varchar(140) primary key,
+			creation datetime(6),
+			modified datetime(6),
+			modified_by varchar(140),
+			owner varchar(140),
+			docstatus int(1) not null default '0',
+			idx int(8) not null default '0',
+			`ui_tour` int(1) not null default 0,
+`is_table_field` int(1) not null default 0,
+`title` varchar(140),
+`parent_fieldname` varchar(140),
+`fieldname` varchar(140),
+`element_selector` varchar(140),
+`parent_element_selector` varchar(140),
+`description` longtext,
+`ondemand_description` longtext,
+`position` varchar(140) default 'Bottom',
+`hide_buttons` int(1) not null default 0,
+`popover_element` int(1) not null default 0,
+`modal_trigger` int(1) not null default 0,
+`offset_x` int(11) not null default 0,
+`offset_y` int(11) not null default 0,
+`next_on_click` int(1) not null default 0,
+`label` varchar(140),
+`fieldtype` varchar(140) default '0',
+`has_next_condition` int(1) not null default 0,
+`next_step_condition` longtext,
+`next_form_tour` varchar(140),
+`child_doctype` varchar(140),
+parent varchar(140),
+parentfield varchar(140),
+parenttype varchar(140),
+index parent(parent))
+			ENGINE=InnoDB
+			ROW_FORMAT=DYNAMIC
+			CHARACTER SET=utf8mb4
+			COLLATE=utf8mb4_unicode_ci
+2024-10-07 14:43:04,691 WARNING database DDL Query made to DB:
+create table `tabForm Tour Step` (
+			name varchar(140) primary key,
+			creation datetime(6),
+			modified datetime(6),
+			modified_by varchar(140),
+			owner varchar(140),
+			docstatus int(1) not null default '0',
+			idx int(8) not null default '0',
+			`ui_tour` int(1) not null default 0,
+`is_table_field` int(1) not null default 0,
+`title` varchar(140),
+`parent_fieldname` varchar(140),
+`fieldname` varchar(140),
+`element_selector` varchar(140),
+`parent_element_selector` varchar(140),
+`description` longtext,
+`ondemand_description` longtext,
+`position` varchar(140) default 'Bottom',
+`hide_buttons` int(1) not null default 0,
+`popover_element` int(1) not null default 0,
+`modal_trigger` int(1) not null default 0,
+`offset_x` int(11) not null default 0,
+`offset_y` int(11) not null default 0,
+`next_on_click` int(1) not null default 0,
+`label` varchar(140),
+`fieldtype` varchar(140) default '0',
+`has_next_condition` int(1) not null default 0,
+`next_step_condition` longtext,
+`next_form_tour` varchar(140),
+`child_doctype` varchar(140),
+parent varchar(140),
+parentfield varchar(140),
+parenttype varchar(140),
+index parent(parent))
+			ENGINE=InnoDB
+			ROW_FORMAT=DYNAMIC
+			CHARACTER SET=utf8mb4
+			COLLATE=utf8mb4_unicode_ci
+2024-10-07 14:43:04,782 WARNING database DDL Query made to DB:
+create table `tabForm Tour` (
+			name varchar(140) primary key,
+			creation datetime(6),
+			modified datetime(6),
+			modified_by varchar(140),
+			owner varchar(140),
+			docstatus int(1) not null default '0',
+			idx int(8) not null default '0',
+			`title` varchar(140) unique,
+`view_name` varchar(140),
+`workspace_name` varchar(140),
+`list_name` varchar(140) default 'List',
+`report_name` varchar(140),
+`dashboard_name` varchar(140),
+`new_document_form` int(1) not null default 0,
+`page_name` varchar(140),
+`reference_doctype` varchar(140),
+`module` varchar(140),
+`ui_tour` int(1) not null default 0,
+`track_steps` int(1) not null default 0,
+`is_standard` int(1) not null default 0,
+`save_on_complete` int(1) not null default 0,
+`first_document` int(1) not null default 0,
+`include_name_field` int(1) not null default 0,
+`page_route` text,
+`_user_tags` text,
+`_comments` text,
+`_assign` text,
+`_liked_by` text,
+index modified(modified))
+			ENGINE=InnoDB
+			ROW_FORMAT=DYNAMIC
+			CHARACTER SET=utf8mb4
+			COLLATE=utf8mb4_unicode_ci
+2024-10-07 14:43:04,782 WARNING database DDL Query made to DB:
+create table `tabForm Tour` (
+			name varchar(140) primary key,
+			creation datetime(6),
+			modified datetime(6),
+			modified_by varchar(140),
+			owner varchar(140),
+			docstatus int(1) not null default '0',
+			idx int(8) not null default '0',
+			`title` varchar(140) unique,
+`view_name` varchar(140),
+`workspace_name` varchar(140),
+`list_name` varchar(140) default 'List',
+`report_name` varchar(140),
+`dashboard_name` varchar(140),
+`new_document_form` int(1) not null default 0,
+`page_name` varchar(140),
+`reference_doctype` varchar(140),
+`module` varchar(140),
+`ui_tour` int(1) not null default 0,
+`track_steps` int(1) not null default 0,
+`is_standard` int(1) not null default 0,
+`save_on_complete` int(1) not null default 0,
+`first_document` int(1) not null default 0,
+`include_name_field` int(1) not null default 0,
+`page_route` text,
+`_user_tags` text,
+`_comments` text,
+`_assign` text,
+`_liked_by` text,
+index modified(modified))
+			ENGINE=InnoDB
+			ROW_FORMAT=DYNAMIC
+			CHARACTER SET=utf8mb4
+			COLLATE=utf8mb4_unicode_ci
+2024-10-07 14:43:04,920 WARNING database DDL Query made to DB:
+ALTER TABLE `tabDocType` ADD COLUMN `is_calendar_and_gantt` int(1) not null default 0, ADD COLUMN `quick_entry` int(1) not null default 0, ADD COLUMN `track_views` int(1) not null default 0, ADD COLUMN `queue_in_background` int(1) not null default 0, ADD COLUMN `documentation` varchar(140), ADD COLUMN `nsm_parent_field` varchar(140), ADD COLUMN `allow_events_in_timeline` int(1) not null default 0, ADD COLUMN `allow_auto_repeat` int(1) not null default 0, ADD COLUMN `make_attachments_public` int(1) not null default 0, ADD COLUMN `default_view` varchar(140), ADD COLUMN `force_re_route_to_default_view` int(1) not null default 0, ADD COLUMN `show_preview_popup` int(1) not null default 0, ADD COLUMN `default_email_template` varchar(140), ADD COLUMN `sender_name_field` varchar(140), ADD COLUMN `index_web_pages_for_search` int(1) not null default 1, ADD COLUMN `_comments` text, ADD COLUMN `_assign` text, ADD COLUMN `_liked_by` text
+2024-10-07 14:43:04,920 WARNING database DDL Query made to DB:
+ALTER TABLE `tabDocType` ADD COLUMN `is_calendar_and_gantt` int(1) not null default 0, ADD COLUMN `quick_entry` int(1) not null default 0, ADD COLUMN `track_views` int(1) not null default 0, ADD COLUMN `queue_in_background` int(1) not null default 0, ADD COLUMN `documentation` varchar(140), ADD COLUMN `nsm_parent_field` varchar(140), ADD COLUMN `allow_events_in_timeline` int(1) not null default 0, ADD COLUMN `allow_auto_repeat` int(1) not null default 0, ADD COLUMN `make_attachments_public` int(1) not null default 0, ADD COLUMN `default_view` varchar(140), ADD COLUMN `force_re_route_to_default_view` int(1) not null default 0, ADD COLUMN `show_preview_popup` int(1) not null default 0, ADD COLUMN `default_email_template` varchar(140), ADD COLUMN `sender_name_field` varchar(140), ADD COLUMN `index_web_pages_for_search` int(1) not null default 1, ADD COLUMN `_comments` text, ADD COLUMN `_assign` text, ADD COLUMN `_liked_by` text
+2024-10-07 14:43:04,966 WARNING database DDL Query made to DB:
+ALTER TABLE `tabDocType` MODIFY `route` varchar(140), MODIFY `is_published_field` varchar(140), MODIFY `website_search_field` varchar(140), MODIFY `autoname` varchar(140), MODIFY `engine` varchar(140) default 'InnoDB', MODIFY `allow_rename` int(1) not null default 1, MODIFY `migration_hash` varchar(140), MODIFY `_user_tags` text, MODIFY `image_field` varchar(140), MODIFY `timeline_field` varchar(140), MODIFY `title_field` varchar(140), MODIFY `search_fields` varchar(140), MODIFY `default_print_format` varchar(140), MODIFY `sort_field` varchar(140) default 'modified', MODIFY `sort_order` varchar(140) default 'DESC', MODIFY `document_type` varchar(140), MODIFY `icon` varchar(140), MODIFY `color` varchar(140), MODIFY `module` varchar(140), MODIFY `sender_field` varchar(140), MODIFY `subject_field` varchar(140), MODIFY `restrict_to_domain` varchar(140)
+2024-10-07 14:43:04,966 WARNING database DDL Query made to DB:
+ALTER TABLE `tabDocType` MODIFY `route` varchar(140), MODIFY `is_published_field` varchar(140), MODIFY `website_search_field` varchar(140), MODIFY `autoname` varchar(140), MODIFY `engine` varchar(140) default 'InnoDB', MODIFY `allow_rename` int(1) not null default 1, MODIFY `migration_hash` varchar(140), MODIFY `_user_tags` text, MODIFY `image_field` varchar(140), MODIFY `timeline_field` varchar(140), MODIFY `title_field` varchar(140), MODIFY `search_fields` varchar(140), MODIFY `default_print_format` varchar(140), MODIFY `sort_field` varchar(140) default 'modified', MODIFY `sort_order` varchar(140) default 'DESC', MODIFY `document_type` varchar(140), MODIFY `icon` varchar(140), MODIFY `color` varchar(140), MODIFY `module` varchar(140), MODIFY `sender_field` varchar(140), MODIFY `subject_field` varchar(140), MODIFY `restrict_to_domain` varchar(140)
+2024-10-07 14:43:05,024 WARNING database DDL Query made to DB:
+ALTER TABLE `tabDocType` ADD INDEX `module_index`(`module`)
+2024-10-07 14:43:05,024 WARNING database DDL Query made to DB:
+ALTER TABLE `tabDocType` ADD INDEX `module_index`(`module`)
+2024-10-07 14:43:05,427 WARNING database DDL Query made to DB:
+create table `tabRole` (
+			name varchar(140) primary key,
+			creation datetime(6),
+			modified datetime(6),
+			modified_by varchar(140),
+			owner varchar(140),
+			docstatus int(1) not null default '0',
+			idx int(8) not null default '0',
+			`role_name` varchar(140) unique,
+`home_page` varchar(140),
+`restrict_to_domain` varchar(140),
+`disabled` int(1) not null default 0,
+`is_custom` int(1) not null default 0,
+`desk_access` int(1) not null default 1,
+`two_factor_auth` int(1) not null default 0,
+`search_bar` int(1) not null default 1,
+`notifications` int(1) not null default 1,
+`list_sidebar` int(1) not null default 1,
+`bulk_actions` int(1) not null default 1,
+`view_switcher` int(1) not null default 1,
+`form_sidebar` int(1) not null default 1,
+`timeline` int(1) not null default 1,
+`dashboard` int(1) not null default 1,
+`_user_tags` text,
+`_comments` text,
+`_assign` text,
+`_liked_by` text,
+index modified(modified))
+			ENGINE=InnoDB
+			ROW_FORMAT=DYNAMIC
+			CHARACTER SET=utf8mb4
+			COLLATE=utf8mb4_unicode_ci
+2024-10-07 14:43:05,427 WARNING database DDL Query made to DB:
+create table `tabRole` (
+			name varchar(140) primary key,
+			creation datetime(6),
+			modified datetime(6),
+			modified_by varchar(140),
+			owner varchar(140),
+			docstatus int(1) not null default '0',
+			idx int(8) not null default '0',
+			`role_name` varchar(140) unique,
+`home_page` varchar(140),
+`restrict_to_domain` varchar(140),
+`disabled` int(1) not null default 0,
+`is_custom` int(1) not null default 0,
+`desk_access` int(1) not null default 1,
+`two_factor_auth` int(1) not null default 0,
+`search_bar` int(1) not null default 1,
+`notifications` int(1) not null default 1,
+`list_sidebar` int(1) not null default 1,
+`bulk_actions` int(1) not null default 1,
+`view_switcher` int(1) not null default 1,
+`form_sidebar` int(1) not null default 1,
+`timeline` int(1) not null default 1,
+`dashboard` int(1) not null default 1,
+`_user_tags` text,
+`_comments` text,
+`_assign` text,
+`_liked_by` text,
+index modified(modified))
+			ENGINE=InnoDB
+			ROW_FORMAT=DYNAMIC
+			CHARACTER SET=utf8mb4
+			COLLATE=utf8mb4_unicode_ci
+2024-10-07 14:43:05,554 WARNING database DDL Query made to DB:
+create table `tabHas Role` (
+			name varchar(140) primary key,
+			creation datetime(6),
+			modified datetime(6),
+			modified_by varchar(140),
+			owner varchar(140),
+			docstatus int(1) not null default '0',
+			idx int(8) not null default '0',
+			`role` varchar(140),
+parent varchar(140),
+parentfield varchar(140),
+parenttype varchar(140),
+index parent(parent))
+			ENGINE=InnoDB
+			ROW_FORMAT=DYNAMIC
+			CHARACTER SET=utf8mb4
+			COLLATE=utf8mb4_unicode_ci
+2024-10-07 14:43:05,554 WARNING database DDL Query made to DB:
+create table `tabHas Role` (
+			name varchar(140) primary key,
+			creation datetime(6),
+			modified datetime(6),
+			modified_by varchar(140),
+			owner varchar(140),
+			docstatus int(1) not null default '0',
+			idx int(8) not null default '0',
+			`role` varchar(140),
+parent varchar(140),
+parentfield varchar(140),
+parenttype varchar(140),
+index parent(parent))
+			ENGINE=InnoDB
+			ROW_FORMAT=DYNAMIC
+			CHARACTER SET=utf8mb4
+			COLLATE=utf8mb4_unicode_ci
+2024-10-07 14:43:05,670 WARNING database DDL Query made to DB:
+create table `tabCustom Field` (
+			name varchar(140) primary key,
+			creation datetime(6),
+			modified datetime(6),
+			modified_by varchar(140),
+			owner varchar(140),
+			docstatus int(1) not null default '0',
+			idx int(8) not null default '0',
+			`is_system_generated` int(1) not null default 0,
+`dt` varchar(140),
+`module` varchar(140),
+`label` varchar(140),
+`fieldname` varchar(140),
+`insert_after` varchar(140),
+`length` int(11) not null default 0,
+`link_filters` json,
+`fieldtype` varchar(140) default 'Data',
+`precision` varchar(140),
+`hide_seconds` int(1) not null default 0,
+`hide_days` int(1) not null default 0,
+`options` text,
+`sort_options` int(1) not null default 0,
+`fetch_from` text,
+`fetch_if_empty` int(1) not null default 0,
+`collapsible` int(1) not null default 0,
+`collapsible_depends_on` longtext,
+`default` text,
+`depends_on` longtext,
+`mandatory_depends_on` longtext,
+`read_only_depends_on` longtext,
+`non_negative` int(1) not null default 0,
+`reqd` int(1) not null default 0,
+`unique` int(1) not null default 0,
+`is_virtual` int(1) not null default 0,
+`read_only` int(1) not null default 0,
+`ignore_user_permissions` int(1) not null default 0,
+`hidden` int(1) not null default 0,
+`print_hide` int(1) not null default 0,
+`print_hide_if_no_value` int(1) not null default 0,
+`print_width` varchar(140),
+`no_copy` int(1) not null default 0,
+`allow_on_submit` int(1) not null default 0,
+`in_list_view` int(1) not null default 0,
+`in_standard_filter` int(1) not null default 0,
+`in_global_search` int(1) not null default 0,
+`in_preview` int(1) not null default 0,
+`bold` int(1) not null default 0,
+`report_hide` int(1) not null default 0,
+`search_index` int(1) not null default 0,
+`allow_in_quick_entry` int(1) not null default 0,
+`ignore_xss_filter` int(1) not null default 0,
+`translatable` int(1) not null default 0,
+`hide_border` int(1) not null default 0,
+`show_dashboard` int(1) not null default 0,
+`description` text,
+`permlevel` int(11) not null default 0,
+`width` varchar(140),
+`columns` int(11) not null default 0,
+`_user_tags` text,
+`_comments` text,
+`_assign` text,
+`_liked_by` text,
+index `dt`(`dt`),
+index modified(modified))
+			ENGINE=InnoDB
+			ROW_FORMAT=DYNAMIC
+			CHARACTER SET=utf8mb4
+			COLLATE=utf8mb4_unicode_ci
+2024-10-07 14:43:05,670 WARNING database DDL Query made to DB:
+create table `tabCustom Field` (
+			name varchar(140) primary key,
+			creation datetime(6),
+			modified datetime(6),
+			modified_by varchar(140),
+			owner varchar(140),
+			docstatus int(1) not null default '0',
+			idx int(8) not null default '0',
+			`is_system_generated` int(1) not null default 0,
+`dt` varchar(140),
+`module` varchar(140),
+`label` varchar(140),
+`fieldname` varchar(140),
+`insert_after` varchar(140),
+`length` int(11) not null default 0,
+`link_filters` json,
+`fieldtype` varchar(140) default 'Data',
+`precision` varchar(140),
+`hide_seconds` int(1) not null default 0,
+`hide_days` int(1) not null default 0,
+`options` text,
+`sort_options` int(1) not null default 0,
+`fetch_from` text,
+`fetch_if_empty` int(1) not null default 0,
+`collapsible` int(1) not null default 0,
+`collapsible_depends_on` longtext,
+`default` text,
+`depends_on` longtext,
+`mandatory_depends_on` longtext,
+`read_only_depends_on` longtext,
+`non_negative` int(1) not null default 0,
+`reqd` int(1) not null default 0,
+`unique` int(1) not null default 0,
+`is_virtual` int(1) not null default 0,
+`read_only` int(1) not null default 0,
+`ignore_user_permissions` int(1) not null default 0,
+`hidden` int(1) not null default 0,
+`print_hide` int(1) not null default 0,
+`print_hide_if_no_value` int(1) not null default 0,
+`print_width` varchar(140),
+`no_copy` int(1) not null default 0,
+`allow_on_submit` int(1) not null default 0,
+`in_list_view` int(1) not null default 0,
+`in_standard_filter` int(1) not null default 0,
+`in_global_search` int(1) not null default 0,
+`in_preview` int(1) not null default 0,
+`bold` int(1) not null default 0,
+`report_hide` int(1) not null default 0,
+`search_index` int(1) not null default 0,
+`allow_in_quick_entry` int(1) not null default 0,
+`ignore_xss_filter` int(1) not null default 0,
+`translatable` int(1) not null default 0,
+`hide_border` int(1) not null default 0,
+`show_dashboard` int(1) not null default 0,
+`description` text,
+`permlevel` int(11) not null default 0,
+`width` varchar(140),
+`columns` int(11) not null default 0,
+`_user_tags` text,
+`_comments` text,
+`_assign` text,
+`_liked_by` text,
+index `dt`(`dt`),
+index modified(modified))
+			ENGINE=InnoDB
+			ROW_FORMAT=DYNAMIC
+			CHARACTER SET=utf8mb4
+			COLLATE=utf8mb4_unicode_ci
+2024-10-07 14:43:05,760 WARNING database DDL Query made to DB:
+create table `tabProperty Setter` (
+			name varchar(140) primary key,
+			creation datetime(6),
+			modified datetime(6),
+			modified_by varchar(140),
+			owner varchar(140),
+			docstatus int(1) not null default '0',
+			idx int(8) not null default '0',
+			`is_system_generated` int(1) not null default 0,
+`doctype_or_field` varchar(140),
+`doc_type` varchar(140),
+`field_name` varchar(140),
+`row_name` varchar(140),
+`module` varchar(140),
+`property` varchar(140),
+`property_type` varchar(140),
+`value` text,
+`default_value` varchar(140),
+`_user_tags` text,
+`_comments` text,
+`_assign` text,
+`_liked_by` text,
+index `doc_type`(`doc_type`),
+index `field_name`(`field_name`),
+index `property`(`property`),
+index modified(modified))
+			ENGINE=InnoDB
+			ROW_FORMAT=DYNAMIC
+			CHARACTER SET=utf8mb4
+			COLLATE=utf8mb4_unicode_ci
+2024-10-07 14:43:05,760 WARNING database DDL Query made to DB:
+create table `tabProperty Setter` (
+			name varchar(140) primary key,
+			creation datetime(6),
+			modified datetime(6),
+			modified_by varchar(140),
+			owner varchar(140),
+			docstatus int(1) not null default '0',
+			idx int(8) not null default '0',
+			`is_system_generated` int(1) not null default 0,
+`doctype_or_field` varchar(140),
+`doc_type` varchar(140),
+`field_name` varchar(140),
+`row_name` varchar(140),
+`module` varchar(140),
+`property` varchar(140),
+`property_type` varchar(140),
+`value` text,
+`default_value` varchar(140),
+`_user_tags` text,
+`_comments` text,
+`_assign` text,
+`_liked_by` text,
+index `doc_type`(`doc_type`),
+index `field_name`(`field_name`),
+index `property`(`property`),
+index modified(modified))
+			ENGINE=InnoDB
+			ROW_FORMAT=DYNAMIC
+			CHARACTER SET=utf8mb4
+			COLLATE=utf8mb4_unicode_ci
